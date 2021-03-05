@@ -1,39 +1,6 @@
-export class Wiki {
-	constructor(language) {
-		this.language = language
-	}
+import { camelCase } from 'https://js.max.pub/string/src.js'
 
-	async search(query, options = {}) {
-		// console.log('search', language, query)
-		let result = await fetch(`https://${this.language}.wikipedia.org/w/api.php?action=query&list=search&srsearch=${query}&format=json&origin=*`).then(x => x.json());
-		// console.log('search result', result)
-		let list = result?.query?.search;
-		if (options.min) return list.map(x => x.title)
-		return list
-	}
-
-	page(title) {
-		return new WikiPage(this, title);
-	}
-
-	async category(categoryName) {
-		let prefix = {
-			de: 'Kategorie',
-			en: 'Category',
-		}
-		let titles = []
-		let gcmcontinue;
-		do {
-			let result = await fetch(`https://${this.language}.wikipedia.org/w/api.php?action=query&format=json&origin=*&prop=info&generator=categorymembers&gcmtitle=${prefix[this.language]}:${categoryName}&gcmlimit=max${gcmcontinue ? `&gcmcontinue=${gcmcontinue}` : ""}`).then(x => x.json());
-			titles = [...titles, ...Object.values(result.query.pages).map(x => x.title)]
-			// console.log(`loaded ${titles.length} results`)
-			gcmcontinue = result?.continue?.gcmcontinue;
-		} while (gcmcontinue)
-		return titles;
-	}
-}
-
-class WikiPage {
+export default class WikiPage {
 	#content;
 
 	constructor(wiki, title) {
@@ -75,7 +42,8 @@ class WikiPage {
 		for (let line of lines) {
 			if (line.startsWith('|')) { // lines with a key
 				key = line.split('=')[0].slice(1).trim()
-				if (options.camelCaseKeys) key = (await import('./string.mjs')).toCamelCase(key)
+				// if (options.camelCaseKeys) key = (await import('./string.mjs')).toCamelCase(key)
+				if (options.camelCaseKeys) key = camelCase(key)
 				// if (options.lowerCaseKeys) key = key.toLowerCase()
 				// if (options.alphaNumericalKeys) key = key.replace(/[^a-z]/gi, '_')
 				val = line.split('=').slice(1).join('=').trim()
@@ -92,12 +60,3 @@ class WikiPage {
 		return output
 	}
 }
-
-
-
-export default function (language) { return new Wiki(language) }
-
-
-
-
-

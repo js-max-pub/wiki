@@ -1,4 +1,4 @@
-import wiki from './raw.js';
+import wiki from './mod.js';
 // let search = await wiki('de').search('aspirin', {min:true})
 // console.log('search', search)
 
