@@ -75,13 +75,6 @@ export default class WikiPage {
 			}
 			// if(options.parseValues) 
 		}
-		//filter array so that empty strings will be removed (removes number 0 too  or everything that js considers to be false)
-		for(key in output){
-			if(output[key]!= null || output[key].length){
-				output[key] = output[key].filter(x=>x)
-			}
-			
-		}
 		//let newParse = parseBox(text)
 	//	console.log(newParse)
 	return output
