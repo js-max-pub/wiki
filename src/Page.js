@@ -32,11 +32,6 @@ export default class WikiPage {
 
 	async box(boxName, options = {}) {
 		let text = await this.text();
-		let output = this.boxFunction(text,boxName,options)	
-		return output
-	}
-
-	boxFunction(text,boxName,options ={}){
 		if(typeof(text) == "undefined") return false;
 		let start = text.search('{{' + boxName + '\n')
 		// console.log('st',start)
