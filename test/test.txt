@@ -1,0 +1,8 @@
+Amikacin 	["{{ATC|D06|AX12}}", "{{ATC|J01|GB06}}", "{{ATC|S01|AA21}}"]
+Ampicillin 	["{{ATC|J01|CA01}}", "{{ATC|S01|AA19}}"]
+Cefoxitin 	["{{ATC|J01|DC01}}","{{ATC|Q|J01DC01}}"]
+Cefepim 	["{{ATC|J01|DE01}}"]
+Neomycin	["{{ATC|J01|GB05}}","{{ATC|A01|AB08}}","{{ATC|A07|AA01}}","{{ATC|B05|CA09}}","{{ATC|B06|AC04}}","{{ATC|G01|AA14}}","{{ATC|R02|AB01}}","{{ATC|S01|AA03}}","{{ATC|S02|AA07}}","{{ATC|S03|AA01}}"]
+Oxytetracyclin	["{{ATC|J01|AA06}}","{{ATC|D06|AA03}}","{{ATC|G01|AA07}}","{{ATC|S01|AA04}}"]
+Cefoxitin	["{{ATC|J01|DC01}}","{{ATC|Q|J01DC01}}"]
+Chloramphenicol	["{{ATC|D06|AX02}}","{{ATC|D10|AF03}}","{{ATC|G01|AA05}}","{{ATC|J01|BA01}}","{{ATC|S01|AA01}}","{{ATC|S02|AA01}}","{{ATC|S03|AA08}}"]
