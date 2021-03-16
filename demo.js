@@ -7,8 +7,8 @@ import wiki from './mod.js';
 // console.log('category', category)
 
 
-// let languages = await wiki('de').page('Acetylsalicylsäure').languages()
-// console.log('languages', languages)
+let languages = await wiki('de').page('Acetylsalicylsäure').languages()
+console.log('languages', languages)
 
 
 // let box = await wiki('de').page('Acetylsalicylsäure').box('Infobox Chemikalie')
