@@ -1,4 +1,5 @@
 import wiki from './mod.js';
+import FS from 'https://js.max.pub/fs/deno.js'
 // let search = await wiki('de').search('aspirin', {min:true})
 // console.log('search', search)
 
@@ -7,11 +8,17 @@ import wiki from './mod.js';
 // console.log('category', category)
 
 
-let languages = await wiki('de').page('Acetylsalicylsäure').languages()
-console.log('languages', languages)
+// let languages = await wiki('de').page('Acetylsalicylsäure').languages()
+// console.log('languages', languages)
 
 
 // let box = await wiki('de').page('Acetylsalicylsäure').box('Infobox Chemikalie')
-let box = await wiki('de').page('Acetylsalicylsäure').box('Infobox Chemikalie', { camelCaseKeys: true, onlyArrays:true })
-console.log('box', box)
+// let box = wiki('de').page('Amikacin').box('Infobox Chemikalie')
+// // console.log('box', await box.text())
+// console.log('box', JSON.stringify(await box.json({ camelCaseKeys: true, onlyArrays: true }), 0, 4))
+// FS.file('test.json').json = await box.json({ camelCaseKeys: true, onlyArrays: true })
 
+// let box = wiki('de').page('Amikacin')
+let json = await wiki('de').page('Amikacin').parse().json()
+console.log(JSON.stringify(json, 0, 4))
+FS.file('demo.json').json = json
