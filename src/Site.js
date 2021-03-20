@@ -20,13 +20,16 @@ export default class WikiSite {
 
 	async category(categoryName) {
 		let prefix = {
-			de: 'Kategorie',
-			en: 'Category',
+			de: 'Kategorie:',
+			en: 'Category:',
 		}
+		if (!categoryName.includes(':'))
+			categoryName = prefix[this.language] + categoryName
+
 		let titles = []
 		let gcmcontinue;
 		do {
-			let result = await fetch(`https://${this.language}.wikipedia.org/w/api.php?action=query&format=json&origin=*&prop=info&generator=categorymembers&gcmtitle=${prefix[this.language]}:${categoryName}&gcmlimit=max${gcmcontinue ? `&gcmcontinue=${gcmcontinue}` : ""}`).then(x => x.json());
+			let result = await fetch(`https://${this.language}.wikipedia.org/w/api.php?action=query&format=json&origin=*&prop=info&generator=categorymembers&gcmtitle=${categoryName}&gcmlimit=max${gcmcontinue ? `&gcmcontinue=${gcmcontinue}` : ""}`).then(x => x.json());
 			titles = [...titles, ...Object.values(result.query.pages).map(x => x.title)]
 			// console.log(`loaded ${titles.length} results`)
 			gcmcontinue = result?.continue?.gcmcontinue;

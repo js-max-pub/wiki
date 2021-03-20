@@ -4,8 +4,10 @@ import FS from 'https://js.max.pub/fs/deno.js'
 // console.log('search', search)
 
 // let category = await wiki('de').category('ATC-Code')
+let category = await wiki('de').category('ATC-J04')
+
 // let category = await wiki('de').category('Arzneimittel')
-// console.log('category', category)
+console.log('category', category)
 
 
 // let languages = await wiki('de').page('Acetylsalicylsäure').languages()
@@ -19,6 +21,8 @@ import FS from 'https://js.max.pub/fs/deno.js'
 // FS.file('test.json').json = await box.json({ camelCaseKeys: true, onlyArrays: true })
 
 // let box = wiki('de').page('Amikacin')
-let json = await wiki('de').page('Amikacin').parse().json()
-console.log(JSON.stringify(json, 0, 4))
-FS.file('demo.json').json = json
+
+
+// let json = await wiki('de').page('Amikacin').parse().json()
+// console.log(JSON.stringify(json, 0, 4))
+// FS.file('demo.json').json = json

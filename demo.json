@@ -1,0 +1,986 @@
+{
+	"root": true,
+	"type": "text",
+	"value": [
+		{
+			"type": "template",
+			"name": "Infobox Chemikalie",
+			"camel": "infoboxChemikalie",
+			"value": [
+				{
+					"type": "argument",
+					"key": "Strukturformel",
+					"camel": "strukturformel",
+					"value": [
+						"",
+						{
+							"type": "link",
+							"url": "Datei:Amikacin.svg",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"200px"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"Struktur von Amikacin"
+									]
+								}
+							]
+						},
+						"\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Suchfunktion",
+					"camel": "suchfunktion",
+					"value": [
+						"C22H43N5O13"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Freiname",
+					"camel": "freiname",
+					"value": [
+						"Amikacin"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Andere Namen",
+					"camel": "andereNamen",
+					"value": [
+						"(2''S'')-4-Amino-''N''-[(2''S'',3''S'',4''R'',5''S'')-5-amino-2-[(2''S'',3''R'',4''S'',5''S'',6''R'')-4-amino-3,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4-[(2''R'',3''R'',4''S'',5''R'',6''R'')-6-(aminomethyl)-3,4,5-trihydroxy-oxan-2-yl]oxy-3-hydroxy-cyclohexyl]-2-hydroxy-butanamid <small>(",
+						{
+							"type": "link",
+							"url": "International Union of Pure and Applied Chemistry",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"IUPAC"
+									]
+								}
+							]
+						},
+						")</small>\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Summenformel",
+					"camel": "summenformel",
+					"value": [
+						"C<sub>22</sub>H<sub>43</sub>N<sub>5</sub>O<sub>13</sub>"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "CAS",
+					"camel": "cas",
+					"value": [
+						"37517-28-5"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "EG-Nummer",
+					"camel": "egNummer",
+					"value": [
+						"253-538-5"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "ECHA-ID",
+					"camel": "echaId",
+					"value": [
+						"100.048.653"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "PubChem",
+					"camel": "pubchem",
+					"value": [
+						"37768"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "ChemSpider",
+					"camel": "chemspider",
+					"value": [
+						"34635"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "DrugBank",
+					"camel": "drugbank",
+					"value": [
+						"DB00479"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "ATC-Code",
+					"camel": "atcCode",
+					"value": [
+						"",
+						{
+							"type": "template",
+							"name": "ATC",
+							"camel": "atc",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"D06"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"AX12"
+									]
+								}
+							]
+						},
+						", ",
+						{
+							"type": "template",
+							"name": "ATC",
+							"camel": "atc",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"J01"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"GB06"
+									]
+								}
+							]
+						},
+						", ",
+						{
+							"type": "template",
+							"name": "ATC",
+							"camel": "atc",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"S01"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"AA21"
+									]
+								}
+							]
+						},
+						"\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Wirkstoffgruppe",
+					"camel": "wirkstoffgruppe",
+					"value": [
+						"",
+						{
+							"type": "link",
+							"url": "Aminoglykoside",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"Aminoglykosid-Antibiotikum"
+									]
+								}
+							]
+						},
+						"\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Wirkmechanismus",
+					"camel": "wirkmechanismus",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Beschreibung",
+					"camel": "beschreibung",
+					"value": [
+						"weißes Pulver<ref name=\"Ph. Eur.\"/>"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Molare Masse",
+					"camel": "molareMasse",
+					"value": [
+						"585,6",
+						{
+							"type": "link",
+							"url": "Gramm",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"g"
+									]
+								}
+							]
+						},
+						"·",
+						{
+							"type": "link",
+							"url": "mol",
+							"value": []
+						},
+						"<sup>−1</sup>\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Dichte",
+					"camel": "dichte",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Schmelzpunkt",
+					"camel": "schmelzpunkt",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Siedepunkt",
+					"camel": "siedepunkt",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Dampfdruck",
+					"camel": "dampfdruck",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "pKs",
+					"camel": "pks",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Löslichkeit",
+					"camel": "löslichkeit",
+					"value": [
+						"löslich in Wasser (50 g·l<sup>−1</sup><ref name=\"Sigma\" />), wenig löslich in",
+						{
+							"type": "link",
+							"url": "Methanol",
+							"value": []
+						},
+						", nicht löslich in ",
+						{
+							"type": "link",
+							"url": "Ethanol",
+							"value": []
+						},
+						"<ref name=\"Ph. Eur.\">",
+						{
+							"type": "template",
+							"name": "EDQM",
+							"camel": "edqm",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"A0368000"
+									]
+								},
+								{
+									"type": "argument",
+									"key": "Name",
+									"camel": "name",
+									"value": [
+										"AMIKACIN CRS"
+									]
+								},
+								{
+									"type": "argument",
+									"key": "Datum",
+									"camel": "datum",
+									"value": [
+										"21. Dezember 2009"
+									]
+								}
+							]
+						},
+						"</ref>\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Quelle GHS-Kz",
+					"camel": "quelleGhsKz",
+					"value": [
+						"<ref name=\"Sigma\">",
+						{
+							"type": "template",
+							"name": "Sigma-Aldrich",
+							"camel": "sigmaAldrich",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"sial"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"06568"
+									]
+								},
+								{
+									"type": "argument",
+									"key": "Datum",
+									"camel": "datum",
+									"value": [
+										"20. Oktober 2016"
+									]
+								},
+								{
+									"type": "argument",
+									"key": "Name",
+									"camel": "name",
+									"value": [
+										"Amikacin dihydrate"
+									]
+								}
+							]
+						},
+						"</ref>\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "GHS-Piktogramme",
+					"camel": "ghsPiktogramme",
+					"value": [
+						"",
+						{
+							"type": "template",
+							"name": "GHS-Piktogramme",
+							"camel": "ghsPiktogramme",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"-"
+									]
+								}
+							]
+						},
+						"\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "GHS-Signalwort",
+					"camel": "ghsSignalwort",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "H",
+					"camel": "h",
+					"value": [
+						"",
+						{
+							"type": "template",
+							"name": "H-Sätze",
+							"camel": "hSätze",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"-"
+									]
+								}
+							]
+						},
+						"\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "EUH",
+					"camel": "euh",
+					"value": [
+						"",
+						{
+							"type": "template",
+							"name": "EUH-Sätze",
+							"camel": "euhSätze",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"-"
+									]
+								}
+							]
+						},
+						"\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "P",
+					"camel": "p",
+					"value": [
+						"",
+						{
+							"type": "template",
+							"name": "P-Sätze",
+							"camel": "pSätze",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"-"
+									]
+								}
+							]
+						},
+						"\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Quelle P",
+					"camel": "quelleP",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "MAK",
+					"camel": "mak",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "ToxDaten",
+					"camel": "toxdaten",
+					"value": [
+						"",
+						{
+							"type": "template",
+							"name": "ToxDaten",
+							"camel": "toxdaten",
+							"value": [
+								{
+									"type": "argument",
+									"key": "Typ",
+									"camel": "typ",
+									"value": [
+										"LD50"
+									]
+								},
+								{
+									"type": "argument",
+									"key": "Organismus",
+									"camel": "organismus",
+									"value": [
+										"Maus"
+									]
+								},
+								{
+									"type": "argument",
+									"key": "Applikationsart",
+									"camel": "applikationsart",
+									"value": [
+										"i.v."
+									]
+								},
+								{
+									"type": "argument",
+									"key": "Wert",
+									"camel": "wert",
+									"value": [
+										"280 mg·kg<sup>−1</sup>"
+									]
+								},
+								{
+									"type": "argument",
+									"key": "Bezeichnung",
+									"camel": "bezeichnung",
+									"value": [
+										""
+									]
+								},
+								{
+									"type": "argument",
+									"key": "Quelle",
+									"camel": "quelle",
+									"value": [
+										"<ref name=\"Ph. Eur.\"/>"
+									]
+								}
+							]
+						},
+						"\n"
+					]
+				}
+			]
+		},
+		"\n\n'''Amikacin''' ist ein gegen ",
+		{
+			"type": "link",
+			"url": "gramnegativ",
+			"value": []
+		},
+		"e aerobe Keime ",
+		{
+			"type": "link",
+			"url": "bakterizid",
+			"value": []
+		},
+		" wirkendes Antibiotikum aus der Gruppe der ",
+		{
+			"type": "link",
+			"url": "Aminoglykoside",
+			"value": []
+		},
+		".\n\n== Anwendung ==\nEingesetzt wird Amikacin zur Behandlung von schweren Infektionen, die durch empfindliche gramnegative Erreger, vor allem der Gattungen ",
+		{
+			"type": "link",
+			"url": "Pseudomonas",
+			"value": []
+		},
+		", ",
+		{
+			"type": "link",
+			"url": "Escherichia coli",
+			"value": []
+		},
+		", ",
+		{
+			"type": "link",
+			"url": "Proteus (Gattung)",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"Proteus"
+					]
+				}
+			]
+		},
+		", ",
+		{
+			"type": "link",
+			"url": "Providencia (Bakteriengattung)",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"Providencia"
+					]
+				}
+			]
+		},
+		", ",
+		{
+			"type": "link",
+			"url": "Klebsiella",
+			"value": []
+		},
+		", ",
+		{
+			"type": "link",
+			"url": "Enterobacter",
+			"value": []
+		},
+		", ",
+		{
+			"type": "link",
+			"url": "Serratia",
+			"value": []
+		},
+		", ",
+		{
+			"type": "link",
+			"url": "Mykobakterium",
+			"value": []
+		},
+		", ",
+		{
+			"type": "link",
+			"url": "Nocardia",
+			"value": []
+		},
+		" und ",
+		{
+			"type": "link",
+			"url": "Acinetobacter",
+			"value": []
+		},
+		" verursacht werden. Als Monotherapie wird es meistens bei Infektionen der oberen Harnwege und Weichteilinfektionen angewendet. Zur Initialbehandlung der ",
+		{
+			"type": "link",
+			"url": "Sepsis",
+			"value": []
+		},
+		" bzw. Infektionen bei immunsupprimierten Patienten (z.&nbsp;B. nach Chemotherapie) kommt Amikacin in Kombination mit anderen Mitteln in Einsatz, meistens mit ",
+		{
+			"type": "link",
+			"url": "β-Lactam-Antibiotika",
+			"value": []
+		},
+		" (synergische Wirkung vor allem mit ",
+		{
+			"type": "link",
+			"url": "Piperacillin",
+			"value": []
+		},
+		").\n\nAmikacin wird weiterhin als Ersatz-Aminoglycoside zum üblicheren ",
+		{
+			"type": "link",
+			"url": "Streptomycin",
+			"value": []
+		},
+		" zur Behandlung von multiresistenten ",
+		{
+			"type": "link",
+			"url": "Tuberkulose",
+			"value": []
+		},
+		"-Erregern (Mykobakterium tuberculosis) eingesetzt. Es ist hierzu ein Medikament der zweiten Wahl, angewendet nur in Kombination mit anderen ",
+		{
+			"type": "link",
+			"url": "Antituberkulotika",
+			"value": []
+		},
+		" bei Therapieversagen mit den klassischen Therapieschemata. Amikacin wird hierfür von der ",
+		{
+			"type": "link",
+			"url": "Weltgesundheitsorganisation",
+			"value": []
+		},
+		" in der Liste der ",
+		{
+			"type": "link",
+			"url": "Unentbehrliche Arzneimittel",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"unentbehrlichen Arzneimittel"
+					]
+				}
+			]
+		},
+		" als eines der komplementären \"Second Line\"-Mitteln aufgeführt.<ref>''[http://whqlibdoc.who.int/hq/2011/a95053_eng.pdf WHO Model List of Essential Medicines] (PDF; 442&nbsp;kB)'', abgerufen am 7. Februar 2014.</ref>\n\n== Pharmakodynamik (Wirkmechanismus) ==\nAmikacin hemmt als Aminoglykosid die bakterielle Proteinsynthese, indem es die Funktion der ",
+		{
+			"type": "link",
+			"url": "Ribosom",
+			"value": []
+		},
+		"en blockiert. Dabei unterbindet es unter anderem die Translokation von Peptidyl-",
+		{
+			"type": "link",
+			"url": "tRNA",
+			"value": []
+		},
+		" und damit die Initiation der Proteinsynthese.\n\n== Pharmakokinetik und Interaktionen ==\nBei ",
+		{
+			"type": "link",
+			"url": "peroral",
+			"value": []
+		},
+		"er Aufnahme von Amikacin erfolgt – wie bei allen Aminoglycosiden – keine Resorption über den Darm, weshalb der Wirkstoff ",
+		{
+			"type": "link",
+			"url": "parenteral",
+			"value": []
+		},
+		" als intramuskuläre Injektion oder als intravenöse Infusion verabreicht werden muss. Amikacin überwindet die ",
+		{
+			"type": "link",
+			"url": "Blut-Hirn-Schranke",
+			"value": []
+		},
+		" nur bei entzündlichen Störungen derselben. Amikacin wird nicht in der Leber verstoffwechselt, sondern unverändert über die Nieren ausgeschieden.\n\nBei gleichzeitiger Gabe von anderen potentiell ototoxischen Medikamenten, wie unter anderem ",
+		{
+			"type": "link",
+			"url": "Zytostatikum#Platinanaloga",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"platinhaltige Zytostatika"
+					]
+				}
+			]
+		},
+		" und ",
+		{
+			"type": "link",
+			"url": "Schleifendiuretika",
+			"value": []
+		},
+		" kann die ototoxische Wirkung verstärkt sein. Die Wirkdauer von nichtdepolarisierenden ",
+		{
+			"type": "link",
+			"url": "Muskelrelaxanzien",
+			"value": []
+		},
+		" kann verlängert sein.\n\n== Nebenwirkungen ==\nSehr häufig kommt es zu einer Störung der Nierenfunktion mit Einschränkung der glomerulären Filtration (",
+		{
+			"type": "link",
+			"url": "Nephrotoxizität",
+			"value": []
+		},
+		"). Häufig treten Schmerzen an der Injektionsstelle, ",
+		{
+			"type": "link",
+			"url": "Proteinurie",
+			"value": []
+		},
+		" und Elektrolytstörungen im ",
+		{
+			"type": "link",
+			"url": "Blutplasma",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"Plasma"
+					]
+				}
+			]
+		},
+		" auf, vor allem ",
+		{
+			"type": "link",
+			"url": "Hypokaliämie",
+			"value": []
+		},
+		", ",
+		{
+			"type": "link",
+			"url": "Hypokalzämie",
+			"value": []
+		},
+		" und ",
+		{
+			"type": "link",
+			"url": "Hypomagnesiämie",
+			"value": []
+		},
+		". Gelegentlich kommt es zu einer von der Dosis und der Therapiedauer abhängigen Schädigung des Hörvermögens, ",
+		{
+			"type": "link",
+			"url": "Tinnitus",
+			"value": []
+		},
+		" und Schwindel durch Schädigung des ",
+		{
+			"type": "link",
+			"url": "Nervus vestibulocochlearis",
+			"value": []
+		},
+		" (",
+		{
+			"type": "link",
+			"url": "Ototoxizität",
+			"value": []
+		},
+		") sowie zu peripheren Nervenschäden (die irreversibel sein können), ferner zu Leberenzymanstieg und Hautausschlägen. Selten kommt es zu Blutbildveränderungen (",
+		{
+			"type": "link",
+			"url": "Thrombozytopenie",
+			"value": []
+		},
+		", ",
+		{
+			"type": "link",
+			"url": "Leukopenie",
+			"value": []
+		},
+		", ",
+		{
+			"type": "link",
+			"url": "Eosinophilie",
+			"value": []
+		},
+		") und Hautausschlägen. Sehr selten zu ",
+		{
+			"type": "link",
+			"url": "Polyneuropathie",
+			"value": []
+		},
+		"n und akutem Nierenversagen.<ref>Vgl. Marianne Abele-Horn: ''Antimikrobielle Therapie. Entscheidungshilfen zur Behandlung und Prophylaxe von Infektionskrankheiten.'' 2009, S. 338.</ref>\n\n== Gegenanzeigen ==\nEine Kontraindikation ist in der Schwangerschaft gegeben, da eine mögliche Taubheit des Kindes nicht ausgeschlossen werden kann. Ebenso besteht eine Gegenanzeige für die Anwendung bei Früh- und Neugeborenen.<ref>Marianne Abele-Horn (2009), S. 338.</ref> Bei vorliegenden Nieren-, Leber- und Gehörschäden sowie Gleichgewichtsstörungen ist ebenso wie bei ",
+		{
+			"type": "link",
+			"url": "Myasthenia gravis",
+			"value": []
+		},
+		" und ",
+		{
+			"type": "link",
+			"url": "Morbus Parkinson",
+			"value": []
+		},
+		" Vorsicht geboten. Bei terminaler Niereninsuffizienz und Vorschädigung des Innenohrs oder Gleichgewichtsorgans darf Amikacin nur bei vitaler Indikation verabreicht werden.<ref>Marianne Abele-Horn (2009), S. 338.</ref> Obwohl Schädigungen der Leber keine Auswirkungen auf den Plasmaspiegel haben, kann es zur Ausbildung eines ",
+		{
+			"type": "link",
+			"url": "Hepatorenales Syndrom",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"hepatorenalen Syndroms"
+					]
+				}
+			]
+		},
+		" kommen.\n\n== Handelsnamen ==\n''Amikacin''; ''Biklin''; ''Amikin''\n\n== Literatur ==\n* WHO: [http://whqlibdoc.who.int/publications/2006/9241546956_eng.pdf ''Guidelines for the programmatic management of drug-resistant tuberculosis.''] (PDF; 1,3 MB) 2006. ISBN 978-92-4-154695-9, S.&nbsp;127–128.\n* Marianne Abele-Horn: ''Antimikrobielle Therapie. Entscheidungshilfen zur Behandlung und Prophylaxe von Infektionskrankheiten.'' Unter Mitarbeit von Werner Heinz, Hartwig Klinker, Johann Schurz und August Stich, 2., überarbeitete und erweiterte Auflage. Peter Wiehl, Marburg 2009, ISBN 978-3-927219-14-4, S. 338.\n\n== Weblinks ==\n* Institut für klinische Chemie und Pathobiochemie am Klinikum rechts der Isar: ",
+		{
+			"type": "template",
+			"name": "Webarchiv",
+			"camel": "webarchiv",
+			"value": [
+				{
+					"type": "argument",
+					"key": "url",
+					"camel": "url",
+					"value": [
+						"http://www.klinchem.med.tum.de/forschung/steimer/antibiotika.html"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "wayback",
+					"camel": "wayback",
+					"value": [
+						"20140302005026"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "text",
+					"camel": "text",
+					"value": [
+						"Kurzfassung über Aminoglycoside, darunter Amikacin"
+					]
+				}
+			]
+		},
+		"\n\n== Einzelnachweise ==\n<references />\n\n",
+		{
+			"type": "template",
+			"name": "Gesundheitshinweis",
+			"camel": "gesundheitshinweis",
+			"value": []
+		},
+		"\n\n",
+		{
+			"type": "link",
+			"url": "Kategorie:Arzneistoff",
+			"value": []
+		},
+		"\n",
+		{
+			"type": "link",
+			"url": "Kategorie:Aminoglykosid",
+			"value": []
+		},
+		"\n",
+		{
+			"type": "link",
+			"url": "Kategorie:Cyclohexanol",
+			"value": []
+		},
+		"\n",
+		{
+			"type": "link",
+			"url": "Kategorie:Polyhydroxyoxan",
+			"value": []
+		},
+		"\n",
+		{
+			"type": "link",
+			"url": "Kategorie:Dihydroxyoxan",
+			"value": []
+		},
+		"\n",
+		{
+			"type": "link",
+			"url": "Kategorie:Alkansäureamid",
+			"value": []
+		},
+		"\n",
+		{
+			"type": "link",
+			"url": "Kategorie:Aminoalkohol",
+			"value": []
+		},
+		"\n",
+		{
+			"type": "link",
+			"url": "Kategorie:Beta-Aminoalkohol",
+			"value": []
+		},
+		"\n",
+		{
+			"type": "link",
+			"url": "Kategorie:Acetal",
+			"value": []
+		},
+		"\n",
+		{
+			"type": "link",
+			"url": "Kategorie:Hydroxymethylverbindung",
+			"value": []
+		}
+	]
+}
