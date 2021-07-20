@@ -22,7 +22,7 @@ export default class WikiParser {
 
 	async json() {
 		this.text = await this.page.text()
-		if(!this.text) return false
+		if (!this.text) return false
 		// console.log('text', this.text)
 		this.parts = this.text.split(/({{|\||}}|\[\[|\]\])/g)//.filter(x => x !== '')
 		return this.parse()
@@ -36,11 +36,13 @@ export default class WikiParser {
 			key: tmp[0].trim(),
 			camel: camelCase(tmp[0].trim()),
 			value: [tmp.slice(1).join('=').trim()],
+			argument: { [tmp[0].trim()]: tmp.slice(1).join('=').trim() },
 			// text
 		}
 		return {
 			type: 'argument',
 			value: [tmp.join('=').trim()],
+			argument: tmp.join('=').trim(),
 			// text
 		}
 	}
@@ -61,7 +63,7 @@ export default class WikiParser {
 					// console.log('found')
 					let name = this.parts.shift().trim()
 					// let template = { template: { name, camel: camelCase(name), arguments: [] } }
-					let template = { type: 'template', name, camel: camelCase(name), value: [] }
+					let template = { template: name, type: 'template', name, camel: camelCase(name), value: [] } // 
 					last(stack)?.value?.push(template)
 					stack.push(template)
 					// console.log('part', part)
@@ -70,19 +72,21 @@ export default class WikiParser {
 					// output.template = { name: this.parts.shift() }
 					break
 				case '|':
-					if (last(stack)?.type == 'argument') stack.pop()
+					if (last(stack)?.argument) stack.pop()
+					// if (last(stack)?.type == 'argument') stack.pop()
 					// console.log('last stack', last(stack))
 					let argument = this.parseArgument(this.parts.shift().trim())
 					last(stack)?.value?.push(argument)
 					stack.push(argument)
 					break
 				case '}}':
-					if (last(stack)?.type == 'argument') stack.pop()
+					if (last(stack)?.argument) stack.pop()
+					// if (last(stack)?.type == 'argument') stack.pop()
 					stack.pop()
 					break
 				case '[[':
 					let url = this.parts.shift().trim()
-					let link = { type: 'link', url, value: [] }
+					let link = { link: url, type: 'link', url, value: [] }
 					last(stack)?.value?.push(link)
 					stack.push(link)
 					break

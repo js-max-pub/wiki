@@ -1,13 +1,13 @@
 import wiki from './mod.js';
-import FS from 'https://js.max.pub/fs/deno.js'
+import FS from 'https://jsv.max.pub/fs/2021/deno.js'
 // let search = await wiki('de').search('aspirin', {min:true})
 // console.log('search', search)
 
 // let category = await wiki('de').category('ATC-Code')
-let category = await wiki('de').category('ATC-J04')
+// let category = await wiki('de').category('ATC-J04')
 
 // let category = await wiki('de').category('Arzneimittel')
-console.log('category', category)
+// console.log('category', category)
 
 
 // let languages = await wiki('de').page('Acetylsalicylsäure').languages()
@@ -26,3 +26,5 @@ console.log('category', category)
 // let json = await wiki('de').page('Amikacin').parse().json()
 // console.log(JSON.stringify(json, 0, 4))
 // FS.file('demo.json').json = json
+
+FS.file('demo.json').json = await wiki('de').page('Arginin').parse().json()

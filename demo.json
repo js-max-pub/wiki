@@ -2,6 +2,7 @@
 	"root": true,
 	"type": "text",
 	"value": [
+		"",
 		{
 			"type": "template",
 			"name": "Infobox Chemikalie",
@@ -15,21 +16,35 @@
 						"",
 						{
 							"type": "link",
-							"url": "Datei:Amikacin.svg",
+							"url": "Datei:L-Arginin - L-Arginine.svg",
 							"value": [
 								{
 									"type": "argument",
 									"value": [
-										"200px"
+										"250px"
 									]
 								},
 								{
 									"type": "argument",
 									"value": [
-										"Struktur von Amikacin"
+										"Strukturformel von <small>L</small>-Arginin"
 									]
 								}
 							]
+						},
+						"\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Strukturhinweis",
+					"camel": "strukturhinweis",
+					"value": [
+						"Strukturformel von <small>L</small>-Arginin, dem natürlich vorkommenden",
+						{
+							"type": "link",
+							"url": "Enantiomer",
+							"value": []
 						},
 						"\n"
 					]
@@ -39,15 +54,7 @@
 					"key": "Suchfunktion",
 					"camel": "suchfunktion",
 					"value": [
-						"C22H43N5O13"
-					]
-				},
-				{
-					"type": "argument",
-					"key": "Freiname",
-					"camel": "freiname",
-					"value": [
-						"Amikacin"
+						"C6H14N4O2"
 					]
 				},
 				{
@@ -55,20 +62,65 @@
 					"key": "Andere Namen",
 					"camel": "andereNamen",
 					"value": [
-						"(2''S'')-4-Amino-''N''-[(2''S'',3''S'',4''R'',5''S'')-5-amino-2-[(2''S'',3''R'',4''S'',5''S'',6''R'')-4-amino-3,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4-[(2''R'',3''R'',4''S'',5''R'',6''R'')-6-(aminomethyl)-3,4,5-trihydroxy-oxan-2-yl]oxy-3-hydroxy-cyclohexyl]-2-hydroxy-butanamid <small>(",
+						"* α-Amino-δ-guanidinvaleriansäure\n* Abkürzungen:\n** Arg (",
 						{
 							"type": "link",
-							"url": "International Union of Pure and Applied Chemistry",
+							"url": "Aminosäuren#Kanonische Aminosäuren",
 							"value": [
 								{
 									"type": "argument",
 									"value": [
-										"IUPAC"
+										"Dreibuchstabencode"
 									]
 								}
 							]
 						},
-						")</small>\n"
+						")\n** R (",
+						{
+							"type": "link",
+							"url": "Aminosäuren#Kanonische Aminosäuren",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"Einbuchstabencode"
+									]
+								}
+							]
+						},
+						")\n* ",
+						{
+							"type": "template",
+							"name": "INCI",
+							"camel": "inci",
+							"value": [
+								{
+									"type": "argument",
+									"key": "Name",
+									"camel": "name",
+									"value": [
+										"ARGININE"
+									]
+								},
+								{
+									"type": "argument",
+									"key": "ID",
+									"camel": "id",
+									"value": [
+										"74314"
+									]
+								},
+								{
+									"type": "argument",
+									"key": "Abruf",
+									"camel": "abruf",
+									"value": [
+										"2020-12-28"
+									]
+								}
+							]
+						},
+						"\n"
 					]
 				},
 				{
@@ -76,7 +128,19 @@
 					"key": "Summenformel",
 					"camel": "summenformel",
 					"value": [
-						"C<sub>22</sub>H<sub>43</sub>N<sub>5</sub>O<sub>13</sub>"
+						"* C<sub>6</sub>H<sub>14</sub>N<sub>4</sub>O<sub>2</sub> (Arginin)\n* C<sub>6</sub>H<sub>14</sub>N<sub>4</sub>O<sub>2</sub>·HCl (Arginin·",
+						{
+							"type": "link",
+							"url": "Hydrochlorid",
+							"value": []
+						},
+						")\n* C<sub>6</sub>H<sub>14</sub>N<sub>4</sub>O<sub>2</sub>·HCl·H<sub>2</sub>O (Arginin·Hydrochlorid·",
+						{
+							"type": "link",
+							"url": "Hydrat",
+							"value": []
+						},
+						")\n"
 					]
 				},
 				{
@@ -84,7 +148,109 @@
 					"key": "CAS",
 					"camel": "cas",
 					"value": [
-						"37517-28-5"
+						"*",
+						{
+							"type": "template",
+							"name": "CASRN",
+							"camel": "casrn",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"74-79-3"
+									]
+								}
+							]
+						},
+						" (<small>L</small>-Arginin)\n* ",
+						{
+							"type": "template",
+							"name": "CASRN",
+							"camel": "casrn",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"157-06-2"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"Q27076987"
+									]
+								}
+							]
+						},
+						" (<small>D</small>-Arginin)\n* ",
+						{
+							"type": "template",
+							"name": "CASRN",
+							"camel": "casrn",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"7200-25-1"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"Q27104032"
+									]
+								}
+							]
+						},
+						" (Racemat)\n* ",
+						{
+							"type": "template",
+							"name": "CASRN",
+							"camel": "casrn",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"1119-34-2"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"Q27277776"
+									]
+								}
+							]
+						},
+						" (<small>L</small>-Arginin·Hydrochlorid)\n* ",
+						{
+							"type": "template",
+							"name": "CASRN",
+							"camel": "casrn",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"332360-01-7"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"Q82157395"
+									]
+								},
+								{
+									"type": "argument",
+									"key": "KeinCASLink",
+									"camel": "keincaslink",
+									"value": [
+										"1"
+									]
+								}
+							]
+						},
+						" (<small>DL</small>-Arginin·Hydrochlorid·Hydrat)\n"
 					]
 				},
 				{
@@ -92,7 +258,7 @@
 					"key": "EG-Nummer",
 					"camel": "egNummer",
 					"value": [
-						"253-538-5"
+						"200-811-1"
 					]
 				},
 				{
@@ -100,7 +266,7 @@
 					"key": "ECHA-ID",
 					"camel": "echaId",
 					"value": [
-						"100.048.653"
+						"100.000.738"
 					]
 				},
 				{
@@ -108,7 +274,7 @@
 					"key": "PubChem",
 					"camel": "pubchem",
 					"value": [
-						"37768"
+						"6322"
 					]
 				},
 				{
@@ -116,15 +282,7 @@
 					"key": "ChemSpider",
 					"camel": "chemspider",
 					"value": [
-						"34635"
-					]
-				},
-				{
-					"type": "argument",
-					"key": "DrugBank",
-					"camel": "drugbank",
-					"value": [
-						"DB00479"
+						"6082"
 					]
 				},
 				{
@@ -132,7 +290,7 @@
 					"key": "ATC-Code",
 					"camel": "atcCode",
 					"value": [
-						"",
+						"*",
 						{
 							"type": "template",
 							"name": "ATC",
@@ -141,18 +299,18 @@
 								{
 									"type": "argument",
 									"value": [
-										"D06"
+										"V06"
 									]
 								},
 								{
 									"type": "argument",
 									"value": [
-										"AX12"
+										""
 									]
 								}
 							]
 						},
-						", ",
+						"\n* ",
 						{
 							"type": "template",
 							"name": "ATC",
@@ -161,33 +319,13 @@
 								{
 									"type": "argument",
 									"value": [
-										"J01"
+										"B05"
 									]
 								},
 								{
 									"type": "argument",
 									"value": [
-										"GB06"
-									]
-								}
-							]
-						},
-						", ",
-						{
-							"type": "template",
-							"name": "ATC",
-							"camel": "atc",
-							"value": [
-								{
-									"type": "argument",
-									"value": [
-										"S01"
-									]
-								},
-								{
-									"type": "argument",
-									"value": [
-										"AA21"
+										"XB01"
 									]
 								}
 							]
@@ -197,31 +335,10 @@
 				},
 				{
 					"type": "argument",
-					"key": "Wirkstoffgruppe",
-					"camel": "wirkstoffgruppe",
+					"key": "DrugBank",
+					"camel": "drugbank",
 					"value": [
-						"",
-						{
-							"type": "link",
-							"url": "Aminoglykoside",
-							"value": [
-								{
-									"type": "argument",
-									"value": [
-										"Aminoglykosid-Antibiotikum"
-									]
-								}
-							]
-						},
-						"\n"
-					]
-				},
-				{
-					"type": "argument",
-					"key": "Wirkmechanismus",
-					"camel": "wirkmechanismus",
-					"value": [
-						""
+						"DB00125"
 					]
 				},
 				{
@@ -229,7 +346,7 @@
 					"key": "Beschreibung",
 					"camel": "beschreibung",
 					"value": [
-						"weißes Pulver<ref name=\"Ph. Eur.\"/>"
+						"weißer Feststoff<ref name=\"roth\" />"
 					]
 				},
 				{
@@ -237,26 +354,33 @@
 					"key": "Molare Masse",
 					"camel": "molareMasse",
 					"value": [
-						"585,6",
-						{
-							"type": "link",
-							"url": "Gramm",
-							"value": [
-								{
-									"type": "argument",
-									"value": [
-										"g"
-									]
-								}
-							]
-						},
-						"·",
+						"* 174,20 g·",
 						{
 							"type": "link",
 							"url": "mol",
 							"value": []
 						},
-						"<sup>−1</sup>\n"
+						"<sup>−1</sup> (Arginin)\n* 210,66 g·",
+						{
+							"type": "link",
+							"url": "mol",
+							"value": []
+						},
+						"<sup>−1</sup> (Arginin·Hydrochlorid)\n* 228,68 g·",
+						{
+							"type": "link",
+							"url": "mol",
+							"value": []
+						},
+						"<sup>−1</sup> (Arginin·Hydrochlorid·Hydrat)\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Aggregat",
+					"camel": "aggregat",
+					"value": [
+						"fest"
 					]
 				},
 				{
@@ -264,7 +388,7 @@
 					"key": "Dichte",
 					"camel": "dichte",
 					"value": [
-						""
+						"0,7 g·cm<sup>−3</sup><ref name=\"roth\" />"
 					]
 				},
 				{
@@ -272,7 +396,20 @@
 					"key": "Schmelzpunkt",
 					"camel": "schmelzpunkt",
 					"value": [
-						""
+						"238",
+						{
+							"type": "link",
+							"url": "Grad Celsius",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"°C"
+									]
+								}
+							]
+						},
+						"<ref name=\"roth\" />\n"
 					]
 				},
 				{
@@ -296,7 +433,26 @@
 					"key": "pKs",
 					"camel": "pks",
 					"value": [
-						""
+						"* p''K''<sub>S, COOH</sub> = 2,0<ref name=\"TERESA\" />\n* p''K''<sub>S, NH<sub>3</sub><sup>+</sup></sub> = 9,0<ref name=\"TERESA\" />\n* p''K''<sub>S,",
+						{
+							"type": "link",
+							"url": "Guanidin#Chemische Eigenschaften",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"Guanidinium"
+									]
+								}
+							]
+						},
+						"-Gruppe</sub> = 12,1<ref name=\"TERESA\">K.-J. Teresa u. a.: ''Nickel Ion Complexes of Amino Acids and Peptides.'' In: ''Metal Ions in Life Sciences.'' Band 2: ''Nickel and Its Surprising Impact in Nature.'' John Wiley & Sons, 2007, ISBN 978-0-470-01671-8, S.&nbsp;67; ",
+						{
+							"type": "link",
+							"url": "doi:10.1002/9780470028131.ch3",
+							"value": []
+						},
+						".</ref>\n"
 					]
 				},
 				{
@@ -304,44 +460,24 @@
 					"key": "Löslichkeit",
 					"camel": "löslichkeit",
 					"value": [
-						"löslich in Wasser (50 g·l<sup>−1</sup><ref name=\"Sigma\" />), wenig löslich in",
-						{
-							"type": "link",
-							"url": "Methanol",
-							"value": []
-						},
-						", nicht löslich in ",
-						{
-							"type": "link",
-							"url": "Ethanol",
-							"value": []
-						},
-						"<ref name=\"Ph. Eur.\">",
+						"gut in Wasser (150 g·l<sup>−1</sup> bei 20 °C)<ref name=\"roth\">",
 						{
 							"type": "template",
-							"name": "EDQM",
-							"camel": "edqm",
+							"name": "Carl Roth",
+							"camel": "carlRoth",
 							"value": [
 								{
 									"type": "argument",
 									"value": [
-										"A0368000"
+										"3144"
 									]
 								},
 								{
 									"type": "argument",
-									"key": "Name",
-									"camel": "name",
+									"key": "Abruf",
+									"camel": "abruf",
 									"value": [
-										"AMIKACIN CRS"
-									]
-								},
-								{
-									"type": "argument",
-									"key": "Datum",
-									"camel": "datum",
-									"value": [
-										"21. Dezember 2009"
+										"2010-03-13"
 									]
 								}
 							]
@@ -354,38 +490,34 @@
 					"key": "Quelle GHS-Kz",
 					"camel": "quelleGhsKz",
 					"value": [
-						"<ref name=\"Sigma\">",
+						"<ref name=\"GESTIS\">",
 						{
 							"type": "template",
-							"name": "Sigma-Aldrich",
-							"camel": "sigmaAldrich",
+							"name": "GESTIS",
+							"camel": "gestis",
 							"value": [
 								{
 									"type": "argument",
+									"key": "ZVG",
+									"camel": "zvg",
 									"value": [
-										"sial"
+										"100469"
 									]
 								},
 								{
 									"type": "argument",
+									"key": "CAS",
+									"camel": "cas",
 									"value": [
-										"06568"
+										"74-79-3"
 									]
 								},
 								{
 									"type": "argument",
-									"key": "Datum",
-									"camel": "datum",
+									"key": "Abruf",
+									"camel": "abruf",
 									"value": [
-										"20. Oktober 2016"
-									]
-								},
-								{
-									"type": "argument",
-									"key": "Name",
-									"camel": "name",
-									"value": [
-										"Amikacin dihydrate"
+										"2011-03-09"
 									]
 								}
 							]
@@ -401,13 +533,13 @@
 						"",
 						{
 							"type": "template",
-							"name": "GHS-Piktogramme",
-							"camel": "ghsPiktogramme",
+							"name": "GHS-Piktogramme-klein",
+							"camel": "ghsPiktogrammeKlein",
 							"value": [
 								{
 									"type": "argument",
 									"value": [
-										"-"
+										"07"
 									]
 								}
 							]
@@ -420,7 +552,7 @@
 					"key": "GHS-Signalwort",
 					"camel": "ghsSignalwort",
 					"value": [
-						""
+						"Achtung"
 					]
 				},
 				{
@@ -437,7 +569,7 @@
 								{
 									"type": "argument",
 									"value": [
-										"-"
+										"319"
 									]
 								}
 							]
@@ -481,7 +613,7 @@
 								{
 									"type": "argument",
 									"value": [
-										"-"
+										"305+351+338"
 									]
 								}
 							]
@@ -494,15 +626,7 @@
 					"key": "Quelle P",
 					"camel": "quelleP",
 					"value": [
-						""
-					]
-				},
-				{
-					"type": "argument",
-					"key": "MAK",
-					"camel": "mak",
-					"value": [
-						""
+						"<ref name=\"GESTIS\" />"
 					]
 				},
 				{
@@ -529,7 +653,7 @@
 									"key": "Organismus",
 									"camel": "organismus",
 									"value": [
-										"Maus"
+										"Ratte"
 									]
 								},
 								{
@@ -537,7 +661,7 @@
 									"key": "Applikationsart",
 									"camel": "applikationsart",
 									"value": [
-										"i.v."
+										"oral"
 									]
 								},
 								{
@@ -545,7 +669,7 @@
 									"key": "Wert",
 									"camel": "wert",
 									"value": [
-										"280 mg·kg<sup>−1</sup>"
+										"5110 mg·kg<sup>−1</sup>"
 									]
 								},
 								{
@@ -561,7 +685,7 @@
 									"key": "Quelle",
 									"camel": "quelle",
 									"value": [
-										"<ref name=\"Ph. Eur.\"/>"
+										"<ref name=\"roth\" />"
 									]
 								}
 							]
@@ -571,416 +695,3466 @@
 				}
 			]
 		},
-		"\n\n'''Amikacin''' ist ein gegen ",
+		"\n\n'''<small>L</small>-Arginin''' ist eine ",
 		{
 			"type": "link",
-			"url": "gramnegativ",
+			"url": "proteinogen",
 			"value": []
 		},
-		"e aerobe Keime ",
+		"e ",
 		{
 			"type": "link",
-			"url": "bakterizid",
-			"value": []
-		},
-		" wirkendes Antibiotikum aus der Gruppe der ",
-		{
-			"type": "link",
-			"url": "Aminoglykoside",
-			"value": []
-		},
-		".\n\n== Anwendung ==\nEingesetzt wird Amikacin zur Behandlung von schweren Infektionen, die durch empfindliche gramnegative Erreger, vor allem der Gattungen ",
-		{
-			"type": "link",
-			"url": "Pseudomonas",
-			"value": []
-		},
-		", ",
-		{
-			"type": "link",
-			"url": "Escherichia coli",
-			"value": []
-		},
-		", ",
-		{
-			"type": "link",
-			"url": "Proteus (Gattung)",
+			"url": "Ständigkeit",
 			"value": [
 				{
 					"type": "argument",
 					"value": [
-						"Proteus"
+						"''α''"
 					]
 				}
 			]
 		},
-		", ",
+		"-",
 		{
 			"type": "link",
-			"url": "Providencia (Bakteriengattung)",
+			"url": "Aminosäure",
+			"value": []
+		},
+		". Für den Menschen ist sie semi-",
+		{
+			"type": "link",
+			"url": "Essentielle Stoffe",
 			"value": [
 				{
 					"type": "argument",
 					"value": [
-						"Providencia"
+						"essentiell"
 					]
 				}
 			]
 		},
-		", ",
+		". Der Name leitet sich vom lateinischen Wort ''argentum'' (",
 		{
 			"type": "link",
-			"url": "Klebsiella",
+			"url": "Silber",
 			"value": []
 		},
-		", ",
+		") ab, da die Aminosäure zuerst als Silber-Salz isoliert werden konnte. Diese Aminosäure hat den höchsten Masseanteil an ",
 		{
 			"type": "link",
-			"url": "Enterobacter",
+			"url": "Stickstoff",
 			"value": []
 		},
-		", ",
+		" von allen proteinogenen Aminosäuren. Im ",
 		{
 			"type": "link",
-			"url": "Serratia",
-			"value": []
-		},
-		", ",
-		{
-			"type": "link",
-			"url": "Mykobakterium",
-			"value": []
-		},
-		", ",
-		{
-			"type": "link",
-			"url": "Nocardia",
-			"value": []
-		},
-		" und ",
-		{
-			"type": "link",
-			"url": "Acinetobacter",
-			"value": []
-		},
-		" verursacht werden. Als Monotherapie wird es meistens bei Infektionen der oberen Harnwege und Weichteilinfektionen angewendet. Zur Initialbehandlung der ",
-		{
-			"type": "link",
-			"url": "Sepsis",
-			"value": []
-		},
-		" bzw. Infektionen bei immunsupprimierten Patienten (z.&nbsp;B. nach Chemotherapie) kommt Amikacin in Kombination mit anderen Mitteln in Einsatz, meistens mit ",
-		{
-			"type": "link",
-			"url": "β-Lactam-Antibiotika",
-			"value": []
-		},
-		" (synergische Wirkung vor allem mit ",
-		{
-			"type": "link",
-			"url": "Piperacillin",
-			"value": []
-		},
-		").\n\nAmikacin wird weiterhin als Ersatz-Aminoglycoside zum üblicheren ",
-		{
-			"type": "link",
-			"url": "Streptomycin",
-			"value": []
-		},
-		" zur Behandlung von multiresistenten ",
-		{
-			"type": "link",
-			"url": "Tuberkulose",
-			"value": []
-		},
-		"-Erregern (Mykobakterium tuberculosis) eingesetzt. Es ist hierzu ein Medikament der zweiten Wahl, angewendet nur in Kombination mit anderen ",
-		{
-			"type": "link",
-			"url": "Antituberkulotika",
-			"value": []
-		},
-		" bei Therapieversagen mit den klassischen Therapieschemata. Amikacin wird hierfür von der ",
-		{
-			"type": "link",
-			"url": "Weltgesundheitsorganisation",
-			"value": []
-		},
-		" in der Liste der ",
-		{
-			"type": "link",
-			"url": "Unentbehrliche Arzneimittel",
+			"url": "Aminosäuren#Kanonische Aminosäuren",
 			"value": [
 				{
 					"type": "argument",
 					"value": [
-						"unentbehrlichen Arzneimittel"
+						"Dreibuchstabencode"
 					]
 				}
 			]
 		},
-		" als eines der komplementären \"Second Line\"-Mitteln aufgeführt.<ref>''[http://whqlibdoc.who.int/hq/2011/a95053_eng.pdf WHO Model List of Essential Medicines] (PDF; 442&nbsp;kB)'', abgerufen am 7. Februar 2014.</ref>\n\n== Pharmakodynamik (Wirkmechanismus) ==\nAmikacin hemmt als Aminoglykosid die bakterielle Proteinsynthese, indem es die Funktion der ",
+		" wird <small>L</small>-Arginin mit '''Arg''' und im ",
 		{
 			"type": "link",
-			"url": "Ribosom",
-			"value": []
-		},
-		"en blockiert. Dabei unterbindet es unter anderem die Translokation von Peptidyl-",
-		{
-			"type": "link",
-			"url": "tRNA",
-			"value": []
-		},
-		" und damit die Initiation der Proteinsynthese.\n\n== Pharmakokinetik und Interaktionen ==\nBei ",
-		{
-			"type": "link",
-			"url": "peroral",
-			"value": []
-		},
-		"er Aufnahme von Amikacin erfolgt – wie bei allen Aminoglycosiden – keine Resorption über den Darm, weshalb der Wirkstoff ",
-		{
-			"type": "link",
-			"url": "parenteral",
-			"value": []
-		},
-		" als intramuskuläre Injektion oder als intravenöse Infusion verabreicht werden muss. Amikacin überwindet die ",
-		{
-			"type": "link",
-			"url": "Blut-Hirn-Schranke",
-			"value": []
-		},
-		" nur bei entzündlichen Störungen derselben. Amikacin wird nicht in der Leber verstoffwechselt, sondern unverändert über die Nieren ausgeschieden.\n\nBei gleichzeitiger Gabe von anderen potentiell ototoxischen Medikamenten, wie unter anderem ",
-		{
-			"type": "link",
-			"url": "Zytostatikum#Platinanaloga",
+			"url": "Aminosäuren#Kanonische Aminosäuren",
 			"value": [
 				{
 					"type": "argument",
 					"value": [
-						"platinhaltige Zytostatika"
+						"Einbuchstabencode"
 					]
 				}
 			]
 		},
-		" und ",
+		" als '''R''' abgekürzt.\n\n== Enantiomere ==\nArginin besitzt ein Stereozentrum, somit existieren zwei ",
 		{
 			"type": "link",
-			"url": "Schleifendiuretika",
-			"value": []
-		},
-		" kann die ototoxische Wirkung verstärkt sein. Die Wirkdauer von nichtdepolarisierenden ",
-		{
-			"type": "link",
-			"url": "Muskelrelaxanzien",
-			"value": []
-		},
-		" kann verlängert sein.\n\n== Nebenwirkungen ==\nSehr häufig kommt es zu einer Störung der Nierenfunktion mit Einschränkung der glomerulären Filtration (",
-		{
-			"type": "link",
-			"url": "Nephrotoxizität",
-			"value": []
-		},
-		"). Häufig treten Schmerzen an der Injektionsstelle, ",
-		{
-			"type": "link",
-			"url": "Proteinurie",
-			"value": []
-		},
-		" und Elektrolytstörungen im ",
-		{
-			"type": "link",
-			"url": "Blutplasma",
+			"url": "Chiralität (Chemie)",
 			"value": [
 				{
 					"type": "argument",
 					"value": [
-						"Plasma"
+						"chirale"
 					]
 				}
 			]
 		},
-		" auf, vor allem ",
+		" ",
 		{
 			"type": "link",
-			"url": "Hypokaliämie",
+			"url": "Enantiomere",
 			"value": []
 		},
-		", ",
+		".\n\nIn den Proteinen kommt ausschließlich <small>L</small>-Arginin [Synonym: (''S'')-Arginin] ",
 		{
 			"type": "link",
-			"url": "Hypokalzämie",
+			"url": "peptid",
 			"value": []
 		},
-		" und ",
+		"isch gebunden vor. ",
 		{
 			"type": "link",
-			"url": "Hypomagnesiämie",
+			"url": "Enantiomer",
 			"value": []
 		},
-		". Gelegentlich kommt es zu einer von der Dosis und der Therapiedauer abhängigen Schädigung des Hörvermögens, ",
+		" dazu ist das spiegelbildliche <small>D</small>-Arginin [Synonym: (''R'')-Arginin], das in Proteinen nicht vorkommt. ",
 		{
 			"type": "link",
-			"url": "Tinnitus",
-			"value": []
-		},
-		" und Schwindel durch Schädigung des ",
-		{
-			"type": "link",
-			"url": "Nervus vestibulocochlearis",
-			"value": []
-		},
-		" (",
-		{
-			"type": "link",
-			"url": "Ototoxizität",
-			"value": []
-		},
-		") sowie zu peripheren Nervenschäden (die irreversibel sein können), ferner zu Leberenzymanstieg und Hautausschlägen. Selten kommt es zu Blutbildveränderungen (",
-		{
-			"type": "link",
-			"url": "Thrombozytopenie",
-			"value": []
-		},
-		", ",
-		{
-			"type": "link",
-			"url": "Leukopenie",
-			"value": []
-		},
-		", ",
-		{
-			"type": "link",
-			"url": "Eosinophilie",
-			"value": []
-		},
-		") und Hautausschlägen. Sehr selten zu ",
-		{
-			"type": "link",
-			"url": "Polyneuropathie",
-			"value": []
-		},
-		"n und akutem Nierenversagen.<ref>Vgl. Marianne Abele-Horn: ''Antimikrobielle Therapie. Entscheidungshilfen zur Behandlung und Prophylaxe von Infektionskrankheiten.'' 2009, S. 338.</ref>\n\n== Gegenanzeigen ==\nEine Kontraindikation ist in der Schwangerschaft gegeben, da eine mögliche Taubheit des Kindes nicht ausgeschlossen werden kann. Ebenso besteht eine Gegenanzeige für die Anwendung bei Früh- und Neugeborenen.<ref>Marianne Abele-Horn (2009), S. 338.</ref> Bei vorliegenden Nieren-, Leber- und Gehörschäden sowie Gleichgewichtsstörungen ist ebenso wie bei ",
-		{
-			"type": "link",
-			"url": "Myasthenia gravis",
-			"value": []
-		},
-		" und ",
-		{
-			"type": "link",
-			"url": "Morbus Parkinson",
-			"value": []
-		},
-		" Vorsicht geboten. Bei terminaler Niereninsuffizienz und Vorschädigung des Innenohrs oder Gleichgewichtsorgans darf Amikacin nur bei vitaler Indikation verabreicht werden.<ref>Marianne Abele-Horn (2009), S. 338.</ref> Obwohl Schädigungen der Leber keine Auswirkungen auf den Plasmaspiegel haben, kann es zur Ausbildung eines ",
-		{
-			"type": "link",
-			"url": "Hepatorenales Syndrom",
+			"url": "Racemat",
 			"value": [
 				{
 					"type": "argument",
 					"value": [
-						"hepatorenalen Syndroms"
+						"Racemisches"
 					]
 				}
 			]
 		},
-		" kommen.\n\n== Handelsnamen ==\n''Amikacin''; ''Biklin''; ''Amikin''\n\n== Literatur ==\n* WHO: [http://whqlibdoc.who.int/publications/2006/9241546956_eng.pdf ''Guidelines for the programmatic management of drug-resistant tuberculosis.''] (PDF; 1,3 MB) 2006. ISBN 978-92-4-154695-9, S.&nbsp;127–128.\n* Marianne Abele-Horn: ''Antimikrobielle Therapie. Entscheidungshilfen zur Behandlung und Prophylaxe von Infektionskrankheiten.'' Unter Mitarbeit von Werner Heinz, Hartwig Klinker, Johann Schurz und August Stich, 2., überarbeitete und erweiterte Auflage. Peter Wiehl, Marburg 2009, ISBN 978-3-927219-14-4, S. 338.\n\n== Weblinks ==\n* Institut für klinische Chemie und Pathobiochemie am Klinikum rechts der Isar: ",
+		" Arginin [Synonyma: <small>DL</small>-Arginin und (''RS'')-Arginin] besitzt geringe Bedeutung.\n\nWenn in Texten oder in der wissenschaftlichen Literatur „Arginin“ ohne weiteren Namenszusatz (",
 		{
-			"type": "template",
-			"name": "Webarchiv",
-			"camel": "webarchiv",
+			"type": "link",
+			"url": "Präfix",
+			"value": []
+		},
+		") erwähnt wird, ist <small>L</small>-Arginin gemeint.\n\n{",
+		{
+			"type": "argument",
+			"key": "class",
+			"camel": "class",
 			"value": [
+				"\"wikitable\" style=\"text-align:center; font-size:90%;\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "class",
+			"camel": "class",
+			"value": [
+				"\"hintergrundfarbe6\" colspan=\"3\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"'''Enantiomere von Arginin'''"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "class",
+			"camel": "class",
+			"value": [
+				"\"hintergrundfarbe5\" align=\"left\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"Name"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"<small>L</small>-Arginin"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"<small>D</small>-Arginin"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "class",
+			"camel": "class",
+			"value": [
+				"\"hintergrundfarbe5\" align=\"left\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"Andere Namen"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"(''S'')-Arginin"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"(''R'')-Arginin"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "class",
+			"camel": "class",
+			"value": [
+				"\"hintergrundfarbe5\" align=\"left\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
 				{
-					"type": "argument",
-					"key": "url",
-					"camel": "url",
+					"type": "link",
+					"url": "Strukturformel",
+					"value": []
+				},
+				"\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Datei:L-Arginin - L-Arginine.svg",
 					"value": [
-						"http://www.klinchem.med.tum.de/forschung/steimer/antibiotika.html"
+						{
+							"type": "argument",
+							"value": [
+								"150px"
+							]
+						},
+						{
+							"type": "argument",
+							"value": [
+								"Strukturformel von <small>L</small>-Arginin"
+							]
+						}
 					]
 				},
-				{
-					"type": "argument",
-					"key": "wayback",
-					"camel": "wayback",
-					"value": [
-						"20140302005026"
-					]
-				},
-				{
-					"type": "argument",
-					"key": "text",
-					"camel": "text",
-					"value": [
-						"Kurzfassung über Aminoglycoside, darunter Amikacin"
-					]
-				}
+				" "
 			]
 		},
-		"\n\n== Einzelnachweise ==\n<references />\n\n",
 		{
-			"type": "template",
-			"name": "Gesundheitshinweis",
-			"camel": "gesundheitshinweis",
-			"value": []
+			"type": "argument",
+			"value": [
+				""
+			]
 		},
-		"\n\n",
 		{
-			"type": "link",
-			"url": "Kategorie:Arzneistoff",
-			"value": []
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Datei:D-Arginine.svg",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"150px"
+							]
+						},
+						{
+							"type": "argument",
+							"value": [
+								"Strukturformel von <small>D</small>-Arginin"
+							]
+						}
+					]
+				},
+				"\n"
+			]
 		},
-		"\n",
 		{
-			"type": "link",
-			"url": "Kategorie:Aminoglykosid",
-			"value": []
+			"type": "argument",
+			"value": [
+				"-"
+			]
 		},
-		"\n",
 		{
-			"type": "link",
-			"url": "Kategorie:Cyclohexanol",
-			"value": []
+			"type": "argument",
+			"key": "class",
+			"camel": "class",
+			"value": [
+				"\"hintergrundfarbe5\" align=\"left\" rowspan=\"2\""
+			]
 		},
-		"\n",
 		{
-			"type": "link",
-			"url": "Kategorie:Polyhydroxyoxan",
-			"value": []
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "CAS-Nummer",
+					"value": []
+				},
+				"\n"
+			]
 		},
-		"\n",
 		{
-			"type": "link",
-			"url": "Kategorie:Dihydroxyoxan",
-			"value": []
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "CASRN",
+					"camel": "casrn",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"74-79-3"
+							]
+						}
+					]
+				},
+				" "
+			]
 		},
-		"\n",
 		{
-			"type": "link",
-			"url": "Kategorie:Alkansäureamid",
-			"value": []
+			"type": "argument",
+			"value": [
+				""
+			]
 		},
-		"\n",
 		{
-			"type": "link",
-			"url": "Kategorie:Aminoalkohol",
-			"value": []
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "CASRN",
+					"camel": "casrn",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"157-06-2"
+							]
+						},
+						{
+							"type": "argument",
+							"value": [
+								"Q27076987"
+							]
+						}
+					]
+				},
+				"\n"
+			]
 		},
-		"\n",
 		{
-			"type": "link",
-			"url": "Kategorie:Beta-Aminoalkohol",
-			"value": []
+			"type": "argument",
+			"value": [
+				"-"
+			]
 		},
-		"\n",
 		{
-			"type": "link",
-			"url": "Kategorie:Acetal",
-			"value": []
+			"type": "argument",
+			"key": "colspan",
+			"camel": "colspan",
+			"value": [
+				"\"2\""
+			]
 		},
-		"\n",
 		{
-			"type": "link",
-			"url": "Kategorie:Hydroxymethylverbindung",
-			"value": []
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "CASRN",
+					"camel": "casrn",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"7200-25-1"
+							]
+						},
+						{
+							"type": "argument",
+							"value": [
+								"Q27104032"
+							]
+						}
+					]
+				},
+				" (Racemat)\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "class",
+			"camel": "class",
+			"value": [
+				"\"hintergrundfarbe5\" align=\"left\" rowspan=\"2\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "EG-Nummer",
+					"value": []
+				},
+				"\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"200-811-1"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"205-866-5"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "colspan",
+			"camel": "colspan",
+			"value": [
+				"\"2\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"230-571-3 (Racemat)"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "class",
+			"camel": "class",
+			"value": [
+				"\"hintergrundfarbe5\" align=\"left\" rowspan=\"2\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "ECHA",
+					"value": []
+				},
+				"-Infocard\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "ECHA",
+					"camel": "echa",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"100.000.738"
+							]
+						}
+					]
+				},
+				" "
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "ECHA",
+					"camel": "echa",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"100.005.334"
+							]
+						}
+					]
+				},
+				"\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "colspan",
+			"camel": "colspan",
+			"value": [
+				"\"2\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "ECHA",
+					"camel": "echa",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"100.027.793"
+							]
+						}
+					]
+				},
+				" (Racemat)\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "class",
+			"camel": "class",
+			"value": [
+				"\"hintergrundfarbe5\" align=\"left\" rowspan=\"2\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "PubChem",
+					"value": []
+				},
+				"\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "PubChem",
+					"camel": "pubchem",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"6322"
+							]
+						}
+					]
+				},
+				" "
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "PubChem",
+					"camel": "pubchem",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"71070"
+							]
+						}
+					]
+				},
+				"\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "colspan",
+			"camel": "colspan",
+			"value": [
+				"\"2\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "PubChem",
+					"camel": "pubchem",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"232"
+							]
+						}
+					]
+				},
+				" (Racemat)\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "class",
+			"camel": "class",
+			"value": [
+				"\"hintergrundfarbe5\" align=\"left\" rowspan=\"2\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "DrugBank",
+					"value": []
+				},
+				"\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "DrugBank",
+					"camel": "drugbank",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"DB00125"
+							]
+						},
+						{
+							"type": "argument",
+							"value": [
+								"kurz"
+							]
+						}
+					]
+				},
+				" "
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "DrugBank",
+					"camel": "drugbank",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"DB04027"
+							]
+						},
+						{
+							"type": "argument",
+							"value": [
+								"kurz"
+							]
+						}
+					]
+				},
+				"\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "colspan",
+			"camel": "colspan",
+			"value": [
+				"\"2\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"− (Racemat)"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "class",
+			"camel": "class",
+			"value": [
+				"\"hintergrundfarbe5\" align=\"left\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "FL-Nummer",
+					"value": []
+				},
+				"\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"17.003"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"–"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "class",
+			"camel": "class",
+			"value": [
+				"\"hintergrundfarbe5\" align=\"left\" rowspan=\"2\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Wikidata",
+					"value": []
+				},
+				"\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "d:Q173670",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Q173670"
+							]
+						}
+					]
+				},
+				" "
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "d:Q27076987",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Q27076987"
+							]
+						}
+					]
+				},
+				"\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "colspan",
+			"camel": "colspan",
+			"value": [
+				"\"2\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "d:Q27104032",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Q27104032"
+							]
+						}
+					]
+				},
+				" (Racemat)\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "}",
+			"camel": "undefined",
+			"value": [
+				"= Vorkommen ==\n<small>L</small>-Arginin ist weit verbreitet. Die folgenden Beispiele geben einen Überblick über Arginingehalte und beziehen sich jeweils auf 100&nbsp;g des",
+				{
+					"type": "link",
+					"url": "Lebensmittel",
+					"value": []
+				},
+				"s, zusätzlich ist der prozentuale Anteil von gebundenem Arginin am Gesamtprotein angegeben.<ref>[http://www.ars.usda.gov/ba/bhnrc/ndl Nährstoffdatenbank] des ",
+				{
+					"type": "link",
+					"url": "Landwirtschaftsministerium der Vereinigten Staaten",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"US-Landwirtschaftsministeriums"
+							]
+						}
+					]
+				},
+				", 22. Ausgabe.</ref>\n{"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "class",
+			"camel": "class",
+			"value": [
+				"\"wikitable sortable\"\n! class=\"unsortable\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"Lebensmittel !! Protein !! Arginin !! Anteil"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Buchweizen",
+					"value": []
+				},
+				"körner\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"13,25 g"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 982 mg\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 7,4 %\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Erbse",
+					"value": []
+				},
+				"n, getrocknet\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"24,55 g"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"2188 mg"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 8,9 %\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Erdnuss",
+					"value": []
+				},
+				", geröstet\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"23,68 g"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"2832 mg"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"11,9 %"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Geflügel#Hähnchen",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Hähnchenbrustfilet"
+							]
+						}
+					]
+				},
+				", roh\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"21,23 g"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"1436 mg"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 6,8 %\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Hühnerei",
+					"value": []
+				},
+				"\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"12,57 g"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 820 mg\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 6,5 %\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Kuhmilch",
+					"value": []
+				},
+				", 3,7 % Fett\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 3,28 g\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 119 mg\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 3,6 %\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Kürbisse",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Kürbiskerne"
+							]
+						}
+					]
+				},
+				"\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"30,23 g"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"5353 mg"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"17,7 %"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Lachse",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Lachs"
+							]
+						}
+					]
+				},
+				", roh\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"20,42 g"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"1221 mg"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 6,0 %\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Mais",
+					"value": []
+				},
+				"-Vollkornmehl\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 6,93 g\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 345 mg\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 5,0 %\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Pinienkerne",
+					"value": []
+				},
+				"\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"13,69 g"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"2413 mg"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"17,6 %"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Reis",
+					"value": []
+				},
+				", ungeschält\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 7,94 g\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 602 mg\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 7,6 %\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Schweinefleisch",
+					"value": []
+				},
+				", roh\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"20,95 g"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"1394 mg"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 6,7 %\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Walnüsse",
+					"value": []
+				},
+				"\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"15,23 g"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"2278 mg"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"15,0 %"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"-"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "link",
+					"url": "Weizen",
+					"value": []
+				},
+				"-Vollkornmehl\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"13,70 g"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 642 mg\n"
+			]
+		},
+		{
+			"type": "argument",
+			"key": "style",
+			"camel": "style",
+			"value": [
+				"\"text-align:right\""
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"",
+				{
+					"type": "template",
+					"name": "0",
+					"camel": "0",
+					"value": []
+				},
+				" 4,7 %\n"
+			]
+		},
+		{
+			"type": "argument",
+			"value": [
+				"}\n\nAlle diese Nahrungsmittel enthalten praktisch ausschließlich chemisch gebundenes <small>L</small>-Arginin als",
+				{
+					"type": "link",
+					"url": "Protein",
+					"value": []
+				},
+				"bestandteil, jedoch kein freies <small>L</small>-Arginin.\n\n== Geschichte ==\n<small>L</small>-Arginin wurde 1886 erstmals durch den deutschen Chemiker ",
+				{
+					"type": "link",
+					"url": "Ernst Schulze (Chemiker)",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Ernst Schulze"
+							]
+						}
+					]
+				},
+				" und seinen Doktoranden Ernst Steiger aus Lupinenkeimlingen isoliert.<ref name=\"Schulze1\">E. Schulze: In: ''Berichte der deutschen chemischen Gesellschaft.'' Band 19, 1886, S. 1177ff.</ref> 1894 gelang dann dem schwedischen Chemiker Sven Gustaf Hedin die Isolierung von Arginin aus tierischem Material durch die ",
+				{
+					"type": "link",
+					"url": "Hydrolyse",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"hydrolytische"
+							]
+						}
+					]
+				},
+				" Spaltung von Hornsubstanz.<ref name=\"Hedin1\">S. G. Hedin: In: ''Zeitschrift für physiologische Chemie.'' Band 20, 1895, S. 186.</ref> Durch einen Vergleich seines „tierischen“ Arginins mit ihm zur Verfügung gestellten Proben aus dem Labor Schulzes gelang Hedin der Nachweis der Übereinstimmung der beiden Substanzen.<ref name=\"Hansen\">Sabine Hansen: ''Entdeckung der Aminosäuren.'' Berlin 2015 (",
+				{
+					"type": "template",
+					"name": "Webarchiv",
+					"camel": "webarchiv",
+					"value": [
+						{
+							"type": "argument",
+							"key": "url",
+							"camel": "url",
+							"value": [
+								"https://www.arginium.de/wp-content/uploads/2015/12/Aminos%C3%A4uren-Entdeckungsgeschichte.pdf"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "wayback",
+							"camel": "wayback",
+							"value": [
+								"20160615203851"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "text",
+							"camel": "text",
+							"value": [
+								"arginium.de"
+							]
+						}
+					]
+				},
+				").</ref>\n\n== Eigenschaften ==\n",
+				{
+					"type": "link",
+					"url": "Datei:Arginine Resonance.png",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"mini"
+							]
+						},
+						{
+							"type": "argument",
+							"value": [
+								"Zwitterionen von <small>L</small>-Arginin mit dem mesomeriestabilisierten Guanidinium-Kation"
+							]
+						}
+					]
+				},
+				"\nArginin ist eine α-",
+				{
+					"type": "link",
+					"url": "Aminosäure",
+					"value": []
+				},
+				", die in ihrer ",
+				{
+					"type": "link",
+					"url": "Seitenkette",
+					"value": []
+				},
+				" eine ",
+				{
+					"type": "link",
+					"url": "Hydrophilie",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"hydrophile"
+							]
+						}
+					]
+				},
+				", ",
+				{
+					"type": "link",
+					"url": "Basen (Chemie)",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"basisch"
+							]
+						}
+					]
+				},
+				" reagierende ",
+				{
+					"type": "link",
+					"url": "Guanidin",
+					"value": []
+				},
+				"ogruppe enthält. Diese liegt im sauren, neutralen und schwach basischen Milieu protoniert vor, wobei die positive Ladung zwischen den Aminogruppen ",
+				{
+					"type": "link",
+					"url": "Delokalisierung",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"delokalisiert"
+							]
+						}
+					]
+				},
+				" ist. Gemeinsam mit <small>L</small>-",
+				{
+					"type": "link",
+					"url": "Lysin",
+					"value": []
+				},
+				" und <small>L</small>-",
+				{
+					"type": "link",
+					"url": "Histidin",
+					"value": []
+				},
+				" gehört <small>L</small>-Arginin zur Gruppe der basischen Aminosäuren oder ",
+				{
+					"type": "link",
+					"url": "Hexonbasen",
+					"value": []
+				},
+				".\n\nArginin liegt im neutralen ",
+				{
+					"type": "link",
+					"url": "PH-Wert",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"pH-Bereich"
+							]
+						}
+					]
+				},
+				" überwiegend als „inneres Salz“ bzw. ",
+				{
+					"type": "link",
+					"url": "Zwitterion",
+					"value": []
+				},
+				" vor, da die ",
+				{
+					"type": "link",
+					"url": "Aminogruppe",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"α-Aminogruppe"
+							]
+						}
+					]
+				},
+				" und die ",
+				{
+					"type": "link",
+					"url": "Guanidin",
+					"value": []
+				},
+				"ogruppe protoniert vorliegen, wogegen die ",
+				{
+					"type": "link",
+					"url": "Carboxygruppe",
+					"value": []
+				},
+				" deprotoniert vorliegt. In diesem Zustand trägt Arginin eine positive Netto-Ladung.<ref name=\"Jakubke\">Hans-Dieter Jakubke, Hans Jeschkeit: ''Aminosäuren, Peptide, Proteine.'' Verlag Chemie, 1982, ISBN 3-527-25892-2, S.&nbsp;42.</ref> Die Guanidinogruppe ist eine sehr starke Base, da sie in ihrer protonierten Form als ",
+				{
+					"type": "link",
+					"url": "Guanidin#Chemische Eigenschaften",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Guanidinium-Ion"
+							]
+						}
+					]
+				},
+				" delokalisierte π-Elektronen besitzt. Sie liegt erst über einem pH-Wert von 12,1 mehrheitlich deprotoniert vor.\n\nDer ",
+				{
+					"type": "link",
+					"url": "Isoelektrischer Punkt",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"isoelektrische Punkt"
+							]
+						}
+					]
+				},
+				", bei dem Arginin keine Netto-Ladung trägt und somit im elektrischen Feld nicht wandert, liegt bei pH 10,8.<ref name=\"Allinger\">",
+				{
+					"type": "link",
+					"url": "Norman L. Allinger",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Allinger"
+							]
+						}
+					]
+				},
+				", ",
+				{
+					"type": "link",
+					"url": "Michael P. Cava",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Cava"
+							]
+						}
+					]
+				},
+				", ",
+				{
+					"type": "link",
+					"url": "Don C. de Jongh",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"de Jongh"
+							]
+						}
+					]
+				},
+				", ",
+				{
+					"type": "link",
+					"url": "Carl R. Johnson",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Johnson"
+							]
+						}
+					]
+				},
+				", ",
+				{
+					"type": "link",
+					"url": "Norman A. Lebel",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Lebel"
+							]
+						}
+					]
+				},
+				", ",
+				{
+					"type": "link",
+					"url": "Calvin L. Stevens",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Stevens"
+							]
+						}
+					]
+				},
+				": ''Organische Chemie.'' 1. Auflage. Walter de Gruyter, Berlin 1980, ISBN 3-11-004594-X, S.&nbsp;1129.</ref> Bei diesem pH-Wert besitzt Arginin auch seine geringste Löslichkeit in Wasser.\n\nFreies <small>L</small>-Arginin hat einen bitteren Geschmack.<ref>W. Ternes, A. Täufel, L. Tunger, M. Zobel (Hrsg.): ''Lebensmittel-Lexikon.'' 4. Auflage. Behr’s Verlag, Hamburg 2005, ISBN 3-89947-165-2, S.&nbsp;62–63.</ref>\n\n== Biosynthese ==\n<small>L</small>-Arginin wird aus den Vorläufern ",
+				{
+					"type": "link",
+					"url": "Carbamoylphosphat",
+					"value": []
+				},
+				", <small>L</small>-",
+				{
+					"type": "link",
+					"url": "Ornithin",
+					"value": []
+				},
+				" und <small>L</small>-",
+				{
+					"type": "link",
+					"url": "Aspartat",
+					"value": []
+				},
+				" synthetisiert. Im ersten Schritt überträgt das Enzym ",
+				{
+					"type": "link",
+					"url": "Ornithin-Transcarbamylase",
+					"value": []
+				},
+				" unter Abspaltung von Phosphat die ",
+				{
+					"type": "link",
+					"url": "Carbamoylgruppe",
+					"value": []
+				},
+				" des Carbamoylphosphats auf die δ-Aminogruppe von <small>L</small>-Ornithin, wodurch ",
+				{
+					"type": "link",
+					"url": "L-Citrullin",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"<small>L</small>-Citrullin"
+							]
+						}
+					]
+				},
+				" entsteht. Im nächsten Schritt werden durch das Enzym ",
+				{
+					"type": "link",
+					"url": "Argininosuccinat-Synthase",
+					"value": []
+				},
+				" unter ",
+				{
+					"type": "link",
+					"url": "Adenosintriphosphat",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"ATP"
+							]
+						}
+					]
+				},
+				"-Verbrauch ",
+				{
+					"type": "link",
+					"url": "L-Citrullin",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"<small>L</small>-Citrullin"
+							]
+						}
+					]
+				},
+				" und ",
+				{
+					"type": "link",
+					"url": "Asparaginsäure",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"<small>L</small>-Aspartat"
+							]
+						}
+					]
+				},
+				" zu Argininosuccinat verknüpft. Durch die ",
+				{
+					"type": "link",
+					"url": "Argininosuccinat-Lyase",
+					"value": []
+				},
+				" wird Argininosuccinat in <small>L</small>-Arginin und ",
+				{
+					"type": "link",
+					"url": "Fumarsäure",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Fumarat"
+							]
+						}
+					]
+				},
+				" gespalten.<ref>",
+				{
+					"type": "template",
+					"name": "Internetquelle",
+					"camel": "internetquelle",
+					"value": [
+						{
+							"type": "argument",
+							"key": "url",
+							"camel": "url",
+							"value": [
+								"https://biocyc.org/META/NEW-IMAGE?type=PATHWAY&object=ARGSYN-PWY"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "titel",
+							"camel": "titel",
+							"value": [
+								"MetaCyc L-arginine biosynthesis I (via L-ornithine)"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "abruf",
+							"camel": "abruf",
+							"value": [
+								"2020-12-06"
+							]
+						}
+					]
+				},
+				"</ref> In ",
+				{
+					"type": "link",
+					"url": "Harnstoff",
+					"value": []
+				},
+				"-auscheidenden Tieren ist die Arginin-Biosynthese ein Teil des ",
+				{
+					"type": "link",
+					"url": "Harnstoffzyklus",
+					"value": []
+				},
+				", der zur Ausscheidung von überschüssigem ",
+				{
+					"type": "link",
+					"url": "Stickstoff",
+					"value": []
+				},
+				" dient.\n\n== Industrielle Herstellungsverfahren ==\nFür die Herstellung von <small>L</small>-Arginin gibt es zwei Verfahren:<ref name=\"Römpp\">",
+				{
+					"type": "link",
+					"url": "Otto-Albrecht Neumüller",
+					"value": []
+				},
+				" (Hrsg.): ",
+				{
+					"type": "link",
+					"url": "Römpp Lexikon Chemie",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"''Römpps Chemie-Lexikon.''"
+							]
+						}
+					]
+				},
+				" Band 1: ''A–Cl.'' 8. neubearbeitete und erweiterte Auflage. Franckh'sche Verlagshandlung, Stuttgart 1979, ISBN 3-440-04511-0, S.&nbsp;263–264.</ref>\n* „Extraktion“ aus Protein-",
+				{
+					"type": "link",
+					"url": "Hydrolysat",
+					"value": []
+				},
+				"en von ",
+				{
+					"type": "link",
+					"url": "Gelatine",
+					"value": []
+				},
+				", Haaren oder Federn. Dabei wird das Protein-Hydrolysat (Aminosäuregemisch) durch ",
+				{
+					"type": "link",
+					"url": "Kristallisation",
+					"value": []
+				},
+				" und ",
+				{
+					"type": "link",
+					"url": "Ionenaustauscherchromatographie",
+					"value": []
+				},
+				" getrennt und so – neben anderen ",
+				{
+					"type": "link",
+					"url": "proteinogen",
+					"value": []
+				},
+				"en Aminosäuren – <small>L</small>-Arginin isoliert.\n* ",
+				{
+					"type": "link",
+					"url": "Fermentation",
+					"value": []
+				},
+				".\n\nDas dabei erhaltene <small>L</small>-Arginin kann ggf. in einem weiteren Produktionsschritt durch Umsetzung mit ",
+				{
+					"type": "link",
+					"url": "Salzsäure",
+					"value": []
+				},
+				" in das stabilere <small>L</small>-Arginin-Hydrochlorid umgewandelt werden.\n\n== Funktionen ==\nDie hauptsächliche Funktion von <small>L</small>-Arginin liegt in der Verwendung zum Aufbau von ",
+				{
+					"type": "link",
+					"url": "Protein",
+					"value": []
+				},
+				"en. In Pflanzen-Keimlingen und Speicherzellen dient <small>L</small>-Arginin als Reservoir für organischen Stickstoff. <small>L</small>-Arginin dient als Vorläufer bei der Synthese von ",
+				{
+					"type": "link",
+					"url": "Kreatin",
+					"value": []
+				},
+				", das in Form von Kreatinphosphat ein wichtiger Energiespeicher bei Wirbeltieren ist. <small>L</small>-Arginin ist ein ",
+				{
+					"type": "link",
+					"url": "Metabolit",
+					"value": []
+				},
+				" des ",
+				{
+					"type": "link",
+					"url": "Harnstoffzyklus",
+					"value": []
+				},
+				", in dem das ",
+				{
+					"type": "link",
+					"url": "Ammonium",
+					"value": []
+				},
+				", das beim Abbau von Stickstoffverbindungen (z.&nbsp;B. Aminosäuren) entsteht, in ",
+				{
+					"type": "link",
+					"url": "Harnstoff",
+					"value": []
+				},
+				" umgewandelt wird. Durch ",
+				{
+					"type": "link",
+					"url": "Decarboxylierung",
+					"value": []
+				},
+				" kann <small>L</small>-Arginin in ",
+				{
+					"type": "link",
+					"url": "Agmatin",
+					"value": []
+				},
+				" und weiter in ",
+				{
+					"type": "link",
+					"url": "Polyamine",
+					"value": []
+				},
+				" umgewandelt werden, die in der Zelle essentielle Funktionen bei der Stabilisierung von ",
+				{
+					"type": "link",
+					"url": "Desoxyribonukleinsäure",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"DNA"
+							]
+						}
+					]
+				},
+				", ",
+				{
+					"type": "link",
+					"url": "Ribonukleinsäure",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"RNA"
+							]
+						}
+					]
+				},
+				" und ",
+				{
+					"type": "link",
+					"url": "Biomembran",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Membranen"
+							]
+						}
+					]
+				},
+				" haben. <small>L</small>-Arginin ist beim Menschen und bei vielen anderen Tieren die alleinige Vorstufe von ",
+				{
+					"type": "link",
+					"url": "Stickstoffmonoxid",
+					"value": []
+				},
+				" (NO), einem der kleinsten ",
+				{
+					"type": "link",
+					"url": "Botenstoff",
+					"value": []
+				},
+				"e im menschlichen Körper. Durch Stickstoffmonoxid (NO)-",
+				{
+					"type": "link",
+					"url": "Synthase",
+					"value": []
+				},
+				" entsteht aus <small>L</small>-Arginin der ''",
+				{
+					"type": "link",
+					"url": "Endothelium-derived relaxing Factor",
+					"value": []
+				},
+				"'' (EDRF), der als NO identifiziert wurde. EDRF führt physiologisch zu einer Gefäßerweiterung, indem das NO in die Muskelschicht der Gefäße ",
+				{
+					"type": "link",
+					"url": "Diffundieren",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"diffundiert"
+							]
+						}
+					]
+				},
+				". Es aktiviert dort die lösliche ",
+				{
+					"type": "link",
+					"url": "Guanylatcyclase",
+					"value": []
+				},
+				" und führt so zur Erschlaffung der ",
+				{
+					"type": "link",
+					"url": "Glatte Muskulatur",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"glatten Muskulatur"
+							]
+						}
+					]
+				},
+				" und zum Nachlassen des Gefäßtonus. Studien zeigen, dass Arginin über diese Gefäßerweiterung einen erhöhten ",
+				{
+					"type": "link",
+					"url": "Blutdruck",
+					"value": []
+				},
+				" signifikant senken kann.<ref name=\"Dong JY\">J. Y. Dong, L. Q. Qin, Z. Zhang, Y. Zhao, J. Wang, F. Arigoni, W. Zhang: ''Effect of oral L-arginine supplementation on blood pressure: A meta-analysis of randomized, double-blind, placebo-controlled trials.'' In: ''Am Heart.'' Band 162, 2011, S. 959–965, ",
+				{
+					"type": "link",
+					"url": "doi:10.1016/j.ahj.2011.09.012",
+					"value": []
+				},
+				".</ref>\n\nAufgrund der gefäßerweiternden Funktion findet Arginin im ",
+				{
+					"type": "link",
+					"url": "Bodybuilding",
+					"value": []
+				},
+				" als sogenanntes „Pump-Supplement“ Anwendung. Weiterhin führt das NO zur Hemmung der ",
+				{
+					"type": "link",
+					"url": "Thrombozytenaggregation",
+					"value": []
+				},
+				" und -adhäsion. Dadurch wird die Bereitschaft für thrombotische Veränderungen an Gefäßplaque-Rupturen herabgesetzt, dem häufigsten Grund für ",
+				{
+					"type": "link",
+					"url": "Schlaganfall",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"zerebrale Insulte"
+							]
+						}
+					]
+				},
+				". Es wird angenommen, dass Arginin die unterdrückte Immunantwort bei schweren Verletzungen, Mangelernährung, ",
+				{
+					"type": "link",
+					"url": "Sepsis",
+					"value": []
+				},
+				" und nach Operationen positiv beeinflussen kann. Bei zusätzlicher Gabe werden eine verbesserte zelluläre Immunantwort, eine Abnahme verletzungsbedingter Funktionsstörungen der ",
+				{
+					"type": "link",
+					"url": "T-Zellen",
+					"value": []
+				},
+				" und eine verstärkte ",
+				{
+					"type": "link",
+					"url": "Phagozytose",
+					"value": []
+				},
+				" beobachtet. Zusätzlich wird die Ausbildung der ",
+				{
+					"type": "link",
+					"url": "endothel",
+					"value": []
+				},
+				"ialen Dysfunktion (gestörten Gefäßfunktion) verhindert.<ref>U. Landmesser u. a.: ''Endothelial function: a critical determinant in atherosclerosis?'' In: ''Circulation.'' 109 (21 Suppl 1), 2004, S. II27–II33. PMID 15173060; [http://circ.ahajournals.org/cgi/reprint/109/21_suppl_1/II-27.pdf PDF] (freier Volltextzugriff, engl.).</ref><ref>P. Fürst, H.-K. Biesalki u. a.: ''Ernährungsmedizin.'' Thieme-Verlag, Stuttgart 2004, S.&nbsp;94–95.</ref>\n\n1998 erhielten die Wissenschaftler ",
+				{
+					"type": "link",
+					"url": "Robert F. Furchgott",
+					"value": []
+				},
+				", ",
+				{
+					"type": "link",
+					"url": "Louis J. Ignarro",
+					"value": []
+				},
+				" und ",
+				{
+					"type": "link",
+					"url": "Ferid Murad",
+					"value": []
+				},
+				" für die Erforschung des Zusammenhangs von Arginin und dem körpereigenen ",
+				{
+					"type": "link",
+					"url": "Second Messenger",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"sekundären Botenstoff"
+							]
+						}
+					]
+				},
+				" ",
+				{
+					"type": "link",
+					"url": "Stickstoffmonoxid",
+					"value": []
+				},
+				" (''Stickoxid'', NO) den ",
+				{
+					"type": "link",
+					"url": "Nobelpreis für Medizin",
+					"value": []
+				},
+				".\n\nNeue Studien zeigen zudem, dass eine Supplementation mit Arginin die Freisetzung von Insulin aus den beta-Zellen der Pankreas fördern kann und gleichzeitig die Insulinresistenz signifikant verringert.<ref>L. D. Monti, E. Setola, P. C. Lucotti, M. M. Marrocco-Trischitta, M. Comola, E. Galluccio, A. Poggi, S. Mammì, A. L. Catapano, G. Comi, R. Chiesa, E. Bosi, P. M. Piatti: ''Effect of a long-term oral l-arginine supplementation on glucose metabolism: a randomized, double-blind, placebo-controlled trial.'' In: ''Diabetes Obes Metab.'' 14(10), Okt 2012, S. 893–900. ",
+				{
+					"type": "link",
+					"url": "doi:10.1111/j.1463-1326.2012.01615.x",
+					"value": []
+				},
+				".</ref><ref>L. D. Monti, M. C. Casiraghi, E. Setola, E. Galluccio, M. A. Pagani, L. Quaglia, E. Bosi, P. Piatti: ''L-arginine enriched biscuits improve endothelial function and glucose metabolism: a pilot study in healthy subjects and a cross-over study in subjects with impaired glucose tolerance and metabolic syndrome.'' In: ''Metabolism.'' 62(2), Feb 2013, S. 255–264. ",
+				{
+					"type": "link",
+					"url": "doi:10.1016/j.metabol.2012.08.004",
+					"value": []
+				},
+				".</ref>\nNeben der positiven Wirkung von <small>L</small>-Arginin auf die Glucosetoleranz sowie auf Insulinsensitivität und -produktion führt eine <small>L</small>-Arginin-Supplementation zusätzlich zu einem verbesserten antioxidativen Status.<ref>S. Fazelian, M. Hoseini, N. Namazi, J. Heshmati, M. Sepidar Kish, M. Mirfatahi, A. S. Some Olia: ''Effects of L-Arginine Supplementation on Antioxidant Status and Body Composition in Obese Patients with Pre-diabetes: A Randomized Controlled Clinical Trial.'' In: ''Adv Pharm Bull.'' 4(Suppl 1), Okt 2014, S. 449–454. ",
+				{
+					"type": "link",
+					"url": "doi:10.5681/apb.2014.066",
+					"value": []
+				},
+				".</ref>\n\nArginin antagonisiert die gefährlichen Wirkungen von ",
+				{
+					"type": "link",
+					"url": "Asymmetrisches Dimethylarginin",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"asymmetrischem Dimethylarginin"
+							]
+						}
+					]
+				},
+				" (ADMA) auf die Blutgefäße. ADMA entkoppelt die ",
+				{
+					"type": "link",
+					"url": "Stickstoffmonoxid",
+					"value": []
+				},
+				"-Bildung, wodurch eine endotheliale Dysfunktion mit nitrosativem und oxidativem Stress ausgelöst wird.<ref name=\"Ströhle2012\">A. Ströhle, A. Hahn: ''Arginin bei Atherosklerose: Diätetische Maßnahmen bei Atherosklerose – Stellenwert von L-Arginin.'' In: ''Deutsche Apotheker Zeitung.'' Teil 1: Band 20, 2012, S. 97–102 ([https://www.deutsche-apotheker-zeitung.de/daz-az/2012/daz-20-2012/arginin-bei-atherosklerose online], freier Volltext) und Teil 2: Band 21, S. 74–83 ([https://www.deutsche-apotheker-zeitung.de/daz-az/2012/daz-21-2012/arginin-bei-atherosklerose online], freier Volltext).</ref><ref name=\"Seljeflot I.\" /><ref name=\"Andersohn2012\" /><ref name=\"Pizzarelli\">F. Pizzarelli, R. Maas, P. Dattolo, G. Tripepi, S. Michelassi, G. D’Arrigo, M. Mieth, S. Bandinelli, L. Ferrucci, C. Zoccali: ''Asymmetric dimethylarginine predicts survival in the elderly.'' In: ''Age.'' Band 35, Nr. 6, 2013, S. 2465–2475 ",
+				{
+					"type": "template",
+					"name": "PMC",
+					"camel": "pmc",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"3824988"
+							]
+						}
+					]
+				},
+				".</ref><ref name=\"Bode-Böger S.M., Muke J.\">S. M. Bode-Böger, J. Muke, A. Surdacki, G. Brabant, R. H. Böger, J. C. Frölich: ''Oral L-arginine improves endothelial function in healthy individuals older than 70 years.'' In: ''Vasc. Med.'' Band 8, 2003, S. 77–81, ",
+				{
+					"type": "link",
+					"url": "doi:10.1191/1358863x03vm474oa",
+					"value": []
+				},
+				" (freier Volltext).</ref><ref name=\"Jung K., Petrowicz O.\">K. Jung, O. Petrowicz: ''L-Arginin und Folsäure bei Arteriosklerose. Ergebnisse einer prospektiven, multizentrischen Verzehrsstudie.'' In: ''Perfusion.'' Band 21, 2008, S. 148–156.</ref><ref name=\"Sydow\">K. Sydow, R. H. Böger: ''Reloaded: ADMA and oxidative stress are responsible for endothelial dysfunction in hyperhomocyst(e)inaemia: effects of L-arginine and B vitamins.'' In: ''Cardiovasc. Res.'' 2012, ",
+				{
+					"type": "link",
+					"url": "doi:10.1093/cvr/cvs205",
+					"value": []
+				},
+				".</ref>\n\n== Bedarf ==\nDer Mensch kann innerhalb des ",
+				{
+					"type": "link",
+					"url": "Harnstoffzyklus",
+					"value": []
+				},
+				" Arginin selbst ",
+				{
+					"type": "link",
+					"url": "Synthese (Chemie)",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"synthetisieren"
+							]
+						}
+					]
+				},
+				", allerdings sind die entstehenden Mengen nicht ausreichend, um den Bedarf vor allem bei heranwachsenden Menschen vollständig zu decken. Daher ist <small>L</small>-Arginin für Kinder ",
+				{
+					"type": "link",
+					"url": "Essentielle Stoffe",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"essentiell"
+							]
+						}
+					]
+				},
+				". Aber auch bei Erwachsenen wird der Bedarf an <small>L</small>-Arginin durch die körpereigene Produktion oft nicht ausreichend abgedeckt. Besonders in der Wachstumsphase, durch Stress, bei diversen Krankheiten (z.&nbsp;B. ",
+				{
+					"type": "link",
+					"url": "Arteriosklerose",
+					"value": []
+				},
+				", ",
+				{
+					"type": "link",
+					"url": "Bluthochdruck",
+					"value": []
+				},
+				", ",
+				{
+					"type": "link",
+					"url": "erektile Dysfunktion",
+					"value": []
+				},
+				", Gefäßerkrankungen) oder nach Unfällen übersteigt der Bedarf an Arginin die vom menschlichen Organismus produzierte Menge.<ref name=\"Ströhle2012\" /><ref name=\"Seljeflot I.\">I. Seljeflot I., B. B. Nilsson, A. S. Westheim, V. Bratseth, H. Arnesen: ''The L-arginine-asymmetric dimethylarginine ratio is strongly related to the severity of chronic heart failure. No effects of exercise training.'' In: ''J. Cardiac. Fail.'' Band 17, 2011, S. 135–142, ",
+				{
+					"type": "link",
+					"url": "doi:10.1016/j.cardfail.2010.09.003",
+					"value": []
+				},
+				".</ref> Auch im Alter steigt der Bedarf an <small>L</small>-Arginin stark an, da der endogene Gegenspieler, das ",
+				{
+					"type": "link",
+					"url": "Asymmetrisches Dimethylarginin",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"asymmetrische Dimethylarginin"
+							]
+						}
+					]
+				},
+				" (ADMA), um den Faktor 4 ansteigt und damit 40-fach erhöhte Argininkonzentrationen zur Neutralisierung der gefährlichen Effekte dieses Sterblichkeitsfaktors benötigt werden.<ref name=\"Ströhle2012\" /><ref name=\"Seljeflot I.\" /><ref name=\"Andersohn2012\">M. Anderssohn, M. Rosenberg, E. Schwedhelm, C. Zugck, M. Lutz, N. Lüneburg, N. Frey, R. H. Böger: ''The L-Arginine-asymmetric dimethylarginine ratio is an independent predictor of mortality in dilated cardiomyopathy.'' In: ''J. Card. Fail.'' Band 18, Nr. 12, 2012, S. 904–911, ",
+				{
+					"type": "link",
+					"url": "doi:10.1016/j.cardfail.2012.10.011",
+					"value": []
+				},
+				".</ref><ref name=\"Pizzarelli\" /><ref name=\"Bode-Böger S.M., Muke J.\" /><ref name=\"Jung K., Petrowicz O.\" /> Diese Mengen können nur durch eine diätetische Zufuhr gedeckt werden. Entscheidend für den Bedarf an <small>L</small>-Arginin sind daher auch Faktoren wie oxidativer und nitrosativer Stress sowie die ADMA-Spiegel und damit das <small>L</small>-Arginin-ADMA-Verhältnis.<ref name=\"Ströhle2012\" /><ref name=\"Sydow\" />\n\nBei einer Proteinzufuhr von etwa 70–90&nbsp;g/Tag ergibt sich eine rechnerische tägliche Argininzufuhr von ca. 1–5&nbsp;g/Tag.<ref name=\"Ströhle2012\" /><ref>A. Hahn: ''Nahrungsergänzungsmittel und ergänzende bilanzierte Diäten.'' Wissenschaftliche Verlagsgesellschaft, Stuttgart 2006, S.&nbsp;295.</ref>\n\n== Medizinische Verwendung ==\n<small>L</small>-Arginin wird zur Behandlung einer schweren ",
+				{
+					"type": "link",
+					"url": "Metabolische Alkalose",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"metabolischen Alkalose"
+							]
+						}
+					]
+				},
+				" verwendet. In der Kinderheilkunde ist <small>L</small>-Arginin auch zur Behandlung eines durch eine schwere angeborene Stoffwechselstörung bedingten erhöhten ",
+				{
+					"type": "link",
+					"url": "Ammoniak",
+					"value": []
+				},
+				"gehaltes im Blut (",
+				{
+					"type": "link",
+					"url": "Hyperammonämie",
+					"value": []
+				},
+				") angezeigt. Diagnostisch wird <small>L</small>-Arginin zur Abklärung eines Wachstumshormonmangels bei ",
+				{
+					"type": "link",
+					"url": "Minderwuchs",
+					"value": []
+				},
+				" eingesetzt.\n\nAls (semi)essentielle Aminosäure ist <small>L</small>-Arginin obligatorischer Bestandteil einer ",
+				{
+					"type": "link",
+					"url": "Parenterale Ernährung",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"parenteralen Ernährung"
+							]
+						}
+					]
+				},
+				". In Elektrolyt-Konzentraten zum Zusatz zu Infusionslösungen und in peroralen Diätetika wird <small>L</small>-Arginin ebenfalls eingesetzt.<ref name=\"Ebel\">S. Ebel, H. J. Roth (Hrsg.): ''Lexikon der Pharmazie.'' Georg Thieme Verlag, 1987, ISBN 3-13-672201-9, S.&nbsp;56.</ref>\n\nPharmazeutisch verwendet wird meistens das <small>L</small>-Arginin-",
+				{
+					"type": "link",
+					"url": "Hydrochlorid",
+					"value": []
+				},
+				".\n\nArginin wird auch als Zusatz in Zahnpasta verwendet. Verglichen mit einer herkömmlichen Zahnpasta mit Fluoridzusatz wurde eine verbesserte ",
+				{
+					"type": "link",
+					"url": "Remineralisierung",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Remineralisierung der Zähne"
+							]
+						}
+					]
+				},
+				" mit einer Kombination aus Arginin, Calciumcarbonat und Fluorid nachgewiesen.<ref>R. Cantore, I. Petrou, S. Lavender, P. Santarpia, Z. Liu, E. Gittins, M. Vandeven, D. Cummins, R. Sullivan, N. Utgikar: ''In situ clinical effects of new dentifrices containing 1.5% arginine and fluoride on enamel de- and remineralization and plaque metabolism.'' In: ''The Journal of clinical dentistry.'' Band 24 Spec no A, 2013, S.&nbsp;A32–A44. PMID 24156138.</ref><ref>I. Petrou, R. Heu, M. Stranick, S. Lavender, L. Zaidel, D. Cummins, R. J. Sullivan, C. Hsueh, J. K. Gimzewski: ''A breakthrough therapy for dentin hypersensitivity: how dental products containing 8 % arginine and calcium carbonate work to deliver effective relief of sensitive teeth.'' In: ''The Journal of clinical dentistry.'' Band 20, Nummer 1, 2009, S.&nbsp;23–31. PMID 19489189.</ref>\n\n== Supplemente ==\nArginin wird zur Supplementierung bei unzureichender Zufuhr oder erhöhtem Bedarf als ",
+				{
+					"type": "link",
+					"url": "diätetisches Lebensmittel",
+					"value": []
+				},
+				", insbesondere als ",
+				{
+					"type": "link",
+					"url": "Diätverordnung",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Lebensmittel für besondere medizinische Zwecke"
+							]
+						}
+					]
+				},
+				", gemäß ",
+				{
+					"type": "link",
+					"url": "Diätverordnung",
+					"value": []
+				},
+				" für verschiedene Krankheitszustände wie ",
+				{
+					"type": "link",
+					"url": "erektile Dysfunktion",
+					"value": []
+				},
+				", ",
+				{
+					"type": "link",
+					"url": "Arteriosklerose",
+					"value": []
+				},
+				" im Frühstadium, Funktionsstörungen der Blutgefäß-Innenwand (",
+				{
+					"type": "link",
+					"url": "endotheliale Dysfunktion",
+					"value": []
+				},
+				") und ",
+				{
+					"type": "link",
+					"url": "Bluthochdruck",
+					"value": []
+				},
+				" vermarktet.<ref name=\"Ströhle2012\" /><ref name=\"Bode-Böger S.M., Muke J.\" /><ref name=\"Jung K., Petrowicz O.\" /> Diese Indikationen sind für die diätetische Behandlung von Erkrankten etabliert. Ob bei Patienten mit bestehender Herzschwäche die Einnahme von Arginin die körperliche Belastbarkeit oder die Lebensqualität verbessert, bleibt offen – die Ergebnisse einer kleinen, placebokontrollierten Studie verneinen dies.<ref>",
+				{
+					"type": "template",
+					"name": "Internetquelle",
+					"camel": "internetquelle",
+					"value": [
+						{
+							"type": "argument",
+							"key": "autor",
+							"camel": "autor",
+							"value": [
+								"Iris Hinneburg"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "url",
+							"camel": "url",
+							"value": [
+								"https://www.medizin-transparent.at/arginin-gesundheitselixier-fuer-das-herz/"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "titel",
+							"camel": "titel",
+							"value": [
+								"Arginin: Schutz von Herz und Kreislauf nicht belegt"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "werk",
+							"camel": "werk",
+							"value": [
+								"",
+								{
+									"type": "link",
+									"url": "Medizin transparent",
+									"value": []
+								},
+								" "
+							]
+						},
+						{
+							"type": "argument",
+							"key": "hrsg",
+							"camel": "hrsg",
+							"value": [
+								""
+							]
+						},
+						{
+							"type": "argument",
+							"key": "datum",
+							"camel": "datum",
+							"value": [
+								"2020-06-30"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "abruf",
+							"camel": "abruf",
+							"value": [
+								"2020-07-13"
+							]
+						}
+					]
+				},
+				"</ref>\n\nDie Verwendung gesundheitsbezogener Angaben (''",
+				{
+					"type": "link",
+					"url": "Verordnung EG Nr. 1924/2006 (Health Claims)",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"health claims"
+							]
+						}
+					]
+				},
+				"''), die hingegen den Beitrag von <small>L</small>-Arginin auf gesunde Menschen zur Unterstützung des Kreislaufsystems (Aufrechterhaltung einer normalen Durchblutung, eines gesunden ",
+				{
+					"type": "link",
+					"url": "Blutdruck",
+					"value": []
+				},
+				"s und der ",
+				{
+					"type": "link",
+					"url": "Hämatopoese",
+					"value": []
+				},
+				"), zur Unterstützung und Verbesserung der ",
+				{
+					"type": "link",
+					"url": "Erektion",
+					"value": []
+				},
+				" sowie zur Kräftigung der Muskeln und zur Bereitstellung von ",
+				{
+					"type": "link",
+					"url": "Stickoxid",
+					"value": []
+				},
+				" im Stoffwechsel betreffen, beurteilte die ",
+				{
+					"type": "link",
+					"url": "europäische Behörde für Lebensmittelsicherheit",
+					"value": []
+				},
+				" (EFSA) 2011 als wissenschaftlich nicht gerechtfertigt.<ref>",
+				{
+					"type": "template",
+					"name": "Literatur",
+					"camel": "literatur",
+					"value": [
+						{
+							"type": "argument",
+							"key": "Autor",
+							"camel": "autor",
+							"value": [
+								"Carlo Agostoni, Jean-Louis Bresson, Susan Fairweather-Tait, Albert Flynn, Ines Golly, Hannu Korhonen, Pagona Lagiou, Martinus Løvik, Rosangela Marchelli, Ambroise Martin, Bevan Moseley, Monika Neuhäuser-Berthold, Hildegard Przyrembel, Seppo Salminen, Yolanda Sanz, Sean J. J. Strain, Stephan Strobel, Inge Tetens, Daniel Tomé, Hendrik van Loveren, Hans Verhagen"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "Titel",
+							"camel": "titel",
+							"value": [
+								"Scientific Opinion on the substantiation of health claims related to L arginine and “immune system functions” (ID 455, 1713), growth or maintenance of muscle mass (ID 456, 1712, 4681), normal red blood cell formation (ID 456, 664, 1443, 1712), maintenance of normal blood pressure (ID 664, 1443), improvement of endothelium-dependent vasodilation (ID 664, 1443, 4680), “physical performance and condition” (ID 1820), “système nerveux” (ID 608), maintenance of normal erectile function (ID 649, 4682), contribution to normal spermatogenesis (ID 650, 4682), “function of the intestinal tract” (ID 740), and maintenance of normal ammonia clearance (ID 4683) pursuant to Article 13(1) of Regulation (EC) No 1924/2006"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "Sammelwerk",
+							"camel": "sammelwerk",
+							"value": [
+								"",
+								{
+									"type": "link",
+									"url": "EFSA Journal",
+									"value": []
+								},
+								" "
+							]
+						},
+						{
+							"type": "argument",
+							"key": "Band",
+							"camel": "band",
+							"value": [
+								"9"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "Nummer",
+							"camel": "nummer",
+							"value": [
+								"4"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "Datum",
+							"camel": "datum",
+							"value": [
+								"2011"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "Seiten",
+							"camel": "seiten",
+							"value": [
+								"2051–2081"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "DOI",
+							"camel": "doi",
+							"value": [
+								"10.2903/j.efsa.2011.2051"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "Kommentar",
+							"camel": "kommentar",
+							"value": [
+								"freier Volltext"
+							]
+						}
+					]
+				},
+				"</ref> Einzelne Arbeiten bestätigen die gesundheitsfördernden Wirkungen von <small>L</small>-Arginin bei Gesunden ebenso wie bei Arteriosklerose, endothelialer Dysfunktion und Bluthochdruck und empfehlen die Aminosäure zur Therapie der Herz-Kreislauf-Erkrankungen zugrundeliegenden Stoffwechselstörungen,<ref name=\"Dong JY\" /><ref name=\"Pizzarelli\" /><ref name=\"Bode-Böger S.M., Muke J.\" /><ref name=\"Jung K., Petrowicz O.\" /><ref>P. Lucotti, L. Monti, E. Setola, G. La Canna, A. Castiglioni, A. Rossodivita, M. G. Pala, F. Formica, G. Paolini, A. L. Catapano, E. Bosi, O. Alfieri, P. Piatti: ''Oral L-arginine supplementation improves endothelial function and ameliorates insulin sensitivity and inflammation in cardiopathic nondiabetic patients after an aortocoronary bypass.'' In: ''Metabolism.'' Band 58, Nr. 9, 2009, S. 1270–1276, ",
+				{
+					"type": "link",
+					"url": "doi:10.1016/j.metabol.2009.03.029",
+					"value": []
+				},
+				".</ref><ref>Y. Bai, L. Sun, T. Yang, K. Sun, R. Chen J. Hui: ''Increase in fasting vascular endothelial function after short-term oral L-arginine is effective when baseline flow-mediated dilation is low: a meta-analysis of randomized controlled trials.'' In: ''Am. J. Clin. Nutr.'' Band 89, Nr. 1, 2009, S. 77–84, ",
+				{
+					"type": "link",
+					"url": "doi:10.3945/ajcn.2008.26544",
+					"value": []
+				},
+				" (freier Volltext).</ref><ref>J. W. Drover, R. Dhaliwal, L. Weitzel, P. E. Wischmeyer, J. B. Ochoa, D. K. Heyland: ''Perioperative use of arginine-supplemented diets: a systematic review of the evidence.'' In: ''J. Am. Coll. Surg.'' Band 212, Nr. 3, 2011, S. 385–399, ",
+				{
+					"type": "link",
+					"url": "doi:10.1016/j.jamcollsurg.2010.10.016",
+					"value": []
+				},
+				".</ref> auch in Kombination mit Vitamin B6, Vitamin B12 und Folsäure.<ref name=\"kombi\">",
+				{
+					"type": "template",
+					"name": "Literatur",
+					"camel": "literatur",
+					"value": [
+						{
+							"type": "argument",
+							"key": "Autor",
+							"camel": "autor",
+							"value": [
+								"Daniel Menzel, Hermann Haller, Manfred Wilhelm, Horst Robenek"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "Titel",
+							"camel": "titel",
+							"value": [
+								"l-Arginine and B vitamins improve endothelial function in subjects with mild to moderate blood pressure elevation"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "Sammelwerk",
+							"camel": "sammelwerk",
+							"value": [
+								"European Journal of Nutrition"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "Datum",
+							"camel": "datum",
+							"value": [
+								"2016-11-05"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "Seiten",
+							"camel": "seiten",
+							"value": [
+								"1–12"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "DOI",
+							"camel": "doi",
+							"value": [
+								"10.1007/s00394-016-1342-6"
+							]
+						}
+					]
+				},
+				"</ref> Die hierbei festgestellte mäßige Absenkung des systolischen Blutdrucks war hinsichtlich der Ausgangswerte signifikant, nicht aber im Vergleich mit einer Placebogruppe.<ref name=\"kombi\" /> Die Halbwertszeit nach der oralen Einnahme von 6 Gramm <small>L</small>-Arginin liegt bei 1,5 bis 2 Stunden.<ref>",
+				{
+					"type": "template",
+					"name": "Internetquelle",
+					"camel": "internetquelle",
+					"value": [
+						{
+							"type": "argument",
+							"key": "url",
+							"camel": "url",
+							"value": [
+								"https://www.deutsche-apotheker-zeitung.de/daz-az/2012/daz-21-2012/arginin-bei-atherosklerose"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "autor",
+							"camel": "autor",
+							"value": [
+								"Alexander Ströhle, Andreas Hahn"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "titel",
+							"camel": "titel",
+							"value": [
+								"Diätetische Maßnahmen bei Atherosklerose – Stellenwert von L-Arginin, Teil 2: Vasoprotektive Effekte von L-Arginin"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "werk",
+							"camel": "werk",
+							"value": [
+								"deutsche-apotheker-zeitung.de"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "datum",
+							"camel": "datum",
+							"value": [
+								"2012-05-24"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "abruf",
+							"camel": "abruf",
+							"value": [
+								"2019-06-04"
+							]
+						}
+					]
+				},
+				"</ref>\n\n== Literatur ==\n* Jeremy M. Berg, John L. Tymoczko, ",
+				{
+					"type": "link",
+					"url": "Lubert Stryer",
+					"value": []
+				},
+				": ''Biochemie.'' 6. Auflage. Spektrum Akademischer Verlag, Heidelberg 2007, ISBN 978-3-8274-1800-5.\n* Donald Voet, Judith G. Voet: ''Biochemistry.'' 3. Auflage. John Wiley & Sons, New York 2004, ISBN 0-471-19350-X.\n* ",
+				{
+					"type": "link",
+					"url": "Bruce Alberts",
+					"value": []
+				},
+				", Alexander Johnson, Peter Walter, Julian Lewis, Martin Raff, Keith Roberts: ''Molecular Biology of the Cell.'' 5. Auflage. Taylor & Francis, 2007, ISBN 978-0-8153-4106-2.\n\n== Weblinks ==\n",
+				{
+					"type": "template",
+					"name": "Commonscat",
+					"camel": "commonscat",
+					"value": [
+						{
+							"type": "argument",
+							"value": [
+								"Arginine"
+							]
+						},
+						{
+							"type": "argument",
+							"value": [
+								"Arginin"
+							]
+						}
+					]
+				},
+				"\n",
+				{
+					"type": "template",
+					"name": "Wiktionary",
+					"camel": "wiktionary",
+					"value": []
+				},
+				"\n\n== Einzelnachweise ==\n<references />\n\n",
+				{
+					"type": "template",
+					"name": "Navigationsleiste Aminosäuren",
+					"camel": "navigationsleisteAminosäuren",
+					"value": []
+				},
+				"\n\n",
+				{
+					"type": "template",
+					"name": "Normdaten",
+					"camel": "normdaten",
+					"value": [
+						{
+							"type": "argument",
+							"key": "TYP",
+							"camel": "typ",
+							"value": [
+								"s"
+							]
+						},
+						{
+							"type": "argument",
+							"key": "GND",
+							"camel": "gnd",
+							"value": [
+								"4142987-4"
+							]
+						}
+					]
+				},
+				"\n\n",
+				{
+					"type": "link",
+					"url": "Kategorie:Proteinogene Aminosäure",
+					"value": []
+				},
+				"\n",
+				{
+					"type": "link",
+					"url": "Kategorie:Arzneistoff",
+					"value": []
+				},
+				"\n",
+				{
+					"type": "link",
+					"url": "Kategorie:Guanidin",
+					"value": []
+				},
+				"\n",
+				{
+					"type": "link",
+					"url": "Kategorie:Alpha-Aminosäure",
+					"value": []
+				},
+				"\n",
+				{
+					"type": "link",
+					"url": "Kategorie:Aromastoff (EU)",
+					"value": []
+				},
+				""
+			]
 		}
 	]
 }
