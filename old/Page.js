@@ -1,5 +1,6 @@
 // import WikiBox from './Box.js';
 import WikiParser from './Parser.js';
+import * as API from './API.js';
 
 export default class WikiPage {
 	#content;
@@ -19,16 +20,17 @@ export default class WikiPage {
 	 * @param {string} title 
 	 * @param {dict} options - {raw:true}
 	 */
-	async languages(options = {}) {
-		let output = [];
-		var llcontinue;
-		do {
-			let res = await fetch(`https://${this.wiki.language}.wikipedia.org/w/api.php?action=query&format=json&origin=*&prop=langlinks&titles=${this.title}&llprop=autonym%7Clangname%7Curl&lllimit=max${llcontinue ? `&llcontinue=${llcontinue}` : ''}`).then(data => data.json())
-			output = [...output, ...Object.values(res?.query?.pages)[0]?.langlinks ?? []]
-			// console.log('o', output)
-			llcontinue = res?.continue?.llcontinue
-		} while (llcontinue)
-		return options.raw ? output : Object.fromEntries(output.map(x => [x.lang, x['*']]));
+	languages(options = {}) {
+		return API.languages(this.title, { language: this.wiki.language })
+		// let output = [];
+		// var llcontinue;
+		// do {
+		// 	let res = await fetch(`https://${this.wiki.language}.wikipedia.org/w/api.php?action=query&format=json&origin=*&prop=langlinks&titles=${this.title}&llprop=autonym%7Clangname%7Curl&lllimit=max${llcontinue ? `&llcontinue=${llcontinue}` : ''}`).then(data => data.json())
+		// 	output = [...output, ...Object.values(res?.query?.pages)[0]?.langlinks ?? []]
+		// 	// console.log('o', output)
+		// 	llcontinue = res?.continue?.llcontinue
+		// } while (llcontinue)
+		// return options.raw ? output : Object.fromEntries(output.map(x => [x.lang, x['*']]));
 	}
 
 	// box(title) {

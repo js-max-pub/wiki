@@ -16,3 +16,4 @@ for await (let page of api.languages('Canakinumab', { language: 'de', short: tru
 }
 
 // console.log(await api.text('Canakinumab', { language: 'de' }))
+
