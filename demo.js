@@ -28,3 +28,4 @@ import FS from 'https://jsv.max.pub/fs/2021/deno.js'
 // FS.file('demo.json').json = json
 
 FS.file('demo.json').json = await wiki('de').page('Arginin').parse().json()
+FS.file('demo.md').text = await wiki('de').page('Arginin').text()
