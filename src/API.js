@@ -1,4 +1,6 @@
 // import { FS } from 'https://jsv.max.pub/fs/2021/deno.js'
+import { Log } from 'https://v.max.pub/@js-max-pub/log/2021-07/css.js'
+let log = new Log('wiki')
 
 export const defaultOptions = {
 	language: 'en',
@@ -21,7 +23,8 @@ export function url(language = 'en', params = {}) {
 }
 export function fetchJSON(language, params = {}) {
 	params = { ...defaultParameters, ...params }
-	console.log('-------load', url(language, params))
+	log.timeCounter.url(language, params)
+	// console.log('-------load',)
 	return fetch(url(language, params)).then(x => x.json())
 }
 export async function* fetchAll(language, params = {}) {

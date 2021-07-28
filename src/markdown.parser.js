@@ -6,7 +6,7 @@ import { camelCase } from 'https://jsv.max.pub/string/2021/mod.js'
 
 
 export function markdownParser(text = '') {
-	console.log('parse wikitext', text.length)
+	// console.log('parse wikitext', text.length)
 	let parts = text.split(/({{|\||}}|\[\[|\]\])/g)//.filter(x => x !== '')
 
 	let output = { root: true, type: 'text', value: [] }
