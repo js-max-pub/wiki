@@ -23,7 +23,7 @@ export function url(language = 'en', params = {}) {
 }
 export function fetchJSON(language, params = {}) {
 	params = { ...defaultParameters, ...params }
-	log.timeCounter.url(language, params)
+	log.timeCounter.text(url(language, params))
 	// console.log('-------load',)
 	return fetch(url(language, params)).then(x => x.json())
 }
