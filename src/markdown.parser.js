@@ -1,25 +1,11 @@
 // import { last } from 'https://js.max.pub/array/src.js'
 // import { camelCase } from 'https://js.max.pub/string/src.js'
-import { last, camelCase } from '../deps.js'
+// import { last, camelCase } from '../deps.js'
+import { last } from 'https://jsv.max.pub/array/2021/mod.js'
+import { camelCase } from 'https://jsv.max.pub/string/2021/mod.js'
 
 
-function parseArgument(text) {
-	let tmp = text.split('=')
-	if (tmp.length > 1) return {
-		type: 'argument',
-		key: tmp[0].trim(),
-		camel: camelCase(tmp[0].trim()),
-		value: [tmp.slice(1).join('=').trim()],
-		// text
-	}
-	return {
-		type: 'argument',
-		value: [tmp.join('=').trim()],
-		// text
-	}
-}
-
-export default function (text = '') {
+export function markdownParser(text = '') {
 	console.log('parse wikitext', text.length)
 	let parts = text.split(/({{|\||}}|\[\[|\]\])/g)//.filter(x => x !== '')
 
@@ -71,4 +57,21 @@ export default function (text = '') {
 		}
 	}
 	return output
+}
+
+
+function parseArgument(text) {
+	let tmp = text.split('=')
+	if (tmp.length > 1) return {
+		type: 'argument',
+		key: tmp[0].trim(),
+		camel: camelCase(tmp[0].trim()),
+		value: [tmp.slice(1).join('=').trim()],
+		// text
+	}
+	return {
+		type: 'argument',
+		value: [tmp.join('=').trim()],
+		// text
+	}
 }

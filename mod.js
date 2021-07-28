@@ -5,4 +5,4 @@
 
 export * from './src/API.js'
 export * from './src/classes.js'
-export * from './src/parser.js'
+export * from './src/markdown.parser.js'

@@ -1,0 +1,81 @@
+<root><template><title>Infobox Chemikalie
+</title><part><name> Strukturformel  </name><equals>=</equals><value> <link> <part>Datei:Strukturformel Amoxicillin.svg</part> <part>250px</part> <part>Strukturformel von Amoxicillin</part> </link>
+</value></part><part><name> Suchfunktion    </name><equals>=</equals><value> C16H19N3O5S
+</value></part><part><name> Freiname        </name><equals>=</equals><value> Amoxicillin
+</value></part><part><name> Andere Namen    </name><equals>=</equals><value> (2''S'',5''R'',6''R'')-6-[(''R'')-2-Amino-2-(4-hydroxyphenyl)acetamido]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptan-2-carbonsäure
+</value></part><part><name> Summenformel    </name><equals>=</equals><value> C&lt;sub&gt;16&lt;/sub&gt;H&lt;sub&gt;19&lt;/sub&gt;N&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;5&lt;/sub&gt;S
+</value></part><part><name> CAS             </name><equals>=</equals><value> * <template><title>CASRN</title><part><name index="1"/><value>26787-78-0</value></part></template>
+* <template><title>CASRN</title><part><name index="1"/><value>61336-70-7</value></part><part><name index="2"/><value>Q27122483</value></part></template> &lt;small&gt;(Amoxicillin-Trihydrat)&lt;/small&gt;
+* <template><title>CASRN</title><part><name index="1"/><value>34642-77-8</value></part><part><name index="2"/><value>Q27122484</value></part></template> &lt;small&gt;(Amoxicillin-Natrium)&lt;/small&gt;
+</value></part><part><name> EG-Nummer       </name><equals>=</equals><value> 
+</value></part><part><name> ECHA-ID         </name><equals>=</equals><value> 
+</value></part><part><name> PubChem         </name><equals>=</equals><value> 33613
+</value></part><part><name> ChemSpider      </name><equals>=</equals><value> 
+</value></part><part><name> ATC-Code        </name><equals>=</equals><value> <template><title>ATC</title><part><name index="1"/><value>J01</value></part><part><name index="2"/><value>CA04</value></part></template>
+</value></part><part><name> DrugBank        </name><equals>=</equals><value> DB01060
+</value></part><part><name> Wirkstoffgruppe </name><equals>=</equals><value> <link> <part>β-Lactam-Antibiotika</part> </link>
+</value></part><part><name> Wirkmechanismus </name><equals>=</equals><value> 
+</value></part><part><name> Molare Masse    </name><equals>=</equals><value> 365,40 g·mol&lt;sup&gt;−1&lt;/sup&gt;
+</value></part><part><name> Dichte          </name><equals>=</equals><value> 
+</value></part><part><name> Schmelzpunkt    </name><equals>=</equals><value> 
+</value></part><part><name> Siedepunkt      </name><equals>=</equals><value> 
+</value></part><part><name> Dampfdruck      </name><equals>=</equals><value> 
+</value></part><part><name> pKs             </name><equals>=</equals><value> 
+</value></part><part><name> Löslichkeit     </name><equals>=</equals><value> 
+</value></part><part><name> Quelle GHS-Kz   </name><equals>=</equals><value> <ext><name>ref</name><attr> name=&quot;Sigma&quot;</attr><inner>{{Sigma-Aldrich|SIGMA|A8523|Abruf=2011-03-09}}</inner><close>&lt;/ref&gt;</close></ext>
+</value></part><part><name> GHS-Piktogramme </name><equals>=</equals><value> <template><title>GHS-Piktogramme-klein</title><part><name index="1"/><value>08</value></part></template>
+</value></part><part><name> GHS-Signalwort  </name><equals>=</equals><value> Gefahr
+</value></part><part><name> H               </name><equals>=</equals><value> <template><title>H-Sätze</title><part><name index="1"/><value>317</value></part><part><name index="2"/><value>334</value></part></template>
+</value></part><part><name> EUH             </name><equals>=</equals><value> <template><title>EUH-Sätze</title><part><name index="1"/><value>-</value></part></template>
+</value></part><part><name> P               </name><equals>=</equals><value> <template><title>P-Sätze</title><part><name index="1"/><value>261</value></part><part><name index="2"/><value>280</value></part><part><name index="3"/><value>342+311</value></part></template>
+</value></part><part><name> Quelle P        </name><equals>=</equals><value> <ext><name>ref</name><attr> name=&quot;Sigma&quot; </attr></ext>
+</value></part><part><name> MAK             </name><equals>=</equals><value> 
+</value></part><part><name> ToxDaten        </name><equals>=</equals><value> <template><title>ToxDaten </title><part><name>Typ</name><equals>=</equals><value>LD50 </value></part><part><name>Organismus</name><equals>=</equals><value>Maus </value></part><part><name>Applikationsart</name><equals>=</equals><value>intraperitoneal </value></part><part><name>Wert</name><equals>=</equals><value>3590 mg·kg&lt;sup&gt;−1&lt;/sup&gt; </value></part><part><name>Bezeichnung</name><equals>=</equals><value> </value></part><part><name>Quelle</name><equals>=</equals><value><ext><name>ref</name><attr> name=&quot;Sigma&quot; </attr></ext> </value></part></template>
+</value></part></template>
+
+'''Amoxicillin''' ist ein <link> <part>Breitbandantibiotikum</part> </link> aus der Gruppe der <link> <part>Aminopenicilline</part> </link> und gehört damit zur Wirkstoffgruppe der <link> <part>β-Lactam-Antibiotika</part> </link>. Das Medikament ist seit 1981 zur Behandlung von Infektionen zugelassen und kann <link> <part>Peroral</part> <part>oral</part> </link> oder <link> <part>parenteral</part> </link> angewendet werden. Fertigarzneimittel sind unter verschiedenen <link> <part>#Handelsnamen</part> <part>Namen</part> </link> im Handel.
+
+<h level="2" i="1">== Anwendung ==</h>
+Amoxicillin wird gegen Infektionen des <link> <part>Magen-Darm-Trakt</part> </link>es, der <link> <part>Gallenwege</part> </link> und der ableitenden <link> <part>Harnwege</part> </link>, gegen <link> <part>Atemwegsinfektionen</part> </link>, <link> <part>Rhinosinusitis</part> </link> und Infektionen des <link> <part>Mittelohr</part> </link>es, gegen Infektionen der Haut (etwa nach <link> <part>Biss</part> <part>Tierbissen</part> </link>) sowie zur Bekämpfung aggressiver Parodontitis angewandt. Es wirkt gegen <link> <part>Gram-Färbung</part> <part>grampositive</part> </link> und einige gramnegative Bakterien, wie zum Beispiel <link> <part>Enterobakterien</part> </link>, schädigt die Darmflora jedoch weniger als <link> <part>Ampicillin</part> </link>.
+
+Aufgrund seiner Säurestabilität ist Amoxicillin <link> <part>Peroral</part> <part>oral</part> </link> wirksam, übliche Darreichungsformen sind <link> <part>Trockensaft</part> </link> oder Tabletten. Amoxicillin kann auch injiziert werden.
+
+Durch die Kombination mit einem <link> <part>β-Lactamase-Inhibitor</part> </link> wie <link> <part>Clavulansäure</part> </link> lässt sich das Wirkspektrum erweitern. β-Lactamase ist ein von manchen Bakterien produziertes Enzym, das gegenüber <link> <part>β-Lactamase</part> </link> nicht stabile Antibiotika wie Amoxicillin inaktiviert. So schützt Clavulansäure Amoxicillin vor dem Abbau durch die meisten β-Lactamasen von <link> <part>Staphylokokken</part> </link>.
+
+Die <link> <part>Plasmahalbwertszeit</part> </link> beträgt durchschnittlich rund 60 Minuten beim Nierengesunden. Amoxicillin wird zum größten Teil über die Niere ausgeschieden, ein kleiner Anteil <link> <part>Galle</part> <part>biliär</part> </link>.
+
+<h level="2" i="2">== Nebenwirkungen ==</h>
+Wie alle <link> <part>Penicillin</part> </link>e kann Amoxicillin häufig <link> <part>Nebenwirkung</part> </link>en in Form einer <link> <part>allergisch</part> </link>en Reaktion (<link> <part>Exanthem</part> </link>, <link> <part>Urtikaria</part> </link>) unterschiedlicher Stärke hervorrufen, selten auch bis hin zum <link> <part>Anaphylaxie</part> <part>anaphylaktischen Schock</part> </link> und <link> <part>Exfoliation#Exfoliation in der Biologie</part> <part>exfoliativen</part> </link> Hautreaktionen (bei bekannter Penicillinallergie ist Amoxicillin kontraindiziert). Häufiger kommt es zu <link> <part>Überempfindlichkeitsreaktion</part> </link>en wie <link> <part>Arzneimittelfieber</part> </link>. Ein nicht<link> <part>nesselsucht</part> <part>urtikariell</part> </link>es Exanthem kann (besonders bei Patienten mit <link> <part>Pfeiffer-Drüsenfieber</part> <part>infektiöser Mononukleose</part> </link>) auftreten, das ebenfalls keine echte Penicillinallergie darstellt und durch den Hautarzt inspiziert werden sollte. Ebenfalls häufig sind Schleimhautentzündungen sowie ein Anstieg der Leberenzymwerte. Außerdem muss sehr häufig mit Durchfällen, Übelkeit und Erbrechen gerechnet werden. Penicilline können in der Regel auch während der <link> <part>Schwangerschaft</part> </link> verschrieben werden. Selten treten Ermüdungserscheinungen, Schlafstörungen und leichte Verwirrtheitszustände auf. Sehr selten werden durch Amoxicillin eine <link> <part>Antibiotikaassoziierte Kolitis</part> <part>pseudomembranöse Kolitis</part> </link>, Blutbildveränderungen (<link> <part>Eosinophilie</part> </link>, <link> <part>Neutropenie</part> </link>, <link> <part>Thrombozytopenie</part> </link>, <link> <part>Leukopenie</part> </link>) oder Leberfunktionsstörungen ausgelöst.<ext><name>ref</name><attr/><inner>Vgl. Marianne Abele-Horn: ''Antimikrobielle Therapie. Entscheidungshilfen zur Behandlung und Prophylaxe von Infektionskrankheiten.'' Unter Mitarbeit von Werner Heinz, Hartwig Klinker, Johann Schurz und August Stich, 2., überarbeitete und erweiterte Auflage. Peter Wiehl, Marburg 2009, ISBN 978-3-927219-14-4, S. 338.</inner><close>&lt;/ref&gt;</close></ext>
+
+<h level="2" i="3">== Synthese ==</h>
+<link> <part>Datei:Amoxicillin substance photo.jpg</part> <part>mini</part> <part>Gewonnenes Amoxicillin als gelblich-weißes Pulver</part> </link>
+Ausgehend von dem <link> <part>Carboxylatgruppe</part> <part>Carboxylat</part> </link> ('''1''') –&amp;nbsp;einem Derivat von (''R'')-4-Hydroxyphenylglycin&amp;nbsp;– kann Amoxicillin ('''4''') wie folgt synthetisiert werden:<ext><name>ref</name><attr> name=&quot;Kleemann&quot;</attr><inner><link> <part>Axel Kleemann</part> </link>, Jürgen Engel, Bernhard Kutscher, Dietmar Reichert: ''Pharmaceutical Substances – Syntheses, Patents and Applications of the most relevant APIs.'' 5. Auflage. Georg Thieme Verlag, 2009, ISBN 978-3-13-558405-8, S. 69.</inner><close>&lt;/ref&gt;</close></ext>
+
+Im ersten Schritt wird '''1''' mit einem <link> <part>Carbonsäurechloride</part> <part>Carbonsäurechlorid</part> </link> unter Zugabe einer Base (z.&amp;nbsp;B. <link> <part>4-Methylmorpholin</part> </link>) umgesetzt, wobei sich in einer <link> <part>Nukleophile Substitution#SN2t-Mechanismus</part> <part>Nukleophilen Substitutionsreaktion</part> </link> das gemischte  <link> <part>Säureanhydride</part> <part>Carbonsäureanhydrid</part> </link> ('''2''') bildet. Danach wird '''2''' eingesetzt, um <link> <part>6-Aminopenicillansäure</part> </link> ('''3''') zu <link> <part>Acylierung</part> <part>acylieren</part> </link> wobei nach Abspaltung der Schutzgruppe Amoxicillin ('''4''') entsteht, welches als gelblich-weißes Pulver isoliert werden kann.<ext><name>ref</name><attr> name=&quot;Kleemann&quot; </attr></ext>
+
+<link> <part>Datei:Amoxicillin Sythesis V4.svg</part> <part>rahmenlos</part> <part>hochkant=2.0</part> <part>zentriert</part> <part>Übersicht der Synthese von Amoxicillin<ext><name>ref</name><attr> name=&quot;Kleemann&quot; </attr></ext></part> </link>
+
+<h level="2" i="4">== Handelsnamen ==</h>
+'''Monopräparate'''
+
+Humanarzneimittel: Amoxibeta (D), Amoxilan (A), Amoxypen (D), Azillin (CH), Baktocillin (D), Clamoxyl (A, CH), Infectomox (D), Jutamox (D), Ospamox (A), Spectroxyl (CH), Supramox (CH)
+
+Tierarzneimittel: Aciphen (D), Amox (D), Amoxanil (D), Amoxin (D), Amoxisel (D), Amoxival (D), Amoxy (D), Belamox (D), Bioamoxi (D), Clamoxyl (D), Duphamox (D), Hostamox (D), Klatocillin (D), Octacillin (D), Parkemoxin (D), Tamox (D), Vetrimoxin (D), Veyxyl (D), Wedemox (D)
+
+'''Kombinationspräparate'''
+* Mit <link> <part>Clavulansäure</part> </link>: Humanarzneimittel: Amoclav (D), AmoclanHexal (A), Amoxacid (A), Amoxi-Clavulan (D), AmoxiPLUS ratiopharm (A), Amoxi-saar plus (D), Amoxicomp (A), Augmentan (D), Augmentin (A, CH, D), Benomox (A), Betamoclav (A), Clavamox (A), Clavex (A), Clavolek (A), Clavoplus (A), Co-Amoxiclav (A), Curam (A), InfectoSupramox (D), Lekamoxiclav (A), Xiclav (A)
+
+Tierarzneimittel: Amoxiclav (D), Clavaseptin (D), Kesium (D), Nicilan (D), Synulox (D), Amoxi-Clavulan (D)
+* Mit <link> <part>Flucloxacillin</part> </link>: Flanamox (D)
+* Mit <link> <part>Pantoprazol</part> </link> und <link> <part>Clarithromycin</part> </link>: Zacpac (D)
+
+Darüber hinaus gibt es weitere Generika sowohl bei den Mono- als auch bei den Kombi-Präparaten.
+
+<h level="2" i="5">== Einzelnachweise ==</h>
+<ext><name>references</name><attr> </attr></ext>
+
+<template lineStart="1"><title>Gesundheitshinweis</title></template>
+
+<link> <part>Kategorie:Propiolactam</part> </link>
+<link> <part>Kategorie:Penicillin</part> </link>
+<link> <part>Kategorie:Arzneistoff</part> </link></root>

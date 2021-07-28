@@ -1,2 +1,6 @@
 export { last } from 'https://jsv.max.pub/array/2021/mod.js'
 export { camelCase } from 'https://jsv.max.pub/string/2021/mod.js'
+// import xml from 'https://jsv.max.pub/xml/2021/mod.js'
+// import { XML } from 'https://jsv.max.pub/xml/2021-07/mod.js'
+// export { XML } from 'https://v.max.pub/@js-max-pub/xml/2021-07/mod.js'
+export { XML } from '../xml/mod.js'

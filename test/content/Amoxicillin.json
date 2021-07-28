@@ -1,0 +1,1021 @@
+{
+	"root": true,
+	"type": "text",
+	"value": [
+		"",
+		{
+			"type": "template",
+			"name": "Infobox Chemikalie",
+			"camel": "infoboxChemikalie",
+			"value": [
+				{
+					"type": "argument",
+					"key": "Strukturformel",
+					"camel": "strukturformel",
+					"value": [
+						"",
+						{
+							"type": "link",
+							"url": "Datei:Strukturformel Amoxicillin.svg",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"250px"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"Strukturformel von Amoxicillin"
+									]
+								}
+							]
+						},
+						"\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Suchfunktion",
+					"camel": "suchfunktion",
+					"value": [
+						"C16H19N3O5S"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Freiname",
+					"camel": "freiname",
+					"value": [
+						"Amoxicillin"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Andere Namen",
+					"camel": "andereNamen",
+					"value": [
+						"(2''S'',5''R'',6''R'')-6-[(''R'')-2-Amino-2-(4-hydroxyphenyl)acetamido]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptan-2-carbonsäure"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Summenformel",
+					"camel": "summenformel",
+					"value": [
+						"C<sub>16</sub>H<sub>19</sub>N<sub>3</sub>O<sub>5</sub>S"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "CAS",
+					"camel": "cas",
+					"value": [
+						"*",
+						{
+							"type": "template",
+							"name": "CASRN",
+							"camel": "casrn",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"26787-78-0"
+									]
+								}
+							]
+						},
+						"\n* ",
+						{
+							"type": "template",
+							"name": "CASRN",
+							"camel": "casrn",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"61336-70-7"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"Q27122483"
+									]
+								}
+							]
+						},
+						" <small>(Amoxicillin-Trihydrat)</small>\n* ",
+						{
+							"type": "template",
+							"name": "CASRN",
+							"camel": "casrn",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"34642-77-8"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"Q27122484"
+									]
+								}
+							]
+						},
+						" <small>(Amoxicillin-Natrium)</small>\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "EG-Nummer",
+					"camel": "egNummer",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "ECHA-ID",
+					"camel": "echaId",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "PubChem",
+					"camel": "pubchem",
+					"value": [
+						"33613"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "ChemSpider",
+					"camel": "chemspider",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "ATC-Code",
+					"camel": "atcCode",
+					"value": [
+						"",
+						{
+							"type": "template",
+							"name": "ATC",
+							"camel": "atc",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"J01"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"CA04"
+									]
+								}
+							]
+						},
+						"\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "DrugBank",
+					"camel": "drugbank",
+					"value": [
+						"DB01060"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Wirkstoffgruppe",
+					"camel": "wirkstoffgruppe",
+					"value": [
+						"",
+						{
+							"type": "link",
+							"url": "β-Lactam-Antibiotika",
+							"value": []
+						},
+						"\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Wirkmechanismus",
+					"camel": "wirkmechanismus",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Molare Masse",
+					"camel": "molareMasse",
+					"value": [
+						"365,40 g·mol<sup>−1</sup>"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Dichte",
+					"camel": "dichte",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Schmelzpunkt",
+					"camel": "schmelzpunkt",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Siedepunkt",
+					"camel": "siedepunkt",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Dampfdruck",
+					"camel": "dampfdruck",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "pKs",
+					"camel": "pks",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Löslichkeit",
+					"camel": "löslichkeit",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Quelle GHS-Kz",
+					"camel": "quelleGhsKz",
+					"value": [
+						"<ref name=\"Sigma\">",
+						{
+							"type": "template",
+							"name": "Sigma-Aldrich",
+							"camel": "sigmaAldrich",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"SIGMA"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"A8523"
+									]
+								},
+								{
+									"type": "argument",
+									"key": "Abruf",
+									"camel": "abruf",
+									"value": [
+										"2011-03-09"
+									]
+								}
+							]
+						},
+						"</ref>\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "GHS-Piktogramme",
+					"camel": "ghsPiktogramme",
+					"value": [
+						"",
+						{
+							"type": "template",
+							"name": "GHS-Piktogramme-klein",
+							"camel": "ghsPiktogrammeKlein",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"08"
+									]
+								}
+							]
+						},
+						"\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "GHS-Signalwort",
+					"camel": "ghsSignalwort",
+					"value": [
+						"Gefahr"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "H",
+					"camel": "h",
+					"value": [
+						"",
+						{
+							"type": "template",
+							"name": "H-Sätze",
+							"camel": "hSätze",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"317"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"334"
+									]
+								}
+							]
+						},
+						"\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "EUH",
+					"camel": "euh",
+					"value": [
+						"",
+						{
+							"type": "template",
+							"name": "EUH-Sätze",
+							"camel": "euhSätze",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"-"
+									]
+								}
+							]
+						},
+						"\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "P",
+					"camel": "p",
+					"value": [
+						"",
+						{
+							"type": "template",
+							"name": "P-Sätze",
+							"camel": "pSätze",
+							"value": [
+								{
+									"type": "argument",
+									"value": [
+										"261"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"280"
+									]
+								},
+								{
+									"type": "argument",
+									"value": [
+										"342+311"
+									]
+								}
+							]
+						},
+						"\n"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Quelle P",
+					"camel": "quelleP",
+					"value": [
+						"<ref name=\"Sigma\" />"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "MAK",
+					"camel": "mak",
+					"value": [
+						""
+					]
+				},
+				{
+					"type": "argument",
+					"key": "ToxDaten",
+					"camel": "toxdaten",
+					"value": [
+						"",
+						{
+							"type": "template",
+							"name": "ToxDaten",
+							"camel": "toxdaten",
+							"value": [
+								{
+									"type": "argument",
+									"key": "Typ",
+									"camel": "typ",
+									"value": [
+										"LD50"
+									]
+								},
+								{
+									"type": "argument",
+									"key": "Organismus",
+									"camel": "organismus",
+									"value": [
+										"Maus"
+									]
+								},
+								{
+									"type": "argument",
+									"key": "Applikationsart",
+									"camel": "applikationsart",
+									"value": [
+										"intraperitoneal"
+									]
+								},
+								{
+									"type": "argument",
+									"key": "Wert",
+									"camel": "wert",
+									"value": [
+										"3590 mg·kg<sup>−1</sup>"
+									]
+								},
+								{
+									"type": "argument",
+									"key": "Bezeichnung",
+									"camel": "bezeichnung",
+									"value": [
+										""
+									]
+								},
+								{
+									"type": "argument",
+									"key": "Quelle",
+									"camel": "quelle",
+									"value": [
+										"<ref name=\"Sigma\" />"
+									]
+								}
+							]
+						},
+						"\n"
+					]
+				}
+			]
+		},
+		"\n\n'''Amoxicillin''' ist ein ",
+		{
+			"type": "link",
+			"url": "Breitbandantibiotikum",
+			"value": []
+		},
+		" aus der Gruppe der ",
+		{
+			"type": "link",
+			"url": "Aminopenicilline",
+			"value": []
+		},
+		" und gehört damit zur Wirkstoffgruppe der ",
+		{
+			"type": "link",
+			"url": "β-Lactam-Antibiotika",
+			"value": []
+		},
+		". Das Medikament ist seit 1981 zur Behandlung von Infektionen zugelassen und kann ",
+		{
+			"type": "link",
+			"url": "Peroral",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"oral"
+					]
+				}
+			]
+		},
+		" oder ",
+		{
+			"type": "link",
+			"url": "parenteral",
+			"value": []
+		},
+		" angewendet werden. Fertigarzneimittel sind unter verschiedenen ",
+		{
+			"type": "link",
+			"url": "#Handelsnamen",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"Namen"
+					]
+				}
+			]
+		},
+		" im Handel.\n\n== Anwendung ==\nAmoxicillin wird gegen Infektionen des ",
+		{
+			"type": "link",
+			"url": "Magen-Darm-Trakt",
+			"value": []
+		},
+		"es, der ",
+		{
+			"type": "link",
+			"url": "Gallenwege",
+			"value": []
+		},
+		" und der ableitenden ",
+		{
+			"type": "link",
+			"url": "Harnwege",
+			"value": []
+		},
+		", gegen ",
+		{
+			"type": "link",
+			"url": "Atemwegsinfektionen",
+			"value": []
+		},
+		", ",
+		{
+			"type": "link",
+			"url": "Rhinosinusitis",
+			"value": []
+		},
+		" und Infektionen des ",
+		{
+			"type": "link",
+			"url": "Mittelohr",
+			"value": []
+		},
+		"es, gegen Infektionen der Haut (etwa nach ",
+		{
+			"type": "link",
+			"url": "Biss",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"Tierbissen"
+					]
+				}
+			]
+		},
+		") sowie zur Bekämpfung aggressiver Parodontitis angewandt. Es wirkt gegen ",
+		{
+			"type": "link",
+			"url": "Gram-Färbung",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"grampositive"
+					]
+				}
+			]
+		},
+		" und einige gramnegative Bakterien, wie zum Beispiel ",
+		{
+			"type": "link",
+			"url": "Enterobakterien",
+			"value": []
+		},
+		", schädigt die Darmflora jedoch weniger als ",
+		{
+			"type": "link",
+			"url": "Ampicillin",
+			"value": []
+		},
+		".\n\nAufgrund seiner Säurestabilität ist Amoxicillin ",
+		{
+			"type": "link",
+			"url": "Peroral",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"oral"
+					]
+				}
+			]
+		},
+		" wirksam, übliche Darreichungsformen sind ",
+		{
+			"type": "link",
+			"url": "Trockensaft",
+			"value": []
+		},
+		" oder Tabletten. Amoxicillin kann auch injiziert werden.\n\nDurch die Kombination mit einem ",
+		{
+			"type": "link",
+			"url": "β-Lactamase-Inhibitor",
+			"value": []
+		},
+		" wie ",
+		{
+			"type": "link",
+			"url": "Clavulansäure",
+			"value": []
+		},
+		" lässt sich das Wirkspektrum erweitern. β-Lactamase ist ein von manchen Bakterien produziertes Enzym, das gegenüber ",
+		{
+			"type": "link",
+			"url": "β-Lactamase",
+			"value": []
+		},
+		" nicht stabile Antibiotika wie Amoxicillin inaktiviert. So schützt Clavulansäure Amoxicillin vor dem Abbau durch die meisten β-Lactamasen von ",
+		{
+			"type": "link",
+			"url": "Staphylokokken",
+			"value": []
+		},
+		".\n\nDie ",
+		{
+			"type": "link",
+			"url": "Plasmahalbwertszeit",
+			"value": []
+		},
+		" beträgt durchschnittlich rund 60 Minuten beim Nierengesunden. Amoxicillin wird zum größten Teil über die Niere ausgeschieden, ein kleiner Anteil ",
+		{
+			"type": "link",
+			"url": "Galle",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"biliär"
+					]
+				}
+			]
+		},
+		".\n\n== Nebenwirkungen ==\nWie alle ",
+		{
+			"type": "link",
+			"url": "Penicillin",
+			"value": []
+		},
+		"e kann Amoxicillin häufig ",
+		{
+			"type": "link",
+			"url": "Nebenwirkung",
+			"value": []
+		},
+		"en in Form einer ",
+		{
+			"type": "link",
+			"url": "allergisch",
+			"value": []
+		},
+		"en Reaktion (",
+		{
+			"type": "link",
+			"url": "Exanthem",
+			"value": []
+		},
+		", ",
+		{
+			"type": "link",
+			"url": "Urtikaria",
+			"value": []
+		},
+		") unterschiedlicher Stärke hervorrufen, selten auch bis hin zum ",
+		{
+			"type": "link",
+			"url": "Anaphylaxie",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"anaphylaktischen Schock"
+					]
+				}
+			]
+		},
+		" und ",
+		{
+			"type": "link",
+			"url": "Exfoliation#Exfoliation in der Biologie",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"exfoliativen"
+					]
+				}
+			]
+		},
+		" Hautreaktionen (bei bekannter Penicillinallergie ist Amoxicillin kontraindiziert). Häufiger kommt es zu ",
+		{
+			"type": "link",
+			"url": "Überempfindlichkeitsreaktion",
+			"value": []
+		},
+		"en wie ",
+		{
+			"type": "link",
+			"url": "Arzneimittelfieber",
+			"value": []
+		},
+		". Ein nicht",
+		{
+			"type": "link",
+			"url": "nesselsucht",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"urtikariell"
+					]
+				}
+			]
+		},
+		"es Exanthem kann (besonders bei Patienten mit ",
+		{
+			"type": "link",
+			"url": "Pfeiffer-Drüsenfieber",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"infektiöser Mononukleose"
+					]
+				}
+			]
+		},
+		") auftreten, das ebenfalls keine echte Penicillinallergie darstellt und durch den Hautarzt inspiziert werden sollte. Ebenfalls häufig sind Schleimhautentzündungen sowie ein Anstieg der Leberenzymwerte. Außerdem muss sehr häufig mit Durchfällen, Übelkeit und Erbrechen gerechnet werden. Penicilline können in der Regel auch während der ",
+		{
+			"type": "link",
+			"url": "Schwangerschaft",
+			"value": []
+		},
+		" verschrieben werden. Selten treten Ermüdungserscheinungen, Schlafstörungen und leichte Verwirrtheitszustände auf. Sehr selten werden durch Amoxicillin eine ",
+		{
+			"type": "link",
+			"url": "Antibiotikaassoziierte Kolitis",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"pseudomembranöse Kolitis"
+					]
+				}
+			]
+		},
+		", Blutbildveränderungen (",
+		{
+			"type": "link",
+			"url": "Eosinophilie",
+			"value": []
+		},
+		", ",
+		{
+			"type": "link",
+			"url": "Neutropenie",
+			"value": []
+		},
+		", ",
+		{
+			"type": "link",
+			"url": "Thrombozytopenie",
+			"value": []
+		},
+		", ",
+		{
+			"type": "link",
+			"url": "Leukopenie",
+			"value": []
+		},
+		") oder Leberfunktionsstörungen ausgelöst.<ref>Vgl. Marianne Abele-Horn: ''Antimikrobielle Therapie. Entscheidungshilfen zur Behandlung und Prophylaxe von Infektionskrankheiten.'' Unter Mitarbeit von Werner Heinz, Hartwig Klinker, Johann Schurz und August Stich, 2., überarbeitete und erweiterte Auflage. Peter Wiehl, Marburg 2009, ISBN 978-3-927219-14-4, S. 338.</ref>\n\n== Synthese ==\n",
+		{
+			"type": "link",
+			"url": "Datei:Amoxicillin substance photo.jpg",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"mini"
+					]
+				},
+				{
+					"type": "argument",
+					"value": [
+						"Gewonnenes Amoxicillin als gelblich-weißes Pulver"
+					]
+				}
+			]
+		},
+		"\nAusgehend von dem ",
+		{
+			"type": "link",
+			"url": "Carboxylatgruppe",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"Carboxylat"
+					]
+				}
+			]
+		},
+		" ('''1''') –&nbsp;einem Derivat von (''R'')-4-Hydroxyphenylglycin&nbsp;– kann Amoxicillin ('''4''') wie folgt synthetisiert werden:<ref name=\"Kleemann\">",
+		{
+			"type": "link",
+			"url": "Axel Kleemann",
+			"value": []
+		},
+		", Jürgen Engel, Bernhard Kutscher, Dietmar Reichert: ''Pharmaceutical Substances – Syntheses, Patents and Applications of the most relevant APIs.'' 5. Auflage. Georg Thieme Verlag, 2009, ISBN 978-3-13-558405-8, S. 69.</ref>\n\nIm ersten Schritt wird '''1''' mit einem ",
+		{
+			"type": "link",
+			"url": "Carbonsäurechloride",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"Carbonsäurechlorid"
+					]
+				}
+			]
+		},
+		" unter Zugabe einer Base (z.&nbsp;B. ",
+		{
+			"type": "link",
+			"url": "4-Methylmorpholin",
+			"value": []
+		},
+		") umgesetzt, wobei sich in einer ",
+		{
+			"type": "link",
+			"url": "Nukleophile Substitution#SN2t-Mechanismus",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"Nukleophilen Substitutionsreaktion"
+					]
+				}
+			]
+		},
+		" das gemischte  ",
+		{
+			"type": "link",
+			"url": "Säureanhydride",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"Carbonsäureanhydrid"
+					]
+				}
+			]
+		},
+		" ('''2''') bildet. Danach wird '''2''' eingesetzt, um ",
+		{
+			"type": "link",
+			"url": "6-Aminopenicillansäure",
+			"value": []
+		},
+		" ('''3''') zu ",
+		{
+			"type": "link",
+			"url": "Acylierung",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"acylieren"
+					]
+				}
+			]
+		},
+		" wobei nach Abspaltung der Schutzgruppe Amoxicillin ('''4''') entsteht, welches als gelblich-weißes Pulver isoliert werden kann.<ref name=\"Kleemann\" />\n\n",
+		{
+			"type": "link",
+			"url": "Datei:Amoxicillin Sythesis V4.svg",
+			"value": [
+				{
+					"type": "argument",
+					"value": [
+						"rahmenlos"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "hochkant",
+					"camel": "hochkant",
+					"value": [
+						"2.0"
+					]
+				},
+				{
+					"type": "argument",
+					"value": [
+						"zentriert"
+					]
+				},
+				{
+					"type": "argument",
+					"key": "Übersicht der Synthese von Amoxicillin<ref name",
+					"camel": "übersichtDerSyntheseVonAmoxicillinRefName",
+					"value": [
+						"\"Kleemann\" />"
+					]
+				}
+			]
+		},
+		"\n\n== Handelsnamen ==\n'''Monopräparate'''\n\nHumanarzneimittel: Amoxibeta (D), Amoxilan (A), Amoxypen (D), Azillin (CH), Baktocillin (D), Clamoxyl (A, CH), Infectomox (D), Jutamox (D), Ospamox (A), Spectroxyl (CH), Supramox (CH)\n\nTierarzneimittel: Aciphen (D), Amox (D), Amoxanil (D), Amoxin (D), Amoxisel (D), Amoxival (D), Amoxy (D), Belamox (D), Bioamoxi (D), Clamoxyl (D), Duphamox (D), Hostamox (D), Klatocillin (D), Octacillin (D), Parkemoxin (D), Tamox (D), Vetrimoxin (D), Veyxyl (D), Wedemox (D)\n\n'''Kombinationspräparate'''\n* Mit ",
+		{
+			"type": "link",
+			"url": "Clavulansäure",
+			"value": []
+		},
+		": Humanarzneimittel: Amoclav (D), AmoclanHexal (A), Amoxacid (A), Amoxi-Clavulan (D), AmoxiPLUS ratiopharm (A), Amoxi-saar plus (D), Amoxicomp (A), Augmentan (D), Augmentin (A, CH, D), Benomox (A), Betamoclav (A), Clavamox (A), Clavex (A), Clavolek (A), Clavoplus (A), Co-Amoxiclav (A), Curam (A), InfectoSupramox (D), Lekamoxiclav (A), Xiclav (A)\n\nTierarzneimittel: Amoxiclav (D), Clavaseptin (D), Kesium (D), Nicilan (D), Synulox (D), Amoxi-Clavulan (D)\n* Mit ",
+		{
+			"type": "link",
+			"url": "Flucloxacillin",
+			"value": []
+		},
+		": Flanamox (D)\n* Mit ",
+		{
+			"type": "link",
+			"url": "Pantoprazol",
+			"value": []
+		},
+		" und ",
+		{
+			"type": "link",
+			"url": "Clarithromycin",
+			"value": []
+		},
+		": Zacpac (D)\n\nDarüber hinaus gibt es weitere Generika sowohl bei den Mono- als auch bei den Kombi-Präparaten.\n\n== Einzelnachweise ==\n<references />\n\n",
+		{
+			"type": "template",
+			"name": "Gesundheitshinweis",
+			"camel": "gesundheitshinweis",
+			"value": []
+		},
+		"\n\n",
+		{
+			"type": "link",
+			"url": "Kategorie:Propiolactam",
+			"value": []
+		},
+		"\n",
+		{
+			"type": "link",
+			"url": "Kategorie:Penicillin",
+			"value": []
+		},
+		"\n",
+		{
+			"type": "link",
+			"url": "Kategorie:Arzneistoff",
+			"value": []
+		},
+		""
+	]
+}

@@ -1,37 +1,54 @@
 // import { FS } from 'https://jsv.max.pub/fs/2021/deno.js'
-const defaultOptions = {
+
+export const defaultOptions = {
 	language: 'en',
 	recursive: true,
 	short: true,
 	limit: 100,
 	counter: 0,
+	format: 'xml',
+}
+export const defaultParameters = {
+	format: 'json',
+	origin: '*',
 }
 
-function url(language = 'en', params = {}) {
+
+
+
+export function url(language = 'en', params = {}) {
 	return new URL(`https://${language}.wikipedia.org/w/api.php`) + '?' + new URLSearchParams(params).toString()
 }
-function fetchJSON(language, params = {}) {
+export function fetchJSON(language, params = {}) {
+	params = { ...defaultParameters, ...params }
 	console.log('-------load', url(language, params))
 	return fetch(url(language, params)).then(x => x.json())
 }
+export async function* fetchAll(language, params = {}) {
+	let more
+	do {
+		let result = await fetchJSON(language, { ...params, ...more })
+		yield result
+		more = result?.continue
+	} while (more)
+}
 
 
 
+// https://www.mediawiki.org/wiki/API:Query
 export async function* search(query, options = {}) {
 	options = { ...defaultOptions, ...options }
-	let more = {}
-	do {
-		let result = await fetchJSON(options.language, { action: 'query', list: 'search', srsearch: query, format: 'json', origin: '*', ...more })
-		more = result?.continue ?? {}
-		let list = result?.query?.search;
-		if (!list?.length) return
-		for (let key in list) {
-			let page = list[key]
+	for await (let result of fetchAll(options.language, { action: 'query', list: 'search', srsearch: query })) {
+		for (let page of result?.query?.search ?? []) {
 			if (options.limit && options.counter++ >= options.limit) return
 			yield options.short ? page.title : page
 		}
-	} while (more?.sroffset)
+	}
 }
+
+
+
+
 
 
 
@@ -46,13 +63,11 @@ export async function* category(categoryName, localOptions = {}) {
 	if (!categoryName.includes(':'))
 		categoryName = prefixes[options.language] + categoryName
 
-	let more = {}
-	do {
-		let result = await fetchJSON(options.language, { action: 'query', gcmtitle: categoryName, format: 'json', origin: '*', prop: 'info', generator: 'categorymembers', gcmlimit: 'max', ...more })
-		more = result?.continue ?? {}
-		let pages = result?.query?.pages
-		for (let key in pages) {
-			let page = pages[key]
+	for await (let result of fetchAll(options.language, { action: 'query', gcmtitle: categoryName, prop: 'info', generator: 'categorymembers', gcmlimit: 'max' })) {
+		// console.log(result)
+		// FS.file('test.json').json = result
+		let pages = Object.values(result?.query?.pages ?? {}) ?? []
+		for (let page of pages) {
 			if (options.limit && localOptions.counter >= options.limit) return
 			if (options.recursive && page.title.includes(':'))
 				for await (let item of category(page.title, localOptions))
@@ -62,44 +77,36 @@ export async function* category(categoryName, localOptions = {}) {
 				yield options.short ? page.title : page
 			}
 		}
-
-	} while (more?.gcmcontinue)
+	}
 }
 
 
-
-
-export async function text(title, options = {}) {
+// https://www.mediawiki.org/wiki/API:Parsing_wikitext
+export async function content(title, options = {}) {
 	options = { ...defaultOptions, ...options }
-	let result = await fetchJSON(options.language, { action: 'parse', prop: 'wikitext', page: title, format: 'json', origin: '*' })
-	// let result = await fetch(`https://${this.wiki.language}.wikipedia.org/w/api.php?action=parse&prop=wikitext&page=${this.title}&format=json&origin=*`).then(x => x.json())
-	// console.log('res', result)
-	return options.short ? result?.parse?.wikitext?.['*'] : result
+	let formats = { xml: 'parsetree', html: 'text', markdown: 'wikitext' }
+	let prop = options.prop ?? formats[options.format]
+	let result = await fetchJSON(options.language, { action: 'parse', page: title, prop })
+	return options.short ? result?.parse?.[prop]?.['*'] : result
 }
+
 
 
 
 
 /**
- * returns an array of languages for a given wikipedia page
+ * returns an array of equivalent pages in other languages for a given wikipedia page
+ * https://www.mediawiki.org/wiki/API:Langlinks
  * @param {string} title 
- * @param {dict} options - {raw:true}
+ * @param {dict} options - {}
  */
-//  https://www.mediawiki.org/wiki/API:Langlinks
 export async function* languages(title, options = {}) {
 	options = { ...defaultOptions, ...options }
-	let more = {}
-	do {
-		let result = await fetchJSON(options.language, { action: 'query', prop: 'langlinks', titles: title, format: 'json', origin: '*', lllimit: 'max', ...more }) //llprop:'autonym',
-		more = result?.continue ?? {}
-		let pages = Object.values(result?.query?.pages ?? {})
-		if (!pages?.length) return
-		let links = pages[0].langlinks
-		for (let key in links) {
+	for await (let result of fetchAll(options.language, { action: 'parse', prop: 'langlinks', page: title, })) {
+		for (let page of result?.parse?.langlinks ?? []) {
 			if (options.limit && options.counter++ >= options.limit) return
-
-			let page = links[key]
 			yield options.short ? { lang: page.lang, page: page['*'] } : page
 		}
-	} while (more?.llcontinue)
+	}
 }
+

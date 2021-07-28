@@ -1,0 +1,392 @@
+<root>
+	<template>
+		<title>Infobox Protein
+		</title>
+		<part>
+			<name> Bild            </name>
+			<equals>=</equals>
+			<value> Canakinumab bound to IL-1β.png
+			</value>
+		</part>
+		<part>
+			<name> Bild_legende    </name>
+			<equals>=</equals>
+			<value>
+				<comment>&lt;!-- nach {{PDB|ABCD}} --&gt;</comment>
+			</value>
+		</part>
+		<part>
+			<name> Andere Namen    </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> PDB             </name>
+			<equals>=</equals>
+			<value>
+				<comment>&lt;!-- {{PDB2|1YY1}}, {{PDB2|ABCD}} --&gt;</comment>
+			</value>
+		</part>
+		<part>
+			<name> Groesse         </name>
+			<equals>=</equals>
+			<value> 1322–1324 [[Aminosäuren]], 145.157 [[Atomare Masseneinheit|Da]]
+			</value>
+		</part>
+		<part>
+			<name> Kofaktor        </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> Precursor       </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> Struktur        </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> Isoformen       </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> HGNCid          </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> Symbol          </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> AltSymbols      </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> GeneCards       </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> OMIM            </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> UniProt         </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> MGIid           </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> PubChem         </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> CAS             </name>
+			<equals>=</equals>
+			<value>
+				<template>
+					<title>CASRN</title>
+					<part>
+						<name index="1"/>
+						<value>914613-48-2</value>
+					</part>
+				</template>
+			</value>
+		</part>
+		<part>
+			<name> CASergänzend    </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> ATC-Code        </name>
+			<equals>=</equals>
+			<value>
+				<template>
+					<title>ATC</title>
+					<part>
+						<name index="1"/>
+						<value>L04</value>
+					</part>
+					<part>
+						<name index="2"/>
+						<value>AC08</value>
+					</part>
+				</template>
+			</value>
+		</part>
+		<part>
+			<name> DrugBank        </name>
+			<equals>=</equals>
+			<value> DB06168
+			</value>
+		</part>
+		<part>
+			<name> Wirkstoffklasse </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> TCDB            </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> TranspText      </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> EC-Nummer       </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> Kategorie       </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> Peptidase_fam   </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> Inhibitor_fam   </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> Reaktionsart    </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> Substrat        </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> Produkte        </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> MoreEC1         </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> MoreEC2         </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> MoreEC3         </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> Homolog_db      </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> Homolog_fam     </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> Homolog_url     </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> Taxon           </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> Taxon_Ausnahme  </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+		<part>
+			<name> Orthologe       </name>
+			<equals>=</equals>
+			<value>
+			</value>
+		</part>
+	</template>
+
+'''Canakinumab''' (Handelsname ''Ilaris''; Hersteller [[Novartis]]; [[ATC-Code]] <template>
+	<title>ATC</title>
+	<part>
+		<name index="1"/>
+		<value>L04</value>
+	</part>
+	<part>
+		<name index="2"/>
+		<value>AC08</value>
+	</part>
+</template>) ist ein humaner, [[monoklonaler Antikörper]] gegen [[Interleukin-1β]] (IL-1β) zur Behandlung der systemischen [[Juvenile idiopathische Arthritis|juvenilen idiopathischen Arthritis]] (sJIA) ''(Morbus Still)''<ext>
+<name>ref</name>
+<attr/>
+<inner>{{Internetquelle |autor= |url=https://www.pharma.us.novartis.com/sites/www.pharma.us.novartis.com/files/ilaris.pdf |titel=Ilaris |hrsg=Novartis Pharmaceutical |datum=2016-12 |abruf=2020-02-03 |sprache=en}}</inner>
+<close>&lt;/ref&gt;</close>
+</ext> sowie der Erkrankungen des [[Cryopyrin-assoziiertes periodisches Syndrom|Cryopyrin-assoziierten periodischen Syndroms]] (CAPS). Interleukin-1β ist ein [[Zytokin]], welches im menschlichen Körper Entzündungsreaktionen reguliert. Außerdem wird dieses Zytokin hauptsächlich von Blut-[[Monozyten]] produziert.
+
+<h level="2" i="1">== Applikationsform und Dosierung ==</h>
+Canakinumab wird als subkutane Injektion verabreicht. Die Dosierung von Canakinumab ist sehr vielfältig aufgrund der Vielfalt an Krankheiten, welche damit behandelt werden können. Normalerweise liegt die Dosierung bei 2 mg/kg und 4 mg/kg und die maximale Dosis bei 300 mg ([[Morbus Still]]) oder 600 mg ([[periodische Fiebersyndrome]]). Eine Injektionslösung enthält 150 mg Canakinumab.<ext>
+<name>ref</name>
+<attr> name=&quot;:0&quot;</attr>
+<inner>{{Internetquelle |autor=Novartis Pharma |url=https://www.fachinfo.de/pdf/021500 |titel=Ilaris – Fachinformation 150 mg/ml Injektionslösung |werk=[https://www.novartis.de/arzneimittel-produkte/ilaris-informationen-zur-risikominimierung Ilaris&lt;sup&gt;®&lt;/sup&gt; (Canakinumab) – Informationen zur sicheren Anwendung] |hrsg=Novartis Pharma |datum=2019-07-01 |abruf=2020-02-03}}</inner>
+<close>&lt;/ref&gt;</close>
+</ext>
+
+<h level="2" i="2">== Klinische Angaben ==</h>
+<h level="3" i="3">=== Systemische juvenile idiopathische Arthritis (sJIA) ===</h>
+Canakinumab ist für Kinder mit [[Juvenile idiopathische Arthritis|systemischer juveniler idiopathischer Arthritis]] (sJIA) ab dem 2. Lebensjahr und somit auch für den adulten Still zugelassen.<ext>
+<name>ref</name>
+<attr> name=&quot;:0&quot; </attr>
+</ext> Bei der sJIA gibt es vom Hersteller zwei vorgeschlagene Therapiemöglichkeiten:
+* eine [[Monotherapie]]<ext>
+<name>ref</name>
+<attr> name=&quot;:0&quot; </attr>
+</ext>
+* eine [[Kombinationstherapie]] mit [[Methotrexat]]<ext>
+<name>ref</name>
+<attr> name=&quot;:0&quot; </attr>
+</ext>
+
+Canakinumab blockiert den Interleukin-1β-Rezeptor. Somit wird die zugrunde liegende Krankheit bekämpft und entsprechende Blutwerte wie Beispielsweise der [[C-reaktives Protein|CRP-Wert]] sinken wieder in den Normalbereich. Der Hersteller, Novartis, empfiehlt eine Dosierung ab einem Körpergewicht von 7,5 kg, von 4 mg/kg. Diese soll alle vier Wochen in Form einer subkutanen Injektion durch einen Arzt erfolgen. Die maximale Dosis liegt hier bei 300 mg. Sollte hierbei keine Verbesserung erfolgen, so ist von einer weiteren Canakinumab-Behandlung abzusehen.
+
+<h level="3" i="4">=== Periodische Fiebersyndrome ===</h>
+Neben rheumatischen Erkrankungen ist Canakinumab ebenfalls für die folgenden [[periodische Fiebersyndrome|periodischen Fiebersyndrome]] eine Behandlungsmöglichkeit:
+
+<h level="4" i="5">==== Cryopyrinassozierte periodische Syndrome ====</h>
+Bei [[Cryopyrin-assoziiertes periodisches Syndrom]] (CAPS) ist Canakinumab ab dem 2. Lebensjahr zugelassen. Hier werden zunächst 150 mg oder 2 mg/kg, je nach Körpergewicht, als Anfangsdosis appliziert.<ext>
+<name>ref</name>
+<attr> name=&quot;:0&quot; </attr>
+</ext> Sollte nach sieben Tagen kein Fortschritt erfolgt sein, sollte eine zweite Injektion mit derselben Dosierung in Erwägung gezogen werden.<ext>
+<name>ref</name>
+<attr> name=&quot;:0&quot; </attr>
+</ext>
+
+Sollte dies Erfolg haben, sollte alle acht Wochen mit 300 mg bzw. 4 mg/kg eine nächste Injektion erfolgen.
+
+<h level="4" i="6">==== TRAPS, MKD/HIDS, FMF ====</h>
+Außerdem ist Canakinumab für [[TNF-Rezeptor-assoziiertes periodisches Fiebersyndrom|Tumor-Nekrose-Faktor-Rezeptor-assoziiertes periodisches Syndrom (TRAPS)]], [[Hyperimmunglobulin]]-D-Syndrom (HIDS), [[Mevalonatkinase]]-Defizienz (MKD) und dem [[Familiäres Mittelmeerfieber|Familiären Mittelmeerfieber]] (FMF) zugelassen.<ext>
+<name>ref</name>
+<attr> name=&quot;:0&quot; </attr>
+</ext> Auch hier empfiehlt Novartis verschiedene Anfangsdosierungen:
+* Sollte der Patient mehr als 40 kg wiegen, beträgt die empfohlene Anfangsdosis 150 mg.<ext>
+<name>ref</name>
+<attr> name=&quot;:0&quot; </attr>
+</ext>
+* Sollte der Patient zwischen 7,5 kg und 40 kg wiegen, empfiehlt der Hersteller 2 mg/kg.<ext>
+<name>ref</name>
+<attr> name=&quot;:0&quot; </attr>
+</ext>
+
+Genauso wie bei der sJIA wird hier eine einzelne subkutane Injektion alle vier Wochen verabreicht.
+
+<h level="3" i="7">=== Gichtarthritis ===</h>
+Bei [[Gicht|Gichtarthritis]] wird Canakinumab zu einer symptomatischen Behandlung bei erwachsenen Patienten mit häufigen Gichtanfällen (mindestens drei in den letzten zwölf Monaten) angewendet.<ext>
+<name>ref</name>
+<attr> name=&quot;:0&quot; </attr>
+</ext> Canakinumab wird hier jedoch nur appliziert, wenn [[Nichtsteroidales Antirheumatikum|nichtsteroidale Antirheumatika]] (NSAR) und Colchicin kontraindiziert oder unverträglich sind.<ext>
+<name>ref</name>
+<attr> name=&quot;:0&quot; </attr>
+</ext> Außerdem kann Canakinumab bei einem starken Gichtanfall angewendet werden, wenn nach wiederholten Kortison-Zyklen keine Verbesserung erkennbar ist.<ext>
+<name>ref</name>
+<attr> name=&quot;:0&quot; </attr>
+</ext>
+
+<h level="3" i="8">=== Nebenwirkungen ===</h>
+In der Regel wird Canakinumab gut vertragen. Mögliche Nebenwirkungen sind:
+* Rötung an der Injektionsstelle
+* Juckreiz
+* Schwindel
+* Infektion der oberen Atemwege
+
+<h level="3" i="9">=== Wechselwirkungen ===</h>
+Bisher (Stand 2017) wurden keine Wechselwirkungen mit anderen Medikamenten festgestellt.<ext>
+<name>ref</name>
+<attr> name=&quot;:1&quot;</attr>
+<inner>{{Internetquelle |autor= |url=https://dgrh.de/dam/jcr:526c9fa6-acff-4b6f-b14d-ba456eed621f/Canakinumab%20PAT_06_17.pdf |titel=Behandlung mit Canakinumab |werk= |hrsg=Deutsche Gesellschaft für Rheumatologie e.v. |datum=2017-06-01 |abruf=2020-02-09}}</inner>
+<close>&lt;/ref&gt;</close>
+</ext> Trotzdem sollte Canakinumab nicht in Kombination mit anderen [[Biologika]] verabreicht werden.<ext>
+<name>ref</name>
+<attr> name=&quot;:1&quot; </attr>
+</ext>
+
+<h level="3" i="10">=== Schwangerschaft und Stillzeit ===</h>
+Die Datenverfügbarkeit von schwangeren Canakinumab-Patientinnen ist sehr begrenzt.<ext>
+<name>ref</name>
+<attr> name=&quot;:0&quot; </attr>
+</ext> Hier schlägt der Hersteller eine gründliche Nutzen-Risiko-Abwägung durch den behandelten Arzt vor. Trotzdem wird empfohlen, Neugeborenen erst 16 Wochen nach der Geburt [[Lebendimpfstoff]]e zu verabreichen.<ext>
+<name>ref</name>
+<attr> name=&quot;:0&quot; </attr>
+</ext>
+
+<h level="2" i="11">== Einzelnachweise ==</h>
+<ext>
+<name>references</name>
+<attr></attr>
+</ext>
+
+<template lineStart="1">
+<title>Gesundheitshinweis</title>
+</template>
+
+
+[[Kategorie:Zytokin]]
+[[Kategorie:Arzneistoff]]
+[[Kategorie:Antikörper]]
+[[Kategorie:Immunsuppressivum]]</root>
