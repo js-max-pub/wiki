@@ -1,6 +1,7 @@
 // import { FS } from 'https://jsv.max.pub/fs/2021/deno.js'
 // import { Log } from 'https://v.max.pub/@js-max-pub/log/2021-07/css.js'
-export let log = {}
+let log = {}
+export function wikiLog(x) { log = x }
 
 export const defaultOptions = {
 	language: 'en',
