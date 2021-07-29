@@ -52,7 +52,7 @@ export class WikiPage {
 	}
 	async isDisambiguation() {
 		let terms = { en: 'disambiguation', de: 'Begriffsklärung' }
-		return (await this.markdown()).includes(terms[this.wiki.language])
+		return (await this.markdown())?.includes(terms[this.wiki.language])
 	}
 	async content(format = 'xml') {
 		if (!this.#content[format])

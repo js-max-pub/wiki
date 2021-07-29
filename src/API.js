@@ -61,13 +61,13 @@ export async function* queryProp(titles, prop, localOptions = {}) {
 
 export async function* redirects(titles, localOptions = {}) {
 	for await (let page of queryProp(titles, 'redirects', localOptions))
-		for (let link of page.redirects)
+		for (let link of page?.redirects ?? [])
 			yield link.title
 }
 
 export async function* categories(titles, localOptions = {}) {
 	for await (let page of queryProp(titles, 'categories', localOptions))
-		for (let link of page.categories)
+		for (let link of page?.categories ?? [])
 			yield link.title.replace('Kategorie:', '')
 }
 
