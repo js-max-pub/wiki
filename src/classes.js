@@ -37,7 +37,23 @@ export class WikiPage {
 	languages() {
 		return API.languages(this.title, { language: this.wiki.language })
 	}
+	redirects() {
+		return API.redirects(this.title, { language: this.wiki.language })
+	}
+	categories() {
+		return API.categories(this.title, { language: this.wiki.language })
+	}
+	terms() {
+		return API.terms(this.title, { language: this.wiki.language })
+	}
 
+	async links() {
+		return links(await this.markdown())
+	}
+	async isDisambiguation() {
+		let terms = { en: 'disambiguation', de: 'Begriffsklärung' }
+		return (await this.markdown()).includes(terms[this.wiki.language])
+	}
 	async content(format = 'xml') {
 		if (!this.#content[format])
 			this.#content[format] = await API.content(this.title, { language: this.wiki.language, format })
@@ -69,7 +85,10 @@ function xmlReplaceLinks(xml) {
 }
 
 
-
+export function links(text) {
+	return Array.from(text.matchAll(/(\[\[.*?\]\])/g))
+		.map(x => [x[0], ...x[0].slice(2, -2).split('|')])
+}
 
 
 
