@@ -3,6 +3,9 @@
 let log = {}
 export function wikiLog(x) { log = x }
 
+export var CACHE = {}
+export function clearCache() { CACHE = {} }
+
 export const defaultOptions = {
 	language: 'en',
 	recursive: true,
@@ -23,11 +26,13 @@ export const defaultParameters = {
 export function wikiURL(language = 'en', params = {}) {
 	return new URL(`https://${language}.wikipedia.org/w/api.php`) + '?' + new URLSearchParams(params).toString()
 }
-export function fetchJSON(language, params = {}) {
+export async function fetchJSON(language, params = {}) {
 	params = { ...defaultParameters, ...params }
 	let url = wikiURL(language, params)
 	log?.timeCounter?.text(url)?.line
-	return fetch(url).then(x => x.json())
+	if (!CACHE[url])
+		CACHE[url] = fetch(url).then(x => x.json())
+	return CACHE[url]
 }
 export async function* fetchAll(language, params = {}) {
 	let more
@@ -75,6 +80,32 @@ export async function terms(titles, localOptions = {}) {
 	for await (let page of queryProp(titles, 'pageterms', localOptions))
 		return page.terms
 }
+// https://de.wikipedia.org/w/api.php?format=json&origin=*&redirects=&action=query&titles=natriumchlorid&prop=redirects|categories|pageterms
+export async function meta(title, localOptions) {
+	let options = { ...defaultOptions, ...localOptions }
+	let output = {
+		page: '',
+		redirects: [],
+		categories: [],
+		aliases: [],
+	}
+	for await (let result of fetchAll(options.language, { action: 'query', titles: title, prop: 'redirects|categories|pageterms' })) {
+		output.page = result?.query?.redirects?.[0]?.to ?? title
+		for (let page of Object.values(result?.query?.pages ?? {}) ?? []) {
+			output.redirects = [...new Set([...output.redirects, ...(page.redirects?.map(x => x.title) ?? []), result?.query?.redirects?.[0]?.from])].filter(x => x)
+			output.categories = [...new Set([...output.categories, ...(page.categories?.map(x => x.title)?.map(x => x.replace('Kategorie:', '')) ?? [])])]
+			output.aliases = [...new Set([...output.aliases, ...(page.terms?.alias ?? [])])]
+			output.label = page.terms?.label ?? output.label?.[0]
+			output.description = page.terms?.description ?? output.description?.[0]
+			// redirects: [...new Set([, result?.query?.redirects?.[0]?.from].filter(x => x))],
+			// 	categories: page.categories?.map(x => x.title).map(x => x.replace('Kategorie:', '')),
+			// 	...(page.terms ?? [])
+			// })
+		}
+	}
+	return output
+}
+
 
 export async function* category(categoryName, localOptions = {}) {
 	let options = { ...defaultOptions, ...localOptions }
