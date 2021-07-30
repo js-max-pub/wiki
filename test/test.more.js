@@ -3,9 +3,12 @@ import { Log } from '../../log/css.js'
 wikiLog(new Log())
 let w = wiki('de')
 
-console.log('terms', await w.page('clexane').meta())
-console.log('terms', await w.page('Natriumchlorid').meta())
-console.log('terms', await w.page('Acetylsalicylsäure').meta())
+await w.page('clexane').meta()
+await w.page('clexane').meta()
+await w.page('clexane').meta()
+// console.log('terms', await w.page('clexane').meta())
+// console.log('terms', await w.page('Natriumchlorid').meta())
+// console.log('terms', await w.page('Acetylsalicylsäure').meta())
 
 // console.log('dis ambi?', await w.page('aspirin').isDisambiguation())
 // Deno.exit()

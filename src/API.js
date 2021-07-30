@@ -27,11 +27,16 @@ export function wikiURL(language = 'en', params = {}) {
 	return new URL(`https://${language}.wikipedia.org/w/api.php`) + '?' + new URLSearchParams(params).toString()
 }
 export async function fetchJSON(language, params = {}) {
+	let t0 = Date.now()
 	params = { ...defaultParameters, ...params }
 	let url = wikiURL(language, params)
-	log?.timeCounter?.text(url)?.line
-	if (!CACHE[url])
-		CACHE[url] = fetch(url).then(x => x.json())
+
+	var mode = 'cache'
+	if (!CACHE[url]) {
+		CACHE[url] = await fetch(url).then(x => x.json())
+		mode = 'web'
+	}
+	log?.timeCounter?.gray?.text(mode)?.tib?.text(Date.now() - t0 + 'ms')?.move(50)?.reset?.text(url)?.line
 	return CACHE[url]
 }
 export async function* fetchAll(language, params = {}) {
