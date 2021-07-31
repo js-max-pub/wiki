@@ -61,30 +61,30 @@ export async function* search(query, options = {}) {
 	}
 }
 
-export async function* queryProp(titles, prop, localOptions = {}) {
-	let options = { ...defaultOptions, ...localOptions }
-	for await (let result of fetchAll(options.language, { action: 'query', titles, prop }))
-		for (let page of Object.values(result?.query?.pages ?? {}) ?? [])
-			yield page
-}
+// export async function* queryProp(titles, prop, localOptions = {}) {
+// 	let options = { ...defaultOptions, ...localOptions }
+// 	for await (let result of fetchAll(options.language, { action: 'query', titles, prop }))
+// 		for (let page of Object.values(result?.query?.pages ?? {}) ?? [])
+// 			yield page
+// }
 
 
-export async function* redirects(titles, localOptions = {}) {
-	for await (let page of queryProp(titles, 'redirects', localOptions))
-		for (let link of page?.redirects ?? [])
-			yield link.title
-}
+// export async function* redirects(titles, localOptions = {}) {
+// 	for await (let page of queryProp(titles, 'redirects', localOptions))
+// 		for (let link of page?.redirects ?? [])
+// 			yield link.title
+// }
 
-export async function* categories(titles, localOptions = {}) {
-	for await (let page of queryProp(titles, 'categories', localOptions))
-		for (let link of page?.categories ?? [])
-			yield link.title.replace('Kategorie:', '')
-}
+// export async function* categories(titles, localOptions = {}) {
+// 	for await (let page of queryProp(titles, 'categories', localOptions))
+// 		for (let link of page?.categories ?? [])
+// 			yield link.title.replace('Kategorie:', '')
+// }
 
-export async function terms(titles, localOptions = {}) {
-	for await (let page of queryProp(titles, 'pageterms', localOptions))
-		return page.terms
-}
+// export async function terms(titles, localOptions = {}) {
+// 	for await (let page of queryProp(titles, 'pageterms', localOptions))
+// 		return page.terms
+// }
 // https://de.wikipedia.org/w/api.php?format=json&origin=*&redirects=&action=query&titles=natriumchlorid&prop=redirects|categories|pageterms
 export async function meta(title, localOptions) {
 	let options = { ...defaultOptions, ...localOptions }
@@ -100,7 +100,7 @@ export async function meta(title, localOptions) {
 		output.page = result?.query?.redirects?.[0]?.to ?? title
 		// console.log(result)
 		for (let page of Object.values(result?.query?.pages ?? {}) ?? []) {
-			console.log(page)
+			// console.log(page)
 			output.touched = page?.touched ?? output?.touched
 			output.redirects = [...new Set([...output.redirects, ...(page.redirects?.map(x => x.title) ?? []), result?.query?.redirects?.[0]?.from])].filter(x => x)
 			output.categories = [...new Set([...output.categories, ...(page.categories?.map(x => x.title)?.map(x => x.replace('Kategorie:', '')) ?? [])])]
