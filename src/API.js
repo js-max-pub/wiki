@@ -85,6 +85,8 @@ export async function* search(query, options = {}) {
 // 	for await (let page of queryProp(titles, 'pageterms', localOptions))
 // 		return page.terms
 // }
+
+
 // https://de.wikipedia.org/w/api.php?format=json&origin=*&redirects=&action=query&titles=natriumchlorid&prop=redirects|categories|pageterms
 export async function meta(title, localOptions) {
 	let options = { ...defaultOptions, ...localOptions }
@@ -109,14 +111,12 @@ export async function meta(title, localOptions) {
 			output.description = page.terms?.description ?? output.description?.[0]
 			for (let lang of page.langlinks ?? [])
 				output.languages[lang.lang] = lang['*']
-			// redirects: [...new Set([, result?.query?.redirects?.[0]?.from].filter(x => x))],
-			// 	categories: page.categories?.map(x => x.title).map(x => x.replace('Kategorie:', '')),
-			// 	...(page.terms ?? [])
-			// })
 		}
 	}
 	return output
 }
+
+
 
 
 export async function* category(categoryName, localOptions = {}) {
@@ -152,6 +152,7 @@ export async function content(title, options = {}) {
 	options = { ...defaultOptions, ...options }
 	let formats = { xml: 'parsetree', html: 'text', markdown: 'wikitext' }
 	let prop = options.prop ?? formats[options.format]
+	// langlinks|categories|links|templates|images
 	let result = await fetchJSON(options.language, { action: 'parse', page: title, prop })
 	return options.short ? result?.parse?.[prop]?.['*'] : result
 }
