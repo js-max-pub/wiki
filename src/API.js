@@ -10,7 +10,7 @@ export const defaultOptions = {
 	language: 'en',
 	recursive: true,
 	short: true,
-	limit: 100,
+	limit: 0,
 	counter: 0,
 	format: 'xml',
 }
@@ -93,15 +93,22 @@ export async function meta(title, localOptions) {
 		redirects: [],
 		categories: [],
 		aliases: [],
+		languages: {},
 	}
-	for await (let result of fetchAll(options.language, { action: 'query', titles: title, prop: 'redirects|categories|pageterms' })) {
+	// |templates|links|pageviews
+	for await (let result of fetchAll(options.language, { action: 'query', titles: title, prop: 'redirects|categories|pageterms|langlinks|info' })) {
 		output.page = result?.query?.redirects?.[0]?.to ?? title
+		// console.log(result)
 		for (let page of Object.values(result?.query?.pages ?? {}) ?? []) {
+			console.log(page)
+			output.touched = page?.touched ?? output?.touched
 			output.redirects = [...new Set([...output.redirects, ...(page.redirects?.map(x => x.title) ?? []), result?.query?.redirects?.[0]?.from])].filter(x => x)
 			output.categories = [...new Set([...output.categories, ...(page.categories?.map(x => x.title)?.map(x => x.replace('Kategorie:', '')) ?? [])])]
 			output.aliases = [...new Set([...output.aliases, ...(page.terms?.alias ?? [])])]
 			output.label = page.terms?.label ?? output.label?.[0]
 			output.description = page.terms?.description ?? output.description?.[0]
+			for (let lang of page.langlinks ?? [])
+				output.languages[lang.lang] = lang['*']
 			// redirects: [...new Set([, result?.query?.redirects?.[0]?.from].filter(x => x))],
 			// 	categories: page.categories?.map(x => x.title).map(x => x.replace('Kategorie:', '')),
 			// 	...(page.terms ?? [])
