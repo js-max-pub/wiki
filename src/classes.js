@@ -49,6 +49,9 @@ export class WikiPage {
 	meta() {
 		return API.meta(this.title, { language: this.wiki.language })
 	}
+	revisions() {
+		return API.revisions(this.title, { language: this.wiki.language })
+	}
 
 	async links() {
 		return links(await this.markdown())

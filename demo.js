@@ -1,4 +1,4 @@
-import wiki from './mod.js';
+import { wiki } from './mod.js';
 import FS from 'https://jsv.max.pub/fs/2021/deno.js'
 // let search = await wiki('de').search('aspirin', {min:true})
 // console.log('search', search)
@@ -27,5 +27,7 @@ import FS from 'https://jsv.max.pub/fs/2021/deno.js'
 // console.log(JSON.stringify(json, 0, 4))
 // FS.file('demo.json').json = json
 
-FS.file('demo.json').json = await wiki('de').page('Arginin').parse().json()
-FS.file('demo.md').text = await wiki('de').page('Arginin').text()
+// FS.file('demo.json').json = await wiki('de').page('Arginin').parse().json()
+// FS.file('demo.md').text = await wiki('de').page('Arginin').text()
+
+console.log(await wiki('de').page('Arginin').revisions())

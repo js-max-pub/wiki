@@ -61,6 +61,15 @@ export async function* search(query, options = {}) {
 	}
 }
 
+export async function revisions(title, options = {}) {
+	// https://en.wikipedia.org/w/api.php?format=json&origin=*&redirects=&action=query&titles=Hydromorphone&prop=revisions&rvlimit=10
+	options = { ...defaultOptions, ...options }
+	let data = await fetchJSON(options.language, { action: 'query', prop: 'revisions', rvlimit: 10, titles: title })
+	data = Object.values(data?.query?.pages ?? {})?.[0]?.revisions ?? []
+	let short = Object.fromEntries(data.map(x => [new Date(Date.parse(x.timestamp)).toISOString().slice(0, 19), x.comment]))
+	return options.short ? short : data
+}
+
 // export async function* queryProp(titles, prop, localOptions = {}) {
 // 	let options = { ...defaultOptions, ...localOptions }
 // 	for await (let result of fetchAll(options.language, { action: 'query', titles, prop }))
