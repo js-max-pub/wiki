@@ -4,6 +4,19 @@
 import { last } from 'https://jsv.max.pub/array/2021/mod.js'
 import { camelCase } from 'https://jsv.max.pub/string/2021/mod.js'
 
+export function templates(list) {
+	if (list.root) list = list.value
+	list = list.filter(x => x.type == 'template')
+	list = [...list, ...list.map(x => templates(x.value ?? []))].flat()
+	return list
+}
+
+export function treeToList(p) {
+	if (p.root) return treeToList(p.value)
+	p = p.filter(x => typeof x != 'string')
+	p = [...p, ...p.map(x => treeToList(x.value ?? []))].flat()
+	return p
+}
 
 export function markdownParser(text = '') {
 	text = text.replace(/<!--.*?-->/g, '') // remove comments

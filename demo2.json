@@ -1,0 +1,7291 @@
+[
+	{
+		"type": "template",
+		"name": "short description",
+		"camel": "shortDescription",
+		"value": [
+			{
+				"type": "argument",
+				"value": [
+					"Human natural glucocorticoid hormone"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "About",
+		"camel": "about",
+		"value": [
+			{
+				"type": "argument",
+				"value": [
+					"the natural hormone"
+				]
+			},
+			{
+				"type": "argument",
+				"value": [
+					"the medication"
+				]
+			},
+			{
+				"type": "argument",
+				"value": [
+					"Hydrocortisone"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "distinguish",
+		"camel": "distinguish",
+		"value": [
+			{
+				"type": "argument",
+				"key": "text",
+				"camel": "text",
+				"value": [
+					"",
+					{
+						"type": "link",
+						"url": "cortisone",
+						"value": []
+					},
+					", a metabolite from cortisol, with a similar name, genesis, and function"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "medref",
+		"camel": "medref",
+		"value": [
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"March 2020"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "Use dmy dates",
+		"camel": "useDmyDates",
+		"value": [
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"December 2017"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "Use American English",
+		"camel": "useAmericanEnglish",
+		"value": [
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"December 2017"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "Chembox",
+		"camel": "chembox",
+		"value": [
+			{
+				"type": "argument",
+				"key": "IUPACName",
+				"camel": "iupacname",
+				"value": [
+					"11β,17α,21-Trihydroxypregn-4-ene-3,20-dione"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "PIN",
+				"camel": "pin",
+				"value": [
+					"(1''R'',3a''S'',3b''S'',9a''R'',9b''S'',11a''S'')-1,10-Dihydroxy-1-(hydroxyacetyl)-9a,11a-dimethyl-1,2,3,3a,3b,4,5,8,9,9a,9b,10,11,11a-tetradecahydro-7''H''-cyclopenta[''a'']phenanthen-7-one"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "ImageFile1",
+				"camel": "imagefile1",
+				"value": [
+					"",
+					{
+						"type": "template",
+						"name": "wikidata",
+						"camel": "wikidata",
+						"value": [
+							{
+								"type": "argument",
+								"value": [
+									"property"
+								]
+							},
+							{
+								"type": "argument",
+								"value": [
+									"raw"
+								]
+							},
+							{
+								"type": "argument",
+								"value": [
+									"P117"
+								]
+							}
+						]
+					},
+					"\n"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "ImageFile2",
+				"camel": "imagefile2",
+				"value": [
+					"",
+					{
+						"type": "template",
+						"name": "wikidata",
+						"camel": "wikidata",
+						"value": [
+							{
+								"type": "argument",
+								"value": [
+									"property"
+								]
+							},
+							{
+								"type": "argument",
+								"value": [
+									"raw"
+								]
+							},
+							{
+								"type": "argument",
+								"value": [
+									"P8224"
+								]
+							}
+						]
+					},
+					"\n"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "Section1",
+				"camel": "section1",
+				"value": [
+					"",
+					{
+						"type": "template",
+						"name": "Chembox Identifiers",
+						"camel": "chemboxIdentifiers",
+						"value": [
+							{
+								"type": "argument",
+								"key": "CASNo",
+								"camel": "casno",
+								"value": [
+									"50-23-7"
+								]
+							},
+							{
+								"type": "argument",
+								"key": "PubChem",
+								"camel": "pubchem",
+								"value": [
+									"5754"
+								]
+							},
+							{
+								"type": "argument",
+								"key": "DrugBank",
+								"camel": "drugbank",
+								"value": [
+									"DB00741"
+								]
+							},
+							{
+								"type": "argument",
+								"key": "ChemSpiderID",
+								"camel": "chemspiderid",
+								"value": [
+									"5551"
+								]
+							},
+							{
+								"type": "argument",
+								"key": "ChemSpiderID_Comment",
+								"camel": "chemspideridComment",
+								"value": [
+									""
+								]
+							},
+							{
+								"type": "argument",
+								"key": "UNII",
+								"camel": "unii",
+								"value": [
+									"WI4X0X7BPJ"
+								]
+							},
+							{
+								"type": "argument",
+								"key": "KEGG",
+								"camel": "kegg",
+								"value": [
+									"D00088"
+								]
+							},
+							{
+								"type": "argument",
+								"key": "ChEBI",
+								"camel": "chebi",
+								"value": [
+									"17650"
+								]
+							},
+							{
+								"type": "argument",
+								"key": "ChEMBL",
+								"camel": "chembl",
+								"value": [
+									"389621"
+								]
+							},
+							{
+								"type": "argument",
+								"key": "SMILES",
+								"camel": "smiles",
+								"value": [
+									"O=C4\\C=C2/[C@]([C@H]1[C@@H](O)C[C@@]3([C@@](O)(C(=O)CO)CC[C@H]3[C@@H]1CC2)C)(C)CC4"
+								]
+							},
+							{
+								"type": "argument",
+								"key": "StdInChI",
+								"camel": "stdinchi",
+								"value": [
+									"1S/C21H30O5/c1-19-7-5-13(23)9-12(19)3-4-14-15-6-8-21(26,17(25)11-22)20(15,2)10-16(24)18(14)19/h9,14-16,18,22,24,26H,3-8,10-11H2,1-2H3/t14-,15-,16-,18+,19-,20-,21-/m0/s1"
+								]
+							},
+							{
+								"type": "argument",
+								"key": "StdInChIKey",
+								"camel": "stdinchikey",
+								"value": [
+									"JYGXADMDTFJGBT-VWUMJDOOSA-N"
+								]
+							}
+						]
+					},
+					"\n"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "Section2",
+				"camel": "section2",
+				"value": [
+					"",
+					{
+						"type": "template",
+						"name": "Chembox Properties",
+						"camel": "chemboxProperties",
+						"value": [
+							{
+								"type": "argument",
+								"key": "C",
+								"camel": "c",
+								"value": [
+									"21"
+								]
+							},
+							{
+								"type": "argument",
+								"key": "H",
+								"camel": "h",
+								"value": [
+									"30"
+								]
+							},
+							{
+								"type": "argument",
+								"key": "O",
+								"camel": "o",
+								"value": [
+									"5"
+								]
+							},
+							{
+								"type": "argument",
+								"key": "MolarMass",
+								"camel": "molarmass",
+								"value": [
+									"362.460 g/mol"
+								]
+							}
+						]
+					},
+					"\n"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite web",
+		"camel": "citeWeb",
+		"value": [
+			{
+				"type": "argument",
+				"key": "author",
+				"camel": "author",
+				"value": [
+					"Scott E"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url",
+				"camel": "url",
+				"value": [
+					"http://stress.about.com/od/stresshealth/a/cortisol.htm"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Cortisol and Stress: How to Stay Healthy"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"",
+					{
+						"type": "link",
+						"url": "About.com",
+						"value": []
+					},
+					" "
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"2011-09-22"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "access-date",
+				"camel": "accessDate",
+				"value": [
+					"2011-11-29"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "better source",
+		"camel": "betterSource",
+		"value": [
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"November 2012"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Taves MD, Gomez-Sanchez CE, Soma KK"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Extra-adrenal glucocorticoids and mineralocorticoids: evidence for local synthesis, regulation, and function"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"American Journal of Physiology. Endocrinology and Metabolism"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"301"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"E11-24"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"July 2011"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"21540450"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmc",
+				"camel": "pmc",
+				"value": [
+					"3275156"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1152/ajpendo.00100.2011"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Hoehn K, Marieb EN"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Human Anatomy & Physiology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Benjamin Cummings"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "location",
+				"camel": "location",
+				"value": [
+					"San Francisco"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"2010"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "isbn",
+				"camel": "isbn",
+				"value": [
+					"978-0-321-60261-9"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title-link",
+				"camel": "titleLink",
+				"value": [
+					"Anatomy"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Chyun YS, Kream BE, Raisz LG"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Cortisol decreases bone formation by inhibiting periosteal cell proliferation"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Endocrinology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"114"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"2"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"477–80"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"February 1984"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"6690287"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1210/endo-114-2-477"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "TOC limit",
+		"camel": "tocLimit",
+		"value": [
+			{
+				"type": "argument",
+				"value": [
+					"3"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "Cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Integrated endocrinology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "last",
+				"camel": "last",
+				"value": [
+					"Laycock, John F."
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"2013"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Wiley-Blackwell"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "others",
+				"camel": "others",
+				"value": [
+					"Meeran, Karim."
+				]
+			},
+			{
+				"type": "argument",
+				"key": "isbn",
+				"camel": "isbn",
+				"value": [
+					"978-1-118-45064-2"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "location",
+				"camel": "location",
+				"value": [
+					"Chichester, West Sussex, UK"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "oclc",
+				"camel": "oclc",
+				"value": [
+					"794973804"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Coderre L, Srivastava AK, Chiasson JL"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Role of glucocorticoid in the regulation of glycogen metabolism in skeletal muscle"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"The American Journal of Physiology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"260"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"6 Pt 1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"E927–32"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"June 1991"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"1905485"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1152/ajpendo.1991.260.6.E927"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Macfarlane DP, Forbes S, Walker BR"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Glucocorticoids and fatty acid metabolism in humans: fuelling fat redistribution in the metabolic syndrome"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "language",
+				"camel": "language",
+				"value": [
+					"en-US"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"The Journal of Endocrinology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"197"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"2"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"189–204"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"May 2008"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"18434349"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1677/JOE-08-0054"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi-access",
+				"camel": "doiAccess",
+				"value": [
+					"free"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Kuo T, McQueen A, Chen TC, Wang JC"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "chapter",
+				"camel": "chapter",
+				"value": [
+					"Regulation of Glucose Homeostasis by Glucocorticoids"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"872"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"99–126"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"2015"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"26215992"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmc",
+				"camel": "pmc",
+				"value": [
+					"6185996"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1007/978-1-4939-2895-8_5"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Glucocorticoid Signaling: From Molecules to Mice to Man"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "isbn",
+				"camel": "isbn",
+				"value": [
+					"978-1-4939-2895-8"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "series",
+				"camel": "series",
+				"value": [
+					"Advances in Experimental Medicine and Biology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "veditors",
+				"camel": "veditors",
+				"value": [
+					"Wang JC, Harris C"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Springer"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Simmons PS, Miles JM, Gerich JE, Haymond MW"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Increased proteolysis. An effect of increases in plasma cortisol within the physiologic range"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"The Journal of Clinical Investigation"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"73"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"2"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"412–20"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"February 1984"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"6365973"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmc",
+				"camel": "pmc",
+				"value": [
+					"425032"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1172/JCI111227"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Djurhuus CB, Gravholt CH, Nielsen S, Mengel A, Christiansen JS, Schmitz OE, Møller N"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "s2cid",
+				"camel": "s2cid",
+				"value": [
+					"2609285"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"July 2002"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Effects of cortisol on lipolysis and regional interstitial glycerol levels in humans"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"American Journal of Physiology. Endocrinology and Metabolism"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"283"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"E172–7"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1152/ajpendo.00544.2001"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"12067858"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Elenkov IJ"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Glucocorticoids and the Th1/Th2 balance"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Annals of the New York Academy of Sciences"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"1024"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"138–46"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"June 2004"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"15265778"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1196/annals.1321.010"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "bibcode",
+				"camel": "bibcode",
+				"value": [
+					"2004NYASA1024..138E"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "s2cid",
+				"camel": "s2cid",
+				"value": [
+					"9575617"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url",
+				"camel": "url",
+				"value": [
+					"https://zenodo.org/record/1235876"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Palacios R, Sugawara I"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Hydrocortisone abrogates proliferation of T cells in autologous mixed lymphocyte reaction by rendering the interleukin-2 Producer T cells unresponsive to interleukin-1 and unable to synthesize the T-cell growth factor"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Scandinavian Journal of Immunology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"15"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"25–31"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"January 1982"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"6461917"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1111/j.1365-3083.1982.tb00618.x"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "s2cid",
+				"camel": "s2cid",
+				"value": [
+					"41292936"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Besedovsky HO, Del Rey A, Sorkin E"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "chapter",
+				"camel": "chapter",
+				"value": [
+					"Integration of Activated Immune Cell Products in Immune Endocrine Feedback Circuits"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "veditors",
+				"camel": "veditors",
+				"value": [
+					"Oppenheim JJ, Jacobs DM"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Leukocytes and Host Defense"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "series",
+				"camel": "series",
+				"value": [
+					"Progress in Leukocyte Biology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"5"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Alan R. Liss"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "location",
+				"camel": "location",
+				"value": [
+					"New York"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"1986"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "page",
+				"camel": "page",
+				"value": [
+					"200"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Fairchild SS, Shannon K, Kwan E, Mishell RI"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"T cell-derived glucosteroid response-modifying factor (GRMFT): a unique lymphokine made by normal T lymphocytes and a T cell hybridoma"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Journal of Immunology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"132"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"2"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"821–7"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"February 1984"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"6228602"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Mavoungou E, Bouyou-Akotet MK, Kremsner PG"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Effects of prolactin and cortisol on natural killer (NK) cell surface expression and function of human natural cytotoxicity receptors (NKp46, NKp44 and NKp30)"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Clinical and Experimental Immunology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"139"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"2"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"287–96"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"February 2005"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"15654827"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmc",
+				"camel": "pmc",
+				"value": [
+					"1809301"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1111/j.1365-2249.2004.02686.x"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Flohe L, Beckman R, Giertz H, Loschen G"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "chapter",
+				"camel": "chapter",
+				"value": [
+					"Oxygen Centered Free Radicals as Mediators of Inflammation"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor",
+				"camel": "editor",
+				"value": [
+					"Sies H"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Oxidative stress"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Orlando"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "location",
+				"camel": "location",
+				"value": [
+					"London"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"1985"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "page",
+				"camel": "page",
+				"value": [
+					"405"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "isbn",
+				"camel": "isbn",
+				"value": [
+					"978-0-12-642760-8"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Brown DF, Brown DD"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"USMLE Step 1 Secrets: Questions You Will Be Asked on USMLE Step 1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Hanley & Belfus"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "location",
+				"camel": "location",
+				"value": [
+					"Philadelphia"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"2003"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "page",
+				"camel": "page",
+				"value": [
+					"63"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "isbn",
+				"camel": "isbn",
+				"value": [
+					"978-1-56053-570-6"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "better source",
+		"camel": "betterSource",
+		"value": [
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"November 2012"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "author",
+				"camel": "author",
+				"value": [
+					"King MB"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Lange Q & A"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"McGraw-Hill, Medical Pub. Division"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "location",
+				"camel": "location",
+				"value": [
+					"New York"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"2005"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "isbn",
+				"camel": "isbn",
+				"value": [
+					"978-0-07-144578-8"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url-access",
+				"camel": "urlAccess",
+				"value": [
+					"registration"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url",
+				"camel": "url",
+				"value": [
+					"https://archive.org/details/langeqausmlestep0005unse"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Baynes J, Dominiczak M"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Medical biochemistry"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Mosby Elsevier"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"2009"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "isbn",
+				"camel": "isbn",
+				"value": [
+					"978-0-323-05371-6"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Deutsch E"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"[Pathogenesis of thrombocytopenia. 2. Distribution disorders, pseudo-thrombocytopenias]"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "language",
+				"camel": "language",
+				"value": [
+					"de"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Fortschritte der Medizin"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"96"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"14"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"761–2"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"April 1978"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"346457"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Kucharz EJ"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Hormonal control of collagen metabolism. Part II"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Endocrinologie"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"26"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"4"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"229–37"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"1988"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"3062759"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite encyclopedia",
+		"camel": "citeEncyclopedia",
+		"value": [
+			{
+				"type": "argument",
+				"key": "author",
+				"camel": "author",
+				"value": [
+					"Manchester, KL"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor",
+				"camel": "editor",
+				"value": [
+					"Allison, NH"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor2",
+				"camel": "editor2",
+				"value": [
+					"Munro JB"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"1964"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Sites of Hormonal Regulation of Protein Metabolism"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "encyclopedia",
+				"camel": "encyclopedia",
+				"value": [
+					"Mammalian Protein Metabolism"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Academic Press"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "location",
+				"camel": "location",
+				"value": [
+					"New York"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "page",
+				"camel": "page",
+				"value": [
+					"229? 273?"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Husband AJ, Brandon MR, Lascelles AK"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"The effect of corticosteroid on absorption and endogenous production of immunoglobulins in calves"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"The Australian Journal of Experimental Biology and Medical Science"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"51"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"5"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"707–10"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"October 1973"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"4207041"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1038/icb.1973.67"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Posey WC, Nelson HS, Branch B, Pearlman DS"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"The effects of acute corticosteroid therapy for asthma on serum immunoglobulin levels"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"The Journal of Allergy and Clinical Immunology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"62"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"6"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"340–8"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"December 1978"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"712020"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1016/0091-6749(78)90134-3"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "Medical citation needed",
+		"camel": "medicalCitationNeeded",
+		"value": [
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"November 2020"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "Medical citation needed",
+		"camel": "medicalCitationNeeded",
+		"value": [
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"November 2020"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "editor-first1",
+				"camel": "editorFirst1",
+				"value": [
+					"Donald W."
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor-last1",
+				"camel": "editorLast1",
+				"value": [
+					"Kure"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor-first2",
+				"camel": "editorFirst2",
+				"value": [
+					"Raphael E."
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor-last2",
+				"camel": "editorLast2",
+				"value": [
+					"Pollock"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor-first3",
+				"camel": "editorFirst3",
+				"value": [
+					"Ralph R."
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor-last3",
+				"camel": "editorLast3",
+				"value": [
+					"Weichselbaum"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor-first4",
+				"camel": "editorFirst4",
+				"value": [
+					"Robert C."
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor-last4",
+				"camel": "editorLast4",
+				"value": [
+					"Bast"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor-first5",
+				"camel": "editorFirst5",
+				"value": [
+					"Ted S."
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor-last5",
+				"camel": "editorLast5",
+				"value": [
+					"Ganglier"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor-first6",
+				"camel": "editorFirst6",
+				"value": [
+					"James F."
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor-last6",
+				"camel": "editorLast6",
+				"value": [
+					"Holland"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor-first7",
+				"camel": "editorFirst7",
+				"value": [
+					"Emil"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor-last7",
+				"camel": "editorLast7",
+				"value": [
+					"Frei"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Holland-Frei Cancer Medicine"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"2003"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Decker"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "location",
+				"camel": "location",
+				"value": [
+					"Hamilton, Ontario"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "isbn",
+				"camel": "isbn",
+				"value": [
+					"978-1-55009-213-4"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "edition",
+				"camel": "edition",
+				"value": [
+					"6"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "first1",
+				"camel": "first1",
+				"value": [
+					"Lorraine I."
+				]
+			},
+			{
+				"type": "argument",
+				"key": "last1",
+				"camel": "last1",
+				"value": [
+					"McKay"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "first2",
+				"camel": "first2",
+				"value": [
+					"John A."
+				]
+			},
+			{
+				"type": "argument",
+				"key": "last2",
+				"camel": "last2",
+				"value": [
+					"Cidlowski"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "name-list-style",
+				"camel": "nameListStyle",
+				"value": [
+					"vanc"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "chapter",
+				"camel": "chapter",
+				"value": [
+					"Physiologic and Pharmacologic Effects of Corticosteroids"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "chapter-url",
+				"camel": "chapterUrl",
+				"value": [
+					"https://www.ncbi.nlm.nih.gov/books/NBK13780/"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url-access",
+				"camel": "urlAccess",
+				"value": [
+					"registration"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url",
+				"camel": "url",
+				"value": [
+					"https://archive.org/details/cancermedicine60002unse"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Sandle GI, Keir MJ, Record CO"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"The effect of hydrocortisone on the transport of water, sodium, and glucose in the jejunum. Perfusion studies in normal subjects and patients with coeliac disease"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Scandinavian Journal of Gastroenterology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"16"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"5"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"667–71"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"1981"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"7323700"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.3109/00365528109182028"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Mason PA, Fraser R, Morton JJ, Semple PF, Wilson A"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"The effect of sodium deprivation and of angiotensin II infusion on the peripheral plasma concentrations of 18-hydroxycorticosterone, aldosterone and other corticosteroids in man"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Journal of Steroid Biochemistry"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"8"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"8"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"799–804"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"August 1977"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"592808"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1016/0022-4731(77)90086-3"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Gorbman A, Dickhoff WW, Vigna SR, Clark NB, Muller AF"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Comparative endocrinology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Wiley"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "location",
+				"camel": "location",
+				"value": [
+					"New York"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"1983"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "isbn",
+				"camel": "isbn",
+				"value": [
+					"978-0-471-06266-0"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Muller AF, Oconnor CM"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"An International Symposium on Aldosterone"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Little Brown & Co"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"1958"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "page",
+				"camel": "page",
+				"value": [
+					"58"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Knight RP, Kornfeld DS, Glaser GH, Bondy PK"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Effects of intravenous hydrocortisone on electrolytes of serum and urine in man"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"The Journal of Clinical Endocrinology and Metabolism"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"15"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"2"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"176–81"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"February 1955"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"13233328"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1210/jcem-15-2-176"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"The Human Adrenal Gland"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url",
+				"camel": "url",
+				"value": [
+					"https://archive.org/details/humanadrenalglan00soff"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url-access",
+				"camel": "urlAccess",
+				"value": [
+					"registration"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Lea & Febiger"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Soffer LJ, Dorfman RI, Gabrilove JL"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"1961"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "location",
+				"camel": "location",
+				"value": [
+					"Philadelphia"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Kokoshchuk GI, Pakhmurnyĭ BA"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Role of glucocorticoids in regulating the acid-excreting function of the kidneys"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Fiziologicheskii Zhurnal SSSR Imeni I. M. Sechenova"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"65"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"5"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"751–4"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"May 1979"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"110627"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite web",
+		"camel": "citeWeb",
+		"value": [
+			{
+				"type": "argument",
+				"key": "last",
+				"camel": "last",
+				"value": [
+					"Kennedy"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "first",
+				"camel": "first",
+				"value": [
+					"Ron"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url",
+				"camel": "url",
+				"value": [
+					"http://www.medical-library.net/content/view/1401/41/"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"The Doctors' Medical Library"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Cortisol (Hydrocortisone)"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "access-date",
+				"camel": "accessDate",
+				"value": [
+					"14 June 2013"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "archive-url",
+				"camel": "archiveUrl",
+				"value": [
+					"https://web.archive.org/web/20130703071625/http://www.medical-library.net/content/view/1401/41"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "archive-date",
+				"camel": "archiveDate",
+				"value": [
+					"3 July 2013"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url-status",
+				"camel": "urlStatus",
+				"value": [
+					"dead"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"McAuley MT, Kenny RA, Kirkwood TB, Wilkinson DJ, Jones JJ, Miller VM"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"A mathematical model of aging-related and cortisol induced hippocampal dysfunction"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"BMC Neuroscience"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"10"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "page",
+				"camel": "page",
+				"value": [
+					"26"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"March 2009"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"19320982"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmc",
+				"camel": "pmc",
+				"value": [
+					"2680862"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1186/1471-2202-10-26"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Martin PA, Crump MH"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "chapter",
+				"camel": "chapter",
+				"value": [
+					"The adrenal gland"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "veditors",
+				"camel": "veditors",
+				"value": [
+					"Dooley MP, Pineda MH"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"McDonald's veterinary endocrinology and reproduction"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "edition",
+				"camel": "edition",
+				"value": [
+					"5th"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Iowa State Press"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "location",
+				"camel": "location",
+				"value": [
+					"Ames, Iowa"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"2003"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "isbn",
+				"camel": "isbn",
+				"value": [
+					"978-0-8138-1106-2"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "last1",
+				"camel": "last1",
+				"value": [
+					"Lundberg"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "first1",
+				"camel": "first1",
+				"value": [
+					"Ulf"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "chapter",
+				"camel": "chapter",
+				"value": [
+					"Neuroendocrine Measures"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor1-last",
+				"camel": "editor1Last",
+				"value": [
+					"Contrada"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor1-first",
+				"camel": "editor1First",
+				"value": [
+					"Richard"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor2-last",
+				"camel": "editor2Last",
+				"value": [
+					"Baum"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "editor2-first",
+				"camel": "editor2First",
+				"value": [
+					"Andrew"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"The Handbook of Stress Science: Biology, Psychology, and Health"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url",
+				"camel": "url",
+				"value": [
+					"https://books.google.com/books?id=EXVlk8pnEKIC"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "location",
+				"camel": "location",
+				"value": [
+					"New York"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Springer Publishing Company"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"2010"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "page",
+				"camel": "page",
+				"value": [
+					"351"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "isbn",
+				"camel": "isbn",
+				"value": [
+					"9780826117717"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "access-date",
+				"camel": "accessDate",
+				"value": [
+					"12 March 2020"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "quote",
+				"camel": "quote",
+				"value": [
+					"[...] epinephrine, norepinephrine, and cortisol are considered the most important 'stress hormones,' although a number of other hormones are also influenced by stress [...]."
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Braveman P, Gottlieb L"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"The social determinants of health: it's time to consider the causes of the causes"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Public Health Reports"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"129 Suppl 2"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"Suppl 2"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"19–31"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"2014"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"24385661"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmc",
+				"camel": "pmc",
+				"value": [
+					"3863696"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1177/00333549141291S206"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Mescher EJ, Platzker AC, Ballard PL, Kitterman JA, Clements JA, Tooley WH"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Ontogeny of tracheal fluid, pulmonary surfactant, and plasma corticoids in the fetal lamb"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Journal of Applied Physiology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"39"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"6"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"1017–21"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"December 1975"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"2573"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1152/jappl.1975.39.6.1017"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Hennessy DP, Coghlan JP, Hardy KJ, Scoggins BA, Wintour EM"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"The origin of cortisol in the blood of fetal sheep"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"The Journal of Endocrinology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"95"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"71–9"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"October 1982"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"7130892"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1677/joe.0.0950071"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Magyar DM, Fridshal D, Elsner CW, Glatz T, Eliot J, Klein AH, Lowe KC, Buster JE, Nathanielsz PW"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Time-trend analysis of plasma cortisol concentrations in the fetal sheep in relation to parturition"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Endocrinology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"107"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"155–9"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"July 1980"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"7379742"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1210/endo-107-1-155"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Ricketts AP, Flint AP"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Onset of synthesis of progesterone by ovine placenta"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"The Journal of Endocrinology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"86"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"2"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"337–47"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"August 1980"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"6933207"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1677/joe.0.0860337"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Al-Gubory KH, Solari A, Mirman B"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Effects of luteectomy on the maintenance of pregnancy, circulating progesterone concentrations and lambing performance in sheep"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Reproduction, Fertility, and Development"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"11"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"6"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"317–22"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"1999"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"10972299"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1071/RD99079"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Mustoe AC, Birnie AK, Korgan AC, Santo JB, French JA"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Natural variation in gestational cortisol is associated with patterns of growth in marmoset monkeys (Callithrix geoffroyi)"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"General and Comparative Endocrinology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"175"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"3"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"519–26"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"February 2012"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"22212825"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmc",
+				"camel": "pmc",
+				"value": [
+					"3268124"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1016/j.ygcen.2011.12.020"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite web",
+		"camel": "citeWeb",
+		"value": [
+			{
+				"type": "argument",
+				"key": "url",
+				"camel": "url",
+				"value": [
+					"http://www.yourhormones.info/hormones/cortisol.aspx"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"You & Your Hormones: Cortisol"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"the Society for Endocrinology (Last updated)"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"24 October 2013"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "access-date",
+				"camel": "accessDate",
+				"value": [
+					"24 November 2014"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url-status",
+				"camel": "urlStatus",
+				"value": [
+					"live"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "archive-date",
+				"camel": "archiveDate",
+				"value": [
+					"21 October 2014"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "archive-url",
+				"camel": "archiveUrl",
+				"value": [
+					"https://web.archive.org/web/20141021160725/http://www.yourhormones.info/hormones/cortisol.aspx"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Hanukoglu A, Fried D, Nakash I, Hanukoglu I"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "s2cid",
+				"camel": "s2cid",
+				"value": [
+					"44439040"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Selective increases in adrenal steroidogenic capacity during acute respiratory disease in infants."
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Eur J Endocrinol"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"133"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"5"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"552–6"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"Nov 1995"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1530/eje.0.1330552"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"7581984"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "medical citation needed",
+		"camel": "medicalCitationNeeded",
+		"value": [
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"October 2020"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "wikidata",
+		"camel": "wikidata",
+		"value": [
+			{
+				"type": "argument",
+				"value": [
+					"property"
+				]
+			},
+			{
+				"type": "argument",
+				"value": [
+					"raw"
+				]
+			},
+			{
+				"type": "argument",
+				"value": [
+					"P117"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "wikidata",
+		"camel": "wikidata",
+		"value": [
+			{
+				"type": "argument",
+				"value": [
+					"property"
+				]
+			},
+			{
+				"type": "argument",
+				"value": [
+					"raw"
+				]
+			},
+			{
+				"type": "argument",
+				"value": [
+					"P8224"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "Chembox Identifiers",
+		"camel": "chemboxIdentifiers",
+		"value": [
+			{
+				"type": "argument",
+				"key": "CASNo",
+				"camel": "casno",
+				"value": [
+					"50-23-7"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "PubChem",
+				"camel": "pubchem",
+				"value": [
+					"5754"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "DrugBank",
+				"camel": "drugbank",
+				"value": [
+					"DB00741"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "ChemSpiderID",
+				"camel": "chemspiderid",
+				"value": [
+					"5551"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "ChemSpiderID_Comment",
+				"camel": "chemspideridComment",
+				"value": [
+					""
+				]
+			},
+			{
+				"type": "argument",
+				"key": "UNII",
+				"camel": "unii",
+				"value": [
+					"WI4X0X7BPJ"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "KEGG",
+				"camel": "kegg",
+				"value": [
+					"D00088"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "ChEBI",
+				"camel": "chebi",
+				"value": [
+					"17650"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "ChEMBL",
+				"camel": "chembl",
+				"value": [
+					"389621"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "SMILES",
+				"camel": "smiles",
+				"value": [
+					"O=C4\\C=C2/[C@]([C@H]1[C@@H](O)C[C@@]3([C@@](O)(C(=O)CO)CC[C@H]3[C@@H]1CC2)C)(C)CC4"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "StdInChI",
+				"camel": "stdinchi",
+				"value": [
+					"1S/C21H30O5/c1-19-7-5-13(23)9-12(19)3-4-14-15-6-8-21(26,17(25)11-22)20(15,2)10-16(24)18(14)19/h9,14-16,18,22,24,26H,3-8,10-11H2,1-2H3/t14-,15-,16-,18+,19-,20-,21-/m0/s1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "StdInChIKey",
+				"camel": "stdinchikey",
+				"value": [
+					"JYGXADMDTFJGBT-VWUMJDOOSA-N"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "Chembox Properties",
+		"camel": "chemboxProperties",
+		"value": [
+			{
+				"type": "argument",
+				"key": "C",
+				"camel": "c",
+				"value": [
+					"21"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "H",
+				"camel": "h",
+				"value": [
+					"30"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "O",
+				"camel": "o",
+				"value": [
+					"5"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "MolarMass",
+				"camel": "molarmass",
+				"value": [
+					"362.460 g/mol"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "better source",
+		"camel": "betterSource",
+		"value": [
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"November 2012"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "medical citation needed",
+		"camel": "medicalCitationNeeded",
+		"value": [
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"October 2020"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Görges R, Knappe G, Gerl H, Ventz M, Stahl F"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Diagnosis of Cushing's syndrome: re-evaluation of midnight plasma cortisol vs urinary free cortisol and low-dose dexamethasone suppression test in a large patient group"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"",
+					{
+						"type": "link",
+						"url": "Journal of Endocrinological Investigation",
+						"value": []
+					},
+					" "
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"22"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"4"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"241–9"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"April 1999"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"10342356"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1007/bf03343551"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "s2cid",
+				"camel": "s2cid",
+				"value": [
+					"1239611"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "MedlinePlusEncyclopedia",
+		"camel": "medlineplusencyclopedia",
+		"value": [
+			{
+				"type": "argument",
+				"value": [
+					"003703"
+				]
+			},
+			{
+				"type": "argument",
+				"value": [
+					"Cortisol – urine"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Izawa S, Sugaya N, Ogawa N, Shirotsuki K, Nomura S"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"A validation study on fingernail cortisol: correlations with one-month cortisol levels estimated by hair and saliva samples"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Stress (Amsterdam, Netherlands)"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					""
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					""
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"1–8"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"April 2021"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"33792492"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1080/10253890.2021.1895113"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "s2cid",
+				"camel": "s2cid",
+				"value": [
+					"232481968"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url",
+				"camel": "url",
+				"value": [
+					""
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Turpeinen U, Hämäläinen E"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Determination of cortisol in serum, saliva and urine"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Best Practice & Research. Clinical Endocrinology & Metabolism"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"27"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"6"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"795–801"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"December 2013"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"24275191"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1016/j.beem.2013.10.008"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url",
+				"camel": "url",
+				"value": [
+					""
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Dolomie-Fagour L, Corcuff JB"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"[Is free plasmatic cortisol measurement useful in intensive care unit?]"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "language",
+				"camel": "language",
+				"value": [
+					"fr"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Annales de Biologie Clinique"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"66"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"31–41"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"2008"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"18227002"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1684/abc.2008.0189"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi-broken-date",
+				"camel": "doiBrokenDate",
+				"value": [
+					"8 June 2021"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url",
+				"camel": "url",
+				"value": [
+					""
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Maidana P, Bruno OD, Mesch V"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"[A critical analysis of cortisol measurements: an update]"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "language",
+				"camel": "language",
+				"value": [
+					"es"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Medicina"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"73"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"6"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"579–84"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"2013"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"24356273"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					""
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url",
+				"camel": "url",
+				"value": [
+					""
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Verbeeten KC, Ahmet AH"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"The role of corticosteroid-binding globulin in the evaluation of adrenal insufficiency"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Journal of Pediatric Endocrinology & Metabolism"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"31"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"2"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"107–115"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"January 2018"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"29194043"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1515/jpem-2017-0270"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "s2cid",
+				"camel": "s2cid",
+				"value": [
+					"28588420"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"El-Farhan N, Rees DA, Evans C"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Measuring cortisol in serum, urine and saliva - are our assays good enough?"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Annals of Clinical Biochemistry"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"54"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"3"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"308–322"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"May 2017"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"28068807"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1177/0004563216687335"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "s2cid",
+				"camel": "s2cid",
+				"value": [
+					"206397561"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi-access",
+				"camel": "doiAccess",
+				"value": [
+					"free"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite web",
+		"camel": "citeWeb",
+		"value": [
+			{
+				"type": "argument",
+				"key": "url",
+				"camel": "url",
+				"value": [
+					"https://www.lecturio.com/concepts/cushings-syndrome/"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Cushing's Syndrome"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "website",
+				"camel": "website",
+				"value": [
+					"The Lecturio Medical Concept Library"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "access-date",
+				"camel": "accessDate",
+				"value": [
+					"11 July 2021"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite web",
+		"camel": "citeWeb",
+		"value": [
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Cushing's Syndrome"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url",
+				"camel": "url",
+				"value": [
+					"http://endocrine.niddk.nih.gov/pubs/cushings/cushings.aspx#1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"National Endocrine and Metabolic Diseases Information Service (NEMDIS)"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "access-date",
+				"camel": "accessDate",
+				"value": [
+					"16 March 2015"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"July 2008"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "quote",
+				"camel": "quote",
+				"value": [
+					"These benign, or noncancerous, tumors of the pituitary gland secrete extra ACTH. Most people with the disorder have a single adenoma. This form of the syndrome, known as Cushing's disease"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "archive-url",
+				"camel": "archiveUrl",
+				"value": [
+					"https://web.archive.org/web/20150210104139/http://endocrine.niddk.nih.gov/pubs/cushings/cushings.aspx#1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "archive-date",
+				"camel": "archiveDate",
+				"value": [
+					"10 February 2015"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url-status",
+				"camel": "urlStatus",
+				"value": [
+					"dead"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "last1",
+				"camel": "last1",
+				"value": [
+					"Forbis"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "first1",
+				"camel": "first1",
+				"value": [
+					"Pat"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "name-list-style",
+				"camel": "nameListStyle",
+				"value": [
+					"vanc"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Stedman's medical eponyms"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"2005"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Lippincott Williams & Wilkins"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "location",
+				"camel": "location",
+				"value": [
+					"Baltimore, Md."
+				]
+			},
+			{
+				"type": "argument",
+				"key": "isbn",
+				"camel": "isbn",
+				"value": [
+					"978-0-7817-5443-9"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "page",
+				"camel": "page",
+				"value": [
+					"167"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "edition",
+				"camel": "edition",
+				"value": [
+					"2nd"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url",
+				"camel": "url",
+				"value": [
+					"https://books.google.com/books?id=isqcnR6ryz0C&pg=PA167"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Davies E, Kenyon CJ, Fraser R"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"The role of calcium ions in the mechanism of ACTH stimulation of cortisol synthesis"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Steroids"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"45"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"6"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"551–60"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"June 1985"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"3012830"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1016/0039-128X(85)90019-4"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "s2cid",
+				"camel": "s2cid",
+				"value": [
+					"24454836"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Plotsky PM, Otto S, Sapolsky RM"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Inhibition of immunoreactive corticotropin-releasing factor secretion into the hypophysial-portal circulation by delayed glucocorticoid feedback"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Endocrinology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"119"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"3"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"1126–30"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"September 1986"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"3015567"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1210/endo-119-3-1126"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Minton JE, Parsons KM"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Adrenocorticotropic hormone and cortisol response to corticotropin-releasing factor and lysine vasopressin in pigs"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Journal of Animal Science"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"71"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"3"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"724–9"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"March 1993"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"8385088"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.2527/1993.713724x"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Dvorak M"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"1971"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Plasma 17-Hydroxycorticosteroid Levels in Healthy and Diarrheic Calves"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"British Veterinarian Journal"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"127"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "page",
+				"camel": "page",
+				"value": [
+					"372"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Stith RD, McCallum RE"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"General effect of endotoxin on glucocorticoid receptors in mammalian tissues"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Circulatory Shock"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"18"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"4"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"301–9"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"1986"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"3084123"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Mikosha AS, Pushkarov IS, Chelnakova IS, Remennikov GY"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"1991"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Potassium Aided Regulation of Hormone Biosynthesis in Adrenals of Guinea Pigs Under Action of Dihydropyridines: Possible Mechanisms of Changes in Steroidogenesis Induced by 1,4, Dihydropyridines in Dispersed Adrenocorticytes"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Fiziol. [Kiev]"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"37"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "page",
+				"camel": "page",
+				"value": [
+					"60"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite web",
+		"camel": "citeWeb",
+		"value": [
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Ameer Saadallah Al – Zacko"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url",
+				"camel": "url",
+				"value": [
+					"http://medicinemosul.uomosul.edu.iq/files/pages/page_9904388.pdf"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "access-date",
+				"camel": "accessDate",
+				"value": [
+					"11 July 2013"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "archive-url",
+				"camel": "archiveUrl",
+				"value": [
+					"https://web.archive.org/web/20131111193718/http://medicinemosul.uomosul.edu.iq/files/pages/page_9904388.pdf"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "archive-date",
+				"camel": "archiveDate",
+				"value": [
+					"11 November 2013"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "url-status",
+				"camel": "urlStatus",
+				"value": [
+					"dead"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Mendelsohn FA, Mackie C"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "s2cid",
+				"camel": "s2cid",
+				"value": [
+					"24873537"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Relation of intracellular K+ and steroidogenesis in isolated adrenal zona glomerulosa and fasciculata cells"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Clinical Science and Molecular Medicine"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"49"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"13–26"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"July 1975"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"168026"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1042/cs0490013"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Ueda Y, Honda M, Tsuchiya M, Watanabe H, Izumi Y, Shiratsuchi T, Inoue T, Hatano M"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Response of plasma ACTH and adrenocortical hormones to potassium loading in essential hypertension"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Japanese Circulation Journal"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"46"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"4"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"317–22"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"April 1982"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"6283190"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1253/jcj.46.317"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi-access",
+				"camel": "doiAccess",
+				"value": [
+					"free"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Bauman K, Muller J"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"1972"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Effect of potassium on the final status of aldosterone biosynthesis in the rat. I 18-hydroxylation and 18hydroxy dehydrogenation. II beta-hydroxylation"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Acta Endocrin. Copenh."
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"69"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"4"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"I 701–717, II 718–730"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1530/acta.0.0690701"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"5067076"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"LaCelle PL, Morgan ES, Atwater EC"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"1964"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"An investigation of total body potassium in patients with rheumatoid arthritis"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Proceedings of the Annual Meeting of the American Rheumatism Association, Arthritis and Rheumatism"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"7"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"3"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "page",
+				"camel": "page",
+				"value": [
+					"321"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Brody S, Preut R, Schommer K, Schürmeyer TH"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"A randomized controlled trial of high dose ascorbic acid for reduction of blood pressure, cortisol, and subjective responses to psychological stress"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Psychopharmacology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"159"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"3"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"319–24"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"January 2002"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"11862365"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1007/s00213-001-0929-6"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "s2cid",
+				"camel": "s2cid",
+				"value": [
+					"2778669"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Silverman MN, Pearce BD, Biron CA, Miller AH"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Immune modulation of the hypothalamic-pituitary-adrenal (HPA) axis during viral infection"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Viral Immunology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"18"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"41–78"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"2005"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"15802953"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmc",
+				"camel": "pmc",
+				"value": [
+					"1224723"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1089/vim.2005.18.41"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Robson PJ, Blannin AK, Walsh NP, Castell LM, Gleeson M"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Effects of exercise intensity, duration and recovery on in vitro neutrophil function in male athletes"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"International Journal of Sports Medicine"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"20"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"2"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"128–35"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"February 1999"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"10190775"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1055/s-2007-971106"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Fuqua JS, Rogol AD"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Neuroendocrine alterations in the exercising human: implications for energy homeostasis"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Metabolism"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"62"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"7"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"911–21"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"July 2013"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"23415825"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1016/j.metabol.2013.01.016"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "quote",
+				"camel": "quote",
+				"value": [
+					"Cortisol has wide-ranging effects, including alterations of carbohydrate, protein, and lipid metabolism; catabolic effects on skin, muscle, connective tissue, and bone; immunomodulatory effects; blood pressure and circulatory system regulation; and effects on mood and central nervous system function. In the short term, activation of the HPA axis in response to stress is adaptive. However, long-term stress promoting chronic exposure of tissues to high cortisol concentrations becomes maladaptive.&nbsp;... Exercise, particularly sustained aerobic activity, is a potent stimulus of cortisol secretion. The circulating concentrations of cortisol are directly proportional to the intensity of exercise as measured by oxygen uptake. As is the case for the GH/IGF-1 and HPG axes, the HPA axis also receives many other inputs, including the light/dark cycle, feeding schedules, immune regulation, and many neurotransmitters that mediate the effects of exercise and physical and psychic stress [52].&nbsp;... The HPA is activated by stress, whether physical (exercise) or psychological. Increased cortisol production, along with activation of the sympathetic nervous system, affects whole-body metabolism. This is apparently part of the catabolic response of the entire organism, with the purpose of mobilizing metabolic fuels that are subsequently broken down to produce energy and to dampen the threat or perceived threat.&nbsp;... Thus, a negative net energy balance leads to activation of the HPA axis and the circulating concomitants of the catabolic state in an attempt to keep core processes functional, realizing that the stress of exercise has no effect on cortisol and circulating metabolic substrates beyond the impact of the exercise energy expenditure on energy availability [60]. Thuma et al. [61] had already made the important observation that the reported differences in cortisol levels pre- and postexercise depended on whether this difference was measured from a single pretest level or from the physiologic circadian baseline as determined in an independent session in the resting state. By this analytical technique, these investigators showed that increasing energy expenditure led to significant cortisol release. This release was apparent if they subtracted the physiologic circadian baseline from the postexercise value."
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Smith JL, Gropper SA, Groff JL"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Advanced nutrition and humanmetabolism"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Wadsworth Cengage Learning"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "location",
+				"camel": "location",
+				"value": [
+					"Belmont, CA"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"2009"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "page",
+				"camel": "page",
+				"value": [
+					"247"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "isbn",
+				"camel": "isbn",
+				"value": [
+					"978-0-495-11657-8"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Willett LB, Erb RE"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Short term changes in plasma corticoids in dairy cattle"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Journal of Animal Science"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"34"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"103–11"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"January 1972"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"5062063"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.2527/jas1972.341103x"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite book",
+		"camel": "citeBook",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Margioris AN, Tsatsanis C"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "veditors",
+				"camel": "veditors",
+				"value": [
+					"Chrousos G"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Adrenal physiology and diseases"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"2011"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "chapter",
+				"camel": "chapter",
+				"value": [
+					"ACTH Action on the Adrenal"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "chapter-url",
+				"camel": "chapterUrl",
+				"value": [
+					"http://www.endotext.org/adrenal/adrenal5/adrenalframe5.htm"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "publisher",
+				"camel": "publisher",
+				"value": [
+					"Endotext.org"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Tomlinson JW, Walker EA, Bujalska IJ, Draper N, Lavery GG, Cooper MS, Hewison M, Stewart PM"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"11beta-hydroxysteroid dehydrogenase type 1: a tissue-specific regulator of glucocorticoid response"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Endocrine Reviews"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"25"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"5"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"831–66"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"October 2004"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"15466942"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1210/er.2003-0031"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi-access",
+				"camel": "doiAccess",
+				"value": [
+					"free"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "author",
+				"camel": "author",
+				"value": [
+					"van Staaveren, N., Teixeira, D.L., Hanlon, A. and Boyle, L.A."
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"2015"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"The effect of mixing entire male pigs prior to transport to slaughter on behaviour, welfare and carcass lesions"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"PLOS ONE"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"10"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"4"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"e0122841"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "bibcode",
+				"camel": "bibcode",
+				"value": [
+					"2015PLoSO..1022841V"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1371/journal.pone.0122841"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"25830336"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmc",
+				"camel": "pmc",
+				"value": [
+					"4382277"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi-access",
+				"camel": "doiAccess",
+				"value": [
+					"free"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"van Staaveren N, Teixeira DL, Hanlon A, Boyle LA"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"The effect of mixing entire male pigs prior to transport to slaughter on behaviour, welfare and carcass lesions"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"PLOS ONE"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"10"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"4"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"e0122841"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"1997"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"25830336"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmc",
+				"camel": "pmc",
+				"value": [
+					"4382277"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1371/journal.pone.0122841"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "bibcode",
+				"camel": "bibcode",
+				"value": [
+					"2015PLoSO..1022841V"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi-access",
+				"camel": "doiAccess",
+				"value": [
+					"free"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Schalke E, Stichnoth J, Ott S, Jones-Baade R"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Clinical signs caused by the use of electric training collars on dogs in everyday life situations"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Applied Animal Behaviour Science"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"105"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"4"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"369–380"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"2007"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1016/j.applanim.2006.11.002"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Accorsi PA, Carloni E, Valsecchi P, Viggiani R, Gamberoni M, Tamanini C, Seren E"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Cortisol determination in hair and faeces from domestic cats and dogs"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"General and Comparative Endocrinology"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"155"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"2"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"398–402"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"January 2008"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"17727851"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1016/j.ygcen.2007.07.002"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "vauthors",
+				"camel": "vauthors",
+				"value": [
+					"Möstl E, Messmann S, Bagu E, Robia C, Palme R"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Measurement of glucocorticoid metabolite concentrations in faeces of domestic livestock"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"Zentralblatt für Veterinärmedizin. Reihe A"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"46"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"10"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pages",
+				"camel": "pages",
+				"value": [
+					"621–31"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "date",
+				"camel": "date",
+				"value": [
+					"December 1999"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "pmid",
+				"camel": "pmid",
+				"value": [
+					"10638300"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.1046/j.1439-0442.1999.00256.x"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "Reflist",
+		"camel": "reflist",
+		"value": [
+			{
+				"type": "argument",
+				"value": [
+					"30em"
+				]
+			}
+		]
+	},
+	{
+		"type": "template",
+		"name": "Commons category",
+		"camel": "commonsCategory",
+		"value": []
+	},
+	{
+		"type": "template",
+		"name": "Hormones",
+		"camel": "hormones",
+		"value": []
+	},
+	{
+		"type": "template",
+		"name": "Endogenous steroids",
+		"camel": "endogenousSteroids",
+		"value": []
+	},
+	{
+		"type": "template",
+		"name": "Glucocorticoid receptor modulators",
+		"camel": "glucocorticoidReceptorModulators",
+		"value": []
+	},
+	{
+		"type": "template",
+		"name": "Mineralocorticoid receptor modulators",
+		"camel": "mineralocorticoidReceptorModulators",
+		"value": []
+	},
+	{
+		"type": "template",
+		"name": "Authority control",
+		"camel": "authorityControl",
+		"value": []
+	},
+	{
+		"type": "template",
+		"name": "cite journal",
+		"camel": "citeJournal",
+		"value": [
+			{
+				"type": "argument",
+				"key": "last2",
+				"camel": "last2",
+				"value": [
+					"Richfield"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "first2",
+				"camel": "first2",
+				"value": [
+					"David"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "name-list-style",
+				"camel": "nameListStyle",
+				"value": [
+					"vanc"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "year",
+				"camel": "year",
+				"value": [
+					"2014"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "title",
+				"camel": "title",
+				"value": [
+					"Diagram of the pathways of human steroidogenesis"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "journal",
+				"camel": "journal",
+				"value": [
+					"WikiJournal of Medicine"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "volume",
+				"camel": "volume",
+				"value": [
+					"1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issue",
+				"camel": "issue",
+				"value": [
+					"1"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi",
+				"camel": "doi",
+				"value": [
+					"10.15347/wjm/2014.005"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "issn",
+				"camel": "issn",
+				"value": [
+					"2002-4436"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "last1",
+				"camel": "last1",
+				"value": [
+					"Häggström"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "first1",
+				"camel": "first1",
+				"value": [
+					"Mikael"
+				]
+			},
+			{
+				"type": "argument",
+				"key": "doi-access",
+				"camel": "doiAccess",
+				"value": [
+					"free"
+				]
+			}
+		]
+	}
+]

@@ -1,5 +1,6 @@
 import { wiki } from './mod.js';
 import FS from 'https://jsv.max.pub/fs/2021/deno.js'
+import { markdownParser, templates, treeToList } from './src/markdown.parser.js';
 // let search = await wiki('de').search('aspirin', {min:true})
 // console.log('search', search)
 
@@ -30,4 +31,7 @@ import FS from 'https://jsv.max.pub/fs/2021/deno.js'
 // FS.file('demo.json').json = await wiki('de').page('Arginin').parse().json()
 // FS.file('demo.md').text = await wiki('de').page('Arginin').text()
 
-console.log(await wiki('de').page('Arginin').revisions())
+// console.log(await wiki('de').page('Arginin').revisions())
+
+FS.file('demo.json').json = markdownParser(await wiki('en').page('cortisol').markdown())
+FS.file('demo2.json').json = treeToList(markdownParser(await wiki('en').page('cortisol').markdown())).filter(x => x.type == 'template')
